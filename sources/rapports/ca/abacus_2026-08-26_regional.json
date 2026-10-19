@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-08-21",
+  "date_fin": "2026-08-26",
+  "document": "Liberals Open 10-Point Lead as Trump Returns to the Centre of the Agenda (Abacus Data, 2026-08-30)",
+  "reference": "https://abacusdata.ca/liberals-open-10-point-lead-as-trump-returns-to-the-centre-of-the-agenda/",
+  "note": "Widget « Federal Vote: 45% Liberal, 35% Conservative », onglet Crosstabs > By Region, tableau HTML « Federal Vote by Region » (partis en lignes ; colonnes Canada, BC, AB, SK/MB, ON, QC, ATL ; indécis retirés). Base : électeurs décidés. n national = échantillon total (2 022) ; n régionaux non imprimés. BQ à 0 % hors Québec omis. Le commentaire sous le tableau dit que les conservateurs « lead » en C.-B. à 37 %, alors que le tableau donne LPC 45 % ; les pourcentages eux-mêmes concordent. Terrain : 21 au 26 août 2026.",
+  "groupes": {
+    "National": {
+      "n": 2022,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 45,
+        "CPC": 35,
+        "NDP": 9,
+        "BQ": 7,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 58,
+        "CPC": 32,
+        "NDP": 10,
+        "GPC": 0,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 45,
+        "CPC": 16,
+        "NDP": 3,
+        "BQ": 34,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 49,
+        "CPC": 36,
+        "NDP": 9,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 36,
+        "CPC": 48,
+        "NDP": 13,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 26,
+        "CPC": 61,
+        "NDP": 10,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 45,
+        "CPC": 37,
+        "NDP": 14,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    }
+  }
+}

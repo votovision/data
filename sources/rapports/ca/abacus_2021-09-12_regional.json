@@ -1,0 +1,80 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-09-10",
+  "date_fin": "2021-09-12",
+  "document": "One week to go: Conservatives and Liberals still locked in a tie but Liberals open up clear leads in Ontario and Quebec (Abacus Data, 2021-09-13)",
+  "reference": "https://abacusdata.ca/election-2021-conservatives-liberals-tied-again/",
+  "note": "Graphique image « Vote intention by province/region » (https://abacusdata.ca/wp-content/uploads/2021/09/Slide3-2.jpg) ; national : diapositive « Federal Vote Intention » (Slide1-2.jpg). Base : intentions de vote exprimées (indécis exclus). n national = échantillon total (2 000) ; n régionaux non imprimés. Seuls les trois grands partis (et Vert et BQ au Québec) sont transcrits : les petites étiquettes Vert/PPC/Other sont superposées et illisibles dans les autres régions. Concorde avec le texte du billet. Terrain : 10 au 12 septembre 2021.",
+  "groupes": {
+    "National": {
+      "n": 2000,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "CPC": 32,
+        "LPC": 32,
+        "NDP": 21,
+        "BQ": 6,
+        "PPC": 4,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 39,
+        "CPC": 36,
+        "NDP": 15
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 36,
+        "CPC": 17,
+        "NDP": 13,
+        "GPC": 2,
+        "BQ": 29
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 38,
+        "CPC": 31,
+        "NDP": 23
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 18,
+        "CPC": 43,
+        "NDP": 24
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 11,
+        "CPC": 57,
+        "NDP": 23
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 31,
+        "CPC": 29,
+        "NDP": 31
+      }
+    }
+  }
+}

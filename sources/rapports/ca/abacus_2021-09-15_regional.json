@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-09-13",
+  "date_fin": "2021-09-15",
+  "document": "Daily #elxn44 Tracking: September 15 (Abacus Data, 2021-09-15)",
+  "reference": "https://abacusdata.ca/daily-tracking-poll-election-44-sept-15/",
+  "note": "Tableau image « If a federal election were held tomorrow… (Committed respondents, Definitely going to vote OR already voted) » (https://abacusdata.ca/wp-content/uploads/2021/09/2021-Election-Dashboard-Sept-15.jpg), lignes Canada et Region ; concorde avec le tableau régional du tableau de bord Slide1-4.jpg. Base : répondants décidés parmi ceux qui voteront certainement ou ont déjà voté (sondage glissant de 3 jours, n=1 578). n = colonne « UNWEIGHTED » (décidés). BQ à 0 % hors Québec omis ; AUTRES = « Another party ». Terrain : 13 au 15 septembre 2021.",
+  "groupes": {
+    "National": {
+      "n": 1480,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 33,
+        "CPC": 31,
+        "NDP": 22,
+        "BQ": 5,
+        "GPC": 3,
+        "PPC": 5,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 132,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 52,
+        "CPC": 28,
+        "NDP": 14,
+        "GPC": 1,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 369,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 33,
+        "CPC": 13,
+        "NDP": 17,
+        "BQ": 24,
+        "GPC": 3,
+        "PPC": 3,
+        "AUTRES": 6
+      }
+    },
+    "ON": {
+      "n": 513,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 41,
+        "CPC": 35,
+        "NDP": 20,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": 101,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 16,
+        "CPC": 42,
+        "NDP": 21,
+        "GPC": 5,
+        "PPC": 16,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": 179,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 17,
+        "CPC": 43,
+        "NDP": 29,
+        "GPC": 2,
+        "PPC": 8,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 186,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 22,
+        "CPC": 34,
+        "NDP": 31,
+        "GPC": 8,
+        "PPC": 4,
+        "AUTRES": 0
+      }
+    }
+  }
+}

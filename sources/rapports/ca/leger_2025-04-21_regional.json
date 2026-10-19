@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Leger",
+  "date_debut": "2025-04-17",
+  "date_fin": "2025-04-21",
+  "document": "Federal Election 2025 – Voting Intentions, April 22nd (Léger, 22 avril 2025)",
+  "reference": "https://leger360.com/wp-content/uploads/2025/04/Leger-CAN_Vote_April_22nd_National.pdf",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région. Terrain du 17 au 21 avril 2025 (p. 2). Question incluant les votes déjà exprimés par anticipation.",
+  "groupes": {
+    "National": {
+      "n": 1414,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 43,
+        "CPC": 39,
+        "NDP": 8,
+        "BQ": 6,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 87,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 53,
+        "CPC": 35,
+        "NDP": 9,
+        "GPC": 1,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 378,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 42,
+        "CPC": 22,
+        "NDP": 7,
+        "BQ": 26,
+        "GPC": 1,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 554,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 48,
+        "CPC": 41,
+        "NDP": 7,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 118,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 40,
+        "CPC": 49,
+        "NDP": 6,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 128,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 27,
+        "CPC": 59,
+        "NDP": 10,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 149,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 43,
+        "CPC": 41,
+        "NDP": 10,
+        "GPC": 4,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    }
+  }
+}

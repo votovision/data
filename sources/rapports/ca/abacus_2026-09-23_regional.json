@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-09-18",
+  "date_fin": "2026-09-23",
+  "document": "Liberals Hold 12-Point Lead as Carney Reaches New High and Optimism About Canada Rises Again (Abacus Data, 2026-09-27)",
+  "reference": "https://abacusdata.ca/liberals-hold-12-point-lead-as-carney-reaches-new-high-and-optimism-about-canada-rises-again/",
+  "note": "Widget « Vote Intention: Liberals Lead Conservatives 46% to 34% », onglet Subgroups, tableau HTML « Vote Intention by Region » (partis en lignes ; colonnes Canada, BC, AB, SK/MB, ON, QC, ATL ; indécis retirés). Base : électeurs décidés. n national = échantillon total imprimé dans le rapport (2 744 ; la liste Wikipédia indique 2 774) ; n régionaux non imprimés. BQ à 0 % hors Québec omis. Concorde avec le texte du billet. Terrain : 18 au 23 septembre 2026.",
+  "groupes": {
+    "National": {
+      "n": 2744,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 46,
+        "CPC": 34,
+        "NDP": 9,
+        "BQ": 7,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 53,
+        "CPC": 32,
+        "NDP": 13,
+        "GPC": 0,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 44,
+        "CPC": 20,
+        "NDP": 3,
+        "BQ": 31,
+        "GPC": 2,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 51,
+        "CPC": 34,
+        "NDP": 9,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 44,
+        "CPC": 41,
+        "NDP": 10,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 34,
+        "CPC": 54,
+        "NDP": 10,
+        "GPC": 0,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 45,
+        "CPC": 37,
+        "NDP": 12,
+        "GPC": 5,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    }
+  }
+}

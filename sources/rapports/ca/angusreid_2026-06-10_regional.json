@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2026-06-04",
+  "date_fin": "2026-06-10",
+  "document": "Federal Politics: Canadians cooling on Carney as gap narrows between Liberals and CPC – tableaux détaillés 2026.06.12_NR_Q2_FINALS_PR.pdf (Angus Reid Institute, 2026-06-12)",
+  "reference": "https://angusreid.org/wp-content/uploads/2026/06/2026.06.12_NR_Q2_FINALS_PR.pdf",
+  "note": "PDF des tableaux détaillés, page 3, tableau « QF1.+ QF2. (Decided Voters) Support+ Leaners », colonnes Total et Province (BC, AB, SK, MB, ON, QC). Base : électeurs décidés et enclins. n = effectifs non pondérés de la ligne « Unweighted » (pondérés : Total 3 786, BC 515, AB 435, SK 115, MB 132, ON 1 421, QC 889). Le rapport ne donne pas d'agrégat Atlantique, seulement NB, NS et NL séparément (Î.-P.-É. non publiée) : Atlantique non transcrit. Bloc : valeurs seulement pour Total et QC (cellules vides ailleurs). AUTRES = ligne « Other Party/Independent » (lue sur un rendu agrandi de la page). Pas de ligne PPC. Chiffres concordants avec le graphique « Federal vote intention by province » p. 11 du communiqué (2026.06.12_Fed_poli_final.pdf). Terrain : 4 au 10 juin 2026.",
+  "groupes": {
+    "National": {
+      "n": 3816,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 36,
+        "LPC": 41,
+        "NDP": 12,
+        "BQ": 7,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 575,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 18,
+        "LPC": 41,
+        "NDP": 8,
+        "BQ": 29,
+        "GPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 767,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 39,
+        "LPC": 43,
+        "NDP": 13,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "MB": {
+      "n": 300,
+      "libelle": "MB",
+      "parts": {
+        "CPC": 46,
+        "LPC": 36,
+        "NDP": 15,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "SK": {
+      "n": 304,
+      "libelle": "SK",
+      "parts": {
+        "CPC": 59,
+        "LPC": 25,
+        "NDP": 14,
+        "GPC": 0,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 384,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 52,
+        "LPC": 30,
+        "NDP": 13,
+        "GPC": 1,
+        "AUTRES": 4
+      }
+    },
+    "BC": {
+      "n": 699,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 39,
+        "LPC": 42,
+        "NDP": 13,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    }
+  }
+}

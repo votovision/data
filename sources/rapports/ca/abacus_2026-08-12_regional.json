@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-08-07",
+  "date_fin": "2026-08-12",
+  "document": "Carney Liberals Lead by Seven Nationally as Quebec Support Drops (Abacus Data, 2026-08-16)",
+  "reference": "https://abacusdata.ca/carney-liberals-lead-by-seven-nationally-as-quebec-support-drops/",
+  "note": "Second widget du billet (« Federal Vote Intention: A 7-Point National Lead Over a Divided Map »), onglet By Region, tableau HTML « Vote Intention by Region » (indécis retirés), ligne Canada comprise ; identique au tableau « Federal Vote Intention by Region » du premier widget. Base : électeurs décidés. n = effectifs non pondérés des décidés, onglet Sample Sizes, tableau « Base Sizes by Subgroup » (Canada 1 301 sur un échantillon total de 1 499). BQ à 0 % hors Québec omis. Le billet signale que SK/MB et Atlantique reposent sur de petits échantillons. Terrain : 7 au 12 août 2026.",
+  "groupes": {
+    "National": {
+      "n": 1301,
+      "libelle": "Canada",
+      "parts": {
+        "CPC": 35,
+        "LPC": 42,
+        "NDP": 10,
+        "GPC": 4,
+        "BQ": 8,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": 67,
+      "libelle": "Atlantic Canada",
+      "parts": {
+        "CPC": 33,
+        "LPC": 48,
+        "NDP": 10,
+        "GPC": 8,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 298,
+      "libelle": "Quebec",
+      "parts": {
+        "CPC": 18,
+        "LPC": 37,
+        "NDP": 4,
+        "GPC": 5,
+        "BQ": 35,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 529,
+      "libelle": "Ontario",
+      "parts": {
+        "CPC": 37,
+        "LPC": 48,
+        "NDP": 10,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 94,
+      "libelle": "Saskatchewan / Manitoba",
+      "parts": {
+        "CPC": 46,
+        "LPC": 36,
+        "NDP": 15,
+        "GPC": 1,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": 142,
+      "libelle": "Alberta",
+      "parts": {
+        "CPC": 58,
+        "LPC": 30,
+        "NDP": 11,
+        "GPC": 1,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 171,
+      "libelle": "British Columbia",
+      "parts": {
+        "CPC": 36,
+        "LPC": 42,
+        "NDP": 14,
+        "GPC": 6,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    }
+  }
+}

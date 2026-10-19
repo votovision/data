@@ -1,0 +1,78 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-09-03",
+  "date_fin": "2021-09-06",
+  "document": "Conservatives and Liberals locked in a tie; TVA debate has limited impact. (Abacus Data, 2021-09-07)",
+  "reference": "https://abacusdata.ca/election-2021-conservatives-liberals-tied/",
+  "note": "Graphique image « Vote intention by province/region » (https://abacusdata.ca/wp-content/uploads/2021/09/Slide4-1.jpg) ; national : diapositive « Federal Vote Intention » (Slide1-1.jpg). Base : intentions de vote exprimées (indécis exclus, comme le total national 32/32/21 du billet). n national = échantillon total (2 875) ; n régionaux non imprimés. SK/MB volontairement omis : le graphique donne LPC 23 % alors que le texte dit « the Liberals at 24% ». Étiquettes illisibles omises : AB Vert et PPC (superposées) ; « Other » non étiqueté partout. Terrain : 3 au 6 septembre 2021.",
+  "groupes": {
+    "National": {
+      "n": 2875,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "CPC": 32,
+        "LPC": 32,
+        "NDP": 21,
+        "BQ": 7,
+        "PPC": 3,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 39,
+        "CPC": 32,
+        "NDP": 20,
+        "GPC": 4,
+        "PPC": 4
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 32,
+        "CPC": 21,
+        "NDP": 13,
+        "GPC": 2,
+        "BQ": 31,
+        "PPC": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 37,
+        "CPC": 34,
+        "NDP": 21,
+        "GPC": 3,
+        "PPC": 3
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 24,
+        "CPC": 50,
+        "NDP": 20
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 29,
+        "CPC": 27,
+        "NDP": 35,
+        "GPC": 6,
+        "PPC": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Liaison Strategies",
+  "date_debut": "2026-08-09",
+  "date_fin": "2026-08-22",
+  "document": "Federal Tracker, National Survey – Detailed Tables (Liaison Strategies, 24 août 2026)",
+  "reference": "https://press.liaisonstrategies.ca/content/files/2026/08/2026.08.24-Federal-Tracker-Tables.pdf",
+  "note": "Tableaux détaillés (« National Tracker Tables »), p. 2 : « If a federal election were held today, which party would you vote for? Decided and leaning only ». Base : électeurs décidés et enclins. n = « Unweighted Sample Size » de la même page (pondérés : Total 1480, Atlantic 97, Quebec 338, Ontario 584, Prairies 94, Alberta 161, BC 206). La colonne « Prairies » est distincte de la colonne « Alberta » : elle correspond au Manitoba et à la Saskatchewan (étiquetée « MB/SK » dans les rapports graphiques de la série), d'où le code MBSK. BQ imprimé à 0 % hors Québec, omis. Terrain IVR : du 9 au 22 août 2026, 1526 répondants dont suréchantillon québécois. Le lien Wikipédia de ce sondage pointe par erreur vers le rapport graphique du 17 août (vague précédente) ; les tableaux de la vague du 9 au 22 août sont liés depuis le communiqué du 24 août.",
+  "groupes": {
+    "National": {
+      "n": 1475,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 43,
+        "CPC": 32,
+        "NDP": 13,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 67,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 49,
+        "CPC": 26,
+        "NDP": 12,
+        "GPC": 4,
+        "PPC": 4,
+        "AUTRES": 4
+      }
+    },
+    "QC": {
+      "n": 720,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 45,
+        "CPC": 18,
+        "NDP": 10,
+        "BQ": 26,
+        "GPC": 1,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 377,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 47,
+        "CPC": 35,
+        "NDP": 13,
+        "GPC": 4,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 64,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 33,
+        "CPC": 40,
+        "NDP": 13,
+        "GPC": 2,
+        "PPC": 6,
+        "AUTRES": 6
+      }
+    },
+    "AB": {
+      "n": 109,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 30,
+        "CPC": 49,
+        "NDP": 11,
+        "GPC": 2,
+        "PPC": 7,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 138,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 44,
+        "CPC": 30,
+        "NDP": 22,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    }
+  }
+}

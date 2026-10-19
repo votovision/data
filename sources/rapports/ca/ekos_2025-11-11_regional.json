@@ -1,0 +1,19 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2025-11-06",
+  "date_fin": "2025-11-11",
+  "document": "Liberal Party Maintains Lead Following Budget — Data tables (EKOS, 2025-11-15)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20251115datatables.pdf",
+  "note": "« Field Dates: November 6-11, 2025 » imprimé en tête du PDF, lié depuis https://www.ekospolitics.com/index.php/2025/11/liberal-party-maintains-lead-following-budget/. Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Le total national correspond à Wikipédia. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 1092, 155, 128, 32, 36, 432, 233, 76. « BC+Ter » = Colombie-Britannique et territoires. Saskatchewan et Manitoba publiés séparément (petits effectifs). Partis imprimés Liberal Party, Conservative Party, New Democratic Party, Green Party, People's Party, Bloc Quebecois, Another party not listed here (= AUTRES). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": {"n": 1098, "libelle": "Total", "parts": {"LPC": 44.1, "CPC": 33.2, "NDP": 10.7, "BQ": 5.4, "GPC": 3.3, "PPC": 1.8, "AUTRES": 1.4}},
+    "BC": {"n": 160, "libelle": "BC+Ter", "parts": {"LPC": 40.9, "CPC": 39.2, "NDP": 12.1, "GPC": 4.6, "PPC": 1.7, "AUTRES": 1.4}},
+    "AB": {"n": 144, "libelle": "AB", "parts": {"LPC": 41.2, "CPC": 35.2, "NDP": 10.0, "GPC": 4.7, "PPC": 4.1, "AUTRES": 4.8}},
+    "SK": {"n": 31, "libelle": "SK", "parts": {"LPC": 21.6, "CPC": 48.6, "NDP": 28.4, "GPC": 1.4, "PPC": 0.0, "AUTRES": 0.0}},
+    "MB": {"n": 32, "libelle": "MB", "parts": {"LPC": 34.4, "CPC": 37.4, "NDP": 14.8, "GPC": 7.5, "PPC": 0.0, "AUTRES": 6.0}},
+    "ON": {"n": 428, "libelle": "ON", "parts": {"LPC": 45.1, "CPC": 39.5, "NDP": 10.4, "GPC": 2.4, "PPC": 2.4, "AUTRES": 0.2}},
+    "QC": {"n": 197, "libelle": "QC", "parts": {"LPC": 45.9, "CPC": 14.3, "NDP": 9.4, "BQ": 25.2, "GPC": 2.7, "PPC": 0.8, "AUTRES": 1.7}},
+    "ATL": {"n": 106, "libelle": "Atl", "parts": {"LPC": 58.3, "CPC": 31.6, "NDP": 5.9, "GPC": 4.2, "PPC": 0.0, "AUTRES": 0.0}}
+  }
+}

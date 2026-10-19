@@ -1,0 +1,109 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Counsel",
+  "date_debut": "2021-09-10",
+  "date_fin": "2021-09-11",
+  "document": "CounselPA_September13_Tabulations.pdf — tabulations du sondage électoral du 13 septembre 2021 (Counsel Public Affairs, 13 septembre 2021)",
+  "reference": "https://counselpa.com/wp-content/uploads/2021/09/CounselPA_September13_Tabulations.pdf",
+  "note": "Page 1, tableau « Decided and Leaning » (décidés et enclins), lignes provinciales en gras ; total national identique à Wikipédia (dont « Others » 1.7 = Maverick 0.3 + Another Party 1.4). Manitoba et Saskatchewan publiés séparément. Pourcentages entiers pour les régions, une décimale au national. n = « Unweighted N » (effectif non pondéré ; la base exacte n'est pas précisée). Colonne « Maverick Party » (imprimée seulement en BC 0 %, AB 2 %, SK 5 %, MB 0 % et national 0.3 %) omise faute de code ; AUTRES = « Another Party ». Cellules Bloc vides hors Québec. Terrain 10-11 septembre 2021 (méthodologie du rapport CounselPA_Sept132021_Poll.pdf). PDF lu dans la copie de l'Internet Archive du 2021-09-14 (counselpa.com protégé par Cloudflare).",
+  "groupes": {
+    "National": {
+      "n": 3320,
+      "libelle": "National",
+      "parts": {
+        "LPC": 29.7,
+        "CPC": 30.2,
+        "NDP": 21.9,
+        "GPC": 4.4,
+        "BQ": 6.5,
+        "PPC": 5.6,
+        "AUTRES": 1.4
+      }
+    },
+    "BC": {
+      "n": 356,
+      "libelle": "British Columbia",
+      "parts": {
+        "LPC": 24,
+        "CPC": 30,
+        "NDP": 31,
+        "GPC": 9,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 353,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 16,
+        "CPC": 48,
+        "NDP": 22,
+        "GPC": 3,
+        "PPC": 8,
+        "AUTRES": 2
+      }
+    },
+    "SK": {
+      "n": 88,
+      "libelle": "Saskatchewan",
+      "parts": {
+        "LPC": 16,
+        "CPC": 56,
+        "NDP": 15,
+        "GPC": 1,
+        "PPC": 7,
+        "AUTRES": 0
+      }
+    },
+    "MB": {
+      "n": 143,
+      "libelle": "Manitoba",
+      "parts": {
+        "LPC": 22,
+        "CPC": 41,
+        "NDP": 23,
+        "GPC": 6,
+        "PPC": 7,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 1404,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 36,
+        "CPC": 30,
+        "NDP": 24,
+        "GPC": 4,
+        "PPC": 5,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": 709,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 32,
+        "CPC": 18,
+        "NDP": 14,
+        "GPC": 3,
+        "BQ": 28,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 267,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 31,
+        "CPC": 32,
+        "NDP": 20,
+        "GPC": 7,
+        "PPC": 9,
+        "AUTRES": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Research Co.",
+  "date_debut": "2026-05-06",
+  "date_fin": "2026-05-08",
+  "document": "Little Movement in Canada's Federal Political Scene – Data tables (Research Co., 11 mai 2026)",
+  "reference": "https://researchco.ca/wp-content/uploads/2026/05/Tables_Politics_CAN_11May2026.pdf",
+  "note": "Tableaux de données PDF p. 3, question « If a federal election were held today, which party's candidate would you vote for in your constituency? », bloc « Decided Voters », colonnes REGION (BC, Alberta, SK / MB, Ontario, Quebec, Atlantic). Base : électeurs décidés. Aucun effectif imprimé (n = null ; échantillon total 1 003 adultes). BQ = 0 % hors Québec non repris. Terrain du 6 au 8 mai 2026 (communiqué Release_Politics_CAN_11May2026.pdf, qui confirme ON 54 %, ATL 51 %, BC 44-37, QC 44-27, AB 46-30).",
+  "groupes": {
+    "National": {
+      "n": null,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 46,
+        "CPC": 31,
+        "NDP": 11,
+        "BQ": 7,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 51,
+        "CPC": 37,
+        "NDP": 9,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 44,
+        "CPC": 21,
+        "NDP": 3,
+        "BQ": 27,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 54,
+        "CPC": 28,
+        "NDP": 12,
+        "GPC": 4,
+        "PPC": 0,
+        "AUTRES": 2
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK / MB",
+      "parts": {
+        "LPC": 44,
+        "CPC": 32,
+        "NDP": 19,
+        "GPC": 4,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 30,
+        "CPC": 46,
+        "NDP": 11,
+        "GPC": 4,
+        "PPC": 5,
+        "AUTRES": 4
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 44,
+        "CPC": 37,
+        "NDP": 13,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}

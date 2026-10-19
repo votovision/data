@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Forum Research",
+  "date_debut": "2021-09-19",
+  "date_fin": "2021-09-19",
+  "document": "Federal Election Remains a Neck and Neck Race — Liberal Minority Government Likely (Forum Research, communiqué du 19 septembre 2021)",
+  "reference": "https://poll.forumresearch.com/data/a9c7ff7a-5a70-4850-a031-55e2ccb47152Federal%202021%20Election%20Prediction.pdf",
+  "note": "Page 4, tableau « Region » de la question de vote « [Decided / Leaning] » (décidés et enclins), total national identique à Wikipédia. n = ligne « Sample » imprimée (la somme des régions égale l'échantillon total de 1181 ; base exacte non précisée). « PQ » = Québec. Bloc imprimé à 0.0 en ATL, MB/SK, AB et BC et à 0.5 en Ontario : omis hors Québec (le total ON transcrit fait donc 99.4). AUTRES = « Other Parties ». Terrain : 19 septembre 2021. PDF lu dans la copie de l'Internet Archive (serveur de Forum en maintenance le 2026-10-19).",
+  "groupes": {
+    "National": {
+      "n": 1181,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 33.0,
+        "LPC": 29.4,
+        "NDP": 16.2,
+        "GPC": 2.9,
+        "BQ": 6.9,
+        "PPC": 10.3,
+        "AUTRES": 1.3
+      }
+    },
+    "ATL": {
+      "n": 128,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 29.0,
+        "LPC": 39.3,
+        "NDP": 20.0,
+        "GPC": 0.6,
+        "PPC": 11.0,
+        "AUTRES": 0.0
+      }
+    },
+    "QC": {
+      "n": 275,
+      "libelle": "PQ",
+      "parts": {
+        "CPC": 19.9,
+        "LPC": 32.1,
+        "NDP": 9.4,
+        "GPC": 1.3,
+        "BQ": 29.4,
+        "PPC": 5.7,
+        "AUTRES": 2.2
+      }
+    },
+    "ON": {
+      "n": 380,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 35.1,
+        "LPC": 32.5,
+        "NDP": 17.8,
+        "GPC": 2.1,
+        "PPC": 11.3,
+        "AUTRES": 0.6
+      }
+    },
+    "MBSK": {
+      "n": 139,
+      "libelle": "MB / SK",
+      "parts": {
+        "CPC": 38.0,
+        "LPC": 20.0,
+        "NDP": 22.2,
+        "GPC": 3.6,
+        "PPC": 15.9,
+        "AUTRES": 0.3
+      }
+    },
+    "AB": {
+      "n": 119,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 54.4,
+        "LPC": 11.6,
+        "NDP": 13.0,
+        "GPC": 2.4,
+        "PPC": 15.3,
+        "AUTRES": 3.3
+      }
+    },
+    "BC": {
+      "n": 140,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 29.6,
+        "LPC": 31.1,
+        "NDP": 21.1,
+        "GPC": 9.5,
+        "PPC": 7.5,
+        "AUTRES": 1.2
+      }
+    }
+  }
+}

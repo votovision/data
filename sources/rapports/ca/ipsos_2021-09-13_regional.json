@@ -1,0 +1,94 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2021-09-10",
+  "date_fin": "2021-09-13",
+  "document": "Dead Heat down the Home Stretch: In Final Days of Campaign, Liberals (32%, unchanged) and Tories (32%, -3) are Neck and Neck while NDP (21%, unchanged) Vote Holds Steady – Week 5 Vote Factum (Ipsos/Global News, 15 septembre 2021)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-09/Week%205%20Vote%20Factum.pdf",
+  "note": "Communiqué PDF p. 1, liste à puces des courses régionales (texte, pas de tableau). Base : vote populaire décidé (« decided national popular vote »). Aucun effectif régional imprimé (n = null ; échantillon 2 001, en ligne et téléphone). Atlantique : seuls LPC, NDP, CPC et Verts sont cités ; BQ national 7 % (32 % au Québec) ; « others » transcrits en AUTRES. Terrain du 10 au 13 septembre 2021. Page : https://www.ipsos.com/en-ca/news-polls/liberals-and-tories-are-neck-and-neck-while-ndp-vote-holds-steady",
+  "groupes": {
+    "National": {
+      "n": null,
+      "libelle": "national",
+      "parts": {
+        "LPC": 32,
+        "CPC": 32,
+        "NDP": 21,
+        "BQ": 7,
+        "GPC": 4,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic Canada",
+      "parts": {
+        "LPC": 36,
+        "CPC": 25,
+        "NDP": 34,
+        "GPC": 5
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 33,
+        "CPC": 23,
+        "NDP": 7,
+        "BQ": 32,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 37,
+        "CPC": 33,
+        "NDP": 21,
+        "GPC": 4,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "Saskatchewan and Manitoba",
+      "parts": {
+        "LPC": 24,
+        "CPC": 42,
+        "NDP": 22,
+        "GPC": 4,
+        "PPC": 6,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 18,
+        "CPC": 48,
+        "NDP": 27,
+        "GPC": 5,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "British Columbia",
+      "parts": {
+        "LPC": 29,
+        "CPC": 28,
+        "NDP": 31,
+        "GPC": 4,
+        "PPC": 6,
+        "AUTRES": 2
+      }
+    }
+  }
+}

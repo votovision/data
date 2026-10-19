@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "2026-06-19",
+  "date_fin": "2026-06-22",
+  "document": "Federal Poll – Survey of Canadians (Léger, juin 2026)",
+  "reference": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/6.%20%C3%89tudes%20M%C3%A9diatiques%20Juin%202026/Fed%20Poll/Leger_Federal_Poll_Canada_June_2026.pdf",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région. Terrain du 19 au 22 juin 2026 (p. 2).",
+  "groupes": {
+    "National": {
+      "n": 1285,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 48,
+        "CPC": 34,
+        "NDP": 6,
+        "BQ": 6,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 81,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 55,
+        "CPC": 37,
+        "NDP": 6,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 341,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 42,
+        "CPC": 22,
+        "NDP": 4,
+        "BQ": 26,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 511,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 53,
+        "CPC": 34,
+        "NDP": 7,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "MBSK": {
+      "n": 110,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 46,
+        "CPC": 32,
+        "NDP": 10,
+        "GPC": 7,
+        "AUTRES": 4
+      }
+    },
+    "AB": {
+      "n": 113,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 38,
+        "CPC": 57,
+        "NDP": 5,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 129,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 51,
+        "CPC": 32,
+        "NDP": 7,
+        "GPC": 10,
+        "AUTRES": 1
+      }
+    }
+  }
+}

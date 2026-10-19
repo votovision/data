@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2021-09-15",
+  "date_fin": "2021-09-18",
+  "document": "Election a Photo Finish with Conservatives (32%) and Liberals (31%) Neck and Neck – Call Poll Banner 2 (Ipsos/Global News, 19 septembre 2021)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-09/Call%20Poll%20-%20Banner%202.pdf",
+  "note": "Bannière 2, p. 3, colonnes Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance. Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). Mêmes pourcentages régionaux dans le tableau du communiqué Week 6 Call Poll Factum_final.pdf. Terrain du 15 au 18 septembre 2021 (n=2 359, en ligne et téléphone). Page : https://www.ipsos.com/en-ca/election-photo-finish-with-conservatives-and-liberals-neck-and-neck",
+  "groupes": {
+    "National": {
+      "n": 2009,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 31,
+        "CPC": 32,
+        "NDP": 21,
+        "BQ": 7,
+        "GPC": 3,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 164,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 44,
+        "CPC": 26,
+        "NDP": 18,
+        "GPC": 5,
+        "PPC": 5,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": 406,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 32,
+        "CPC": 18,
+        "NDP": 13,
+        "BQ": 33,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 749,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 37,
+        "CPC": 33,
+        "NDP": 22,
+        "GPC": 3,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 173,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 18,
+        "CPC": 49,
+        "NDP": 23,
+        "GPC": 2,
+        "PPC": 7,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 252,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 19,
+        "CPC": 52,
+        "NDP": 19,
+        "GPC": 2,
+        "PPC": 6,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 265,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 26,
+        "CPC": 34,
+        "NDP": 30,
+        "GPC": 5,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    }
+  }
+}

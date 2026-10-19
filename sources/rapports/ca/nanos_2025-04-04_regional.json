@@ -1,0 +1,85 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Nanos Research",
+  "date_debut": "2025-04-02",
+  "date_fin": "2025-04-04",
+  "document": "LPC 45.9, CPC 34.9, NDP 9.2, BQ 5.2, GP 2.9, PPC 1.4 (Tracking ending April 4, 2025) (Nanos Research / CTV / The Globe and Mail, April 5, 2025)",
+  "reference": "https://nanos.co/wp-content/uploads/2025/04/2025-2783-ELXN-FED-2025-04-04-Field-Ended.pdf",
+  "note": "Page 4 du PDF, tableau « Ballot – by region » (Canada – Federal Special Issue – Ballot (decided only), April 2 to 4, 2025). Suivi quotidien CTV/Globe and Mail/Nanos, moyenne glissante de trois jours de terrain (April 2 to 4, 2025), échantillon total n=1,248. Pourcentages des électeurs décidés. n = effectifs des décidés imprimés sous chaque en-tête de colonne (Canada n=1,150). Prairies = Manitoba, Saskatchewan et Alberta ensemble. Bloc imprimé à 0.0% hors Québec, omis ; « Other » transcrit en AUTRES.",
+  "groupes": {
+    "National": {
+      "n": 1150,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 45.9,
+        "CPC": 34.9,
+        "NDP": 9.2,
+        "BQ": 5.2,
+        "GPC": 2.9,
+        "PPC": 1.4,
+        "AUTRES": 0.5
+      }
+    },
+    "ATL": {
+      "n": 120,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 58.9,
+        "CPC": 29.6,
+        "NDP": 6.6,
+        "GPC": 2.6,
+        "PPC": 2.2,
+        "AUTRES": 0.0
+      }
+    },
+    "QC": {
+      "n": 279,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 52.1,
+        "CPC": 15.6,
+        "NDP": 4.1,
+        "BQ": 22.9,
+        "GPC": 3.0,
+        "PPC": 1.9,
+        "AUTRES": 0.3
+      }
+    },
+    "ON": {
+      "n": 338,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 52.9,
+        "CPC": 34.9,
+        "NDP": 8.9,
+        "GPC": 2.4,
+        "PPC": 0.5,
+        "AUTRES": 0.3
+      }
+    },
+    "PRAIRIES": {
+      "n": 246,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 25.0,
+        "CPC": 56.3,
+        "NDP": 12.7,
+        "GPC": 2.3,
+        "PPC": 2.3,
+        "AUTRES": 1.4
+      }
+    },
+    "BC": {
+      "n": 167,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 37.6,
+        "CPC": 40.7,
+        "NDP": 14.6,
+        "GPC": 4.7,
+        "PPC": 1.7,
+        "AUTRES": 0.8
+      }
+    }
+  }
+}

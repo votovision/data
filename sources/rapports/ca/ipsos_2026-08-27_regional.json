@@ -1,0 +1,93 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2026-08-26",
+  "date_fin": "2026-08-27",
+  "document": "Liberal Lead Holds Through Rupture with U.S. on Trade – Detailed Tables 2 (FedVote_Banner2.pdf) (Ipsos/Global News, 29 août 2026)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/FedVote_Banner2.pdf",
+  "note": "Tableaux détaillés 2, p. 1, bannière REGION (BC, AB, SK/MB, Ontario, Quebec, Atlantic), question d'intention de vote fédérale avec relance (« lean towards »). Base : All Answering = électeurs décidés et enclins (le communiqué indique « Decided voters, leaners included »). n = effectifs non pondérés (unwtd) ; National = colonne Total (862 décidés sur 1 001 répondants). Terrain du 26 au 27 août 2026 (communiqué p. 3). Le tableau imprime BQ 1 % en Alberta (non repris : BQ réservé au Québec) ; « - » (zéro) non repris ; Ontario « Or some other party » = « * » (moins de 0,5 %), non repris. Communiqué : https://www.ipsos.com/en-ca/liberal-lead-holds-through-rupture-us-trade",
+  "groupes": {
+    "National": {
+      "n": 862,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 44,
+        "CPC": 33,
+        "NDP": 10,
+        "BQ": 8,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 70,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 54,
+        "CPC": 29,
+        "NDP": 8,
+        "GPC": 4,
+        "PPC": 4
+      }
+    },
+    "QC": {
+      "n": 186,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 37,
+        "CPC": 22,
+        "NDP": 3,
+        "BQ": 33,
+        "GPC": 1,
+        "PPC": 3
+      }
+    },
+    "ON": {
+      "n": 322,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 49,
+        "CPC": 35,
+        "NDP": 11,
+        "GPC": 3,
+        "PPC": 2
+      }
+    },
+    "MBSK": {
+      "n": 88,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 39,
+        "CPC": 42,
+        "NDP": 10,
+        "GPC": 6,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 92,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 34,
+        "CPC": 50,
+        "NDP": 11,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 104,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 46,
+        "CPC": 31,
+        "NDP": 16,
+        "GPC": 4,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    }
+  }
+}

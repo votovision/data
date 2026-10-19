@@ -1,0 +1,18 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2026-09-23",
+  "date_fin": "2026-10-02",
+  "document": "Liberals Hold 21-Point Lead — Detailed tables (EKOS, 2026-10-11)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20261009datatables.pdf",
+  "note": "Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 23 du PDF (Field Dates: September 23-October 2, 2026). Base : électeurs décidés et enclins (aucune ligne indécis dans ce tableau ; le total national 47,2/26,4/15,3/4,6/3,2/1,8/1,4 correspond à Wikipédia). n = ligne « Total: » (effectif non pondéré des décidés) ; la ligne « Weighted Total: » donne 1801, 270, 204, 106, 703, 398, 115. En-têtes de région imprimés tronqués : « BC TR », « AB », « SK ON », « ON », « QC », « ATL » ; « BC TR » = Colombie-Britannique et territoires (« BC+Ter » dans les tableaux d’avril 2026), la 3e colonne est lue comme Saskatchewan-Manitoba (découpage régional habituel d’EKOS). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": { "n": 1812, "libelle": "Total", "parts": { "LPC": 47.2, "CPC": 26.4, "NDP": 15.3, "BQ": 4.6, "GPC": 3.2, "PPC": 1.8, "AUTRES": 1.4 } },
+    "BC": { "n": 246, "libelle": "BC TR", "parts": { "LPC": 44.7, "CPC": 30.7, "NDP": 15.5, "GPC": 6.9, "PPC": 0.1, "AUTRES": 2.2 } },
+    "AB": { "n": 273, "libelle": "AB", "parts": { "LPC": 39.5, "CPC": 39.7, "NDP": 15.2, "GPC": 3.4, "PPC": 1.3, "AUTRES": 0.8 } },
+    "MBSK": { "n": 120, "libelle": "SK ON", "parts": { "LPC": 40.6, "CPC": 38.9, "NDP": 17.8, "GPC": 0.0, "PPC": 2.1, "AUTRES": 0.6 } },
+    "ON": { "n": 652, "libelle": "ON", "parts": { "LPC": 51.6, "CPC": 24.7, "NDP": 17.9, "GPC": 2.2, "PPC": 2.4, "AUTRES": 1.2 } },
+    "QC": { "n": 379, "libelle": "QC", "parts": { "LPC": 44.3, "CPC": 17.5, "NDP": 10.5, "BQ": 21.0, "GPC": 3.3, "PPC": 1.3, "AUTRES": 2.0 } },
+    "ATL": { "n": 136, "libelle": "ATL", "parts": { "LPC": 57.6, "CPC": 20.9, "NDP": 12.6, "GPC": 3.0, "PPC": 4.4, "AUTRES": 1.6 } }
+  }
+}

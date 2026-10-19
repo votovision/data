@@ -1,0 +1,85 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Nanos Research",
+  "date_debut": "2025-04-13",
+  "date_fin": "2025-04-15",
+  "document": "LPC 44.7, CPC 37.3, NDP 8.3, BQ 6.2, GP 2.2, PPC 1.1 (Tracking ending April 15, 2025) (Nanos Research / CTV / The Globe and Mail, April 16, 2025)",
+  "reference": "https://nanos.co/wp-content/uploads/2025/04/2025-2783-ELXN-FED-2025-04-15_Field-Ended.pdf",
+  "note": "Page 4 du PDF, tableau « Ballot – by region » (Canada – Federal Special Issue – Ballot (decided only), April 13 to 15, 2025). Suivi quotidien CTV/Globe and Mail/Nanos, moyenne glissante de trois jours de terrain (April 13 to 15, 2025), échantillon total n=1,359. Pourcentages des électeurs décidés. n = effectifs NON pondérés des décidés (ligne « Unweighted ») ; effectifs pondérés imprimés (ligne « Weighted ») : Atlantic 73, Quebec 256, Ontario 448, Prairies 197, BC 159 ; n national = décidés imprimés dans l'en-tête du tableau (1,278). Prairies = Manitoba, Saskatchewan et Alberta ensemble. Bloc imprimé à 0.0% hors Québec, omis ; « Other » transcrit en AUTRES.",
+  "groupes": {
+    "National": {
+      "n": 1278,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 44.7,
+        "CPC": 37.3,
+        "NDP": 8.3,
+        "BQ": 6.2,
+        "GPC": 2.2,
+        "PPC": 1.1,
+        "AUTRES": 0.1
+      }
+    },
+    "ATL": {
+      "n": 119,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 64.1,
+        "CPC": 28.7,
+        "NDP": 5.5,
+        "GPC": 1.2,
+        "PPC": 0.0,
+        "AUTRES": 0.6
+      }
+    },
+    "QC": {
+      "n": 280,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 45.3,
+        "CPC": 19.0,
+        "NDP": 4.5,
+        "BQ": 27.5,
+        "GPC": 1.1,
+        "PPC": 2.6,
+        "AUTRES": 0.0
+      }
+    },
+    "ON": {
+      "n": 406,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 50.1,
+        "CPC": 39.0,
+        "NDP": 7.7,
+        "GPC": 2.5,
+        "PPC": 0.8,
+        "AUTRES": 0.0
+      }
+    },
+    "PRAIRIES": {
+      "n": 294,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 24.7,
+        "CPC": 63.1,
+        "NDP": 9.4,
+        "GPC": 1.9,
+        "PPC": 0.9,
+        "AUTRES": 0.0
+      }
+    },
+    "BC": {
+      "n": 179,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 44.5,
+        "CPC": 34.1,
+        "NDP": 16.1,
+        "GPC": 4.2,
+        "PPC": 0.6,
+        "AUTRES": 0.5
+      }
+    }
+  }
+}

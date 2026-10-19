@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-09-04",
+  "date_fin": "2026-09-09",
+  "document": "Liberals Open 14-Point Lead, Largest Since 2017, as Trump Continues to Dominate the Agenda (Abacus Data, 2026-09-13)",
+  "reference": "https://abacusdata.ca/liberals-open-14-point-lead-largest-since-2017-as-trump-continues-to-dominate-the-agenda/",
+  "note": "Widget « Federal Vote: Liberals Lead by 14 Points », onglet Subgroups, tableau HTML « Vote Intention by Region » (partis en lignes ; colonnes Canada, BC, AB, SK/MB, ON, QC, ATL ; indécis retirés). Base : électeurs décidés (16 % d'indécis retirés). n national = échantillon total (1 479) ; n régionaux non imprimés. BQ à 0 % hors Québec omis. Concorde avec le texte du billet. Terrain : 4 au 9 septembre 2026.",
+  "groupes": {
+    "National": {
+      "n": 1479,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 47,
+        "CPC": 33,
+        "NDP": 8,
+        "BQ": 7,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 60,
+        "CPC": 27,
+        "NDP": 6,
+        "GPC": 0,
+        "PPC": 4,
+        "AUTRES": 3
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 48,
+        "CPC": 14,
+        "NDP": 3,
+        "BQ": 30,
+        "GPC": 3,
+        "PPC": 0,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 51,
+        "CPC": 35,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 38,
+        "CPC": 46,
+        "NDP": 12,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 24,
+        "CPC": 65,
+        "NDP": 10,
+        "GPC": 2,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 50,
+        "CPC": 32,
+        "NDP": 13,
+        "GPC": 5,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    }
+  }
+}

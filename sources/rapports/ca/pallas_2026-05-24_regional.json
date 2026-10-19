@@ -1,0 +1,18 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Pallas Data",
+  "date_debut": "2026-05-23",
+  "date_fin": "2026-05-24",
+  "document": "Canada's Economic Patriotism Index Plus Federal Voting Intentions (Pallas Data, 2026-05-27)",
+  "reference": "https://marginoftruth.substack.com/api/v1/file/3bed4481-cf81-4c62-826b-cbc3e6025fc0.pdf",
+  "note": "Rapport PDF de Pallas Data joint au billet de Joseph Angolano (fondateur et PDG de Pallas) sur https://marginoftruth.substack.com/p/pallas-data-federal-poll-carney-is ; le communiqué sur pallas-data.ca ne donne que les écarts régionaux. Tableau « If a federal election were held today, which party would you vote for? (Decided and Leaning Voters) [1] », page 23 du PDF. Base : électeurs décidés et enclins (total national 45,4/32/11,2/6,6/2,8/1,9, arrondi par Wikipédia à 45/32/11/7/3/2). n = « Unweighted Frequency » des décidés ; « Weighted Frequency » donne 1255, 171, 142, 82, 481, 293, 86. « Prairies » est imprimé à côté d'une colonne « Alberta » distincte : il s'agit du Manitoba et de la Saskatchewan. Le PPC n'est pas proposé (« Another Party » = AUTRES). Le Bloc (0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": { "n": 1255, "libelle": "Total", "parts": { "LPC": 45.4, "CPC": 32, "NDP": 11.2, "BQ": 6.6, "GPC": 2.8, "AUTRES": 1.9 } },
+    "BC": { "n": 149, "libelle": "BC", "parts": { "LPC": 47.4, "CPC": 32.1, "NDP": 13.7, "GPC": 5.3, "AUTRES": 1.5 } },
+    "AB": { "n": 115, "libelle": "Alberta", "parts": { "LPC": 36.2, "CPC": 47.3, "NDP": 12, "GPC": 0.7, "AUTRES": 3.8 } },
+    "MBSK": { "n": 119, "libelle": "Prairies", "parts": { "LPC": 30.1, "CPC": 54.5, "NDP": 9.8, "GPC": 1.7, "AUTRES": 3.8 } },
+    "ON": { "n": 502, "libelle": "Ontario", "parts": { "LPC": 51.8, "CPC": 31, "NDP": 11.4, "GPC": 3.8, "AUTRES": 2 } },
+    "QC": { "n": 297, "libelle": "Quebec", "parts": { "LPC": 41.1, "CPC": 19.2, "NDP": 9.6, "BQ": 28.4, "GPC": 1.7, "AUTRES": 0.1 } },
+    "ATL": { "n": 73, "libelle": "Atlantic", "parts": { "LPC": 50.5, "CPC": 34.7, "NDP": 10.2, "GPC": 0.9, "AUTRES": 3.8 } }
+  }
+}

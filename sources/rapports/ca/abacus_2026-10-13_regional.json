@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-10-02",
+  "date_fin": "2026-10-13",
+  "document": "Liberal 12-point lead holds as focus on Trump fades slightly (Abacus Data, 2026-10-14)",
+  "reference": "https://abacusdata.ca/liberal-12-point-lead-holds-as-focus-on-trump-fades-slightly/",
+  "note": "Widget du billet, onglet régional, tableau HTML « Vote Intention by Region » (partis en lignes ; colonnes Canada, BC, AB, SK/MB, ON, QC, ATL ; « Undecided removed »). Base : électeurs décidés. n national = échantillon total (3 197) ; n régionaux non imprimés. BQ à 0 % hors Québec omis. Concorde avec le texte du billet. Terrain : 2 au 13 octobre 2026.",
+  "groupes": {
+    "National": {
+      "n": 3197,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 46,
+        "CPC": 34,
+        "NDP": 9,
+        "BQ": 7,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 54,
+        "CPC": 35,
+        "NDP": 9,
+        "GPC": 2,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 44,
+        "CPC": 18,
+        "NDP": 3,
+        "BQ": 31,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 50,
+        "CPC": 35,
+        "NDP": 10,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 41,
+        "CPC": 42,
+        "NDP": 12,
+        "GPC": 4,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 37,
+        "CPC": 52,
+        "NDP": 9,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 42,
+        "CPC": 37,
+        "NDP": 14,
+        "GPC": 5,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}

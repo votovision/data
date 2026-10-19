@@ -1,0 +1,18 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2025-09-05",
+  "date_fin": "2025-09-12",
+  "document": "Liberals Maintain Clear Leadership Position — Data tables (EKOS, 2025-09-19)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20250919datatables.pdf",
+  "note": "« Field Dates: September 5-12, 2025 » imprimé en tête du PDF, lié depuis https://www.ekospolitics.com/index.php/2025/09/liberals-maintain-clear-leadership-position/. Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Total national 42,0/34,0/12,6/5,2/2,8/2,3/1,0 ; Wikipédia donne GPC 3,0 et PPC 2,0 (arrondis), le reste identique. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 1491, 199, 195, 98, 567, 327, 99. Saskatchewan et Manitoba publiés ensemble (« SK/MB »). Partis imprimés LIB, CONS, NDP, GRN, BQ, PPC, OTH (OTH = AUTRES). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec. L'effectif non pondéré de l'Alberta (584) est imprimé tel quel (suréchantillon probable).",
+  "groupes": {
+    "National": {"n": 1490, "libelle": "Total", "parts": {"LPC": 42.0, "CPC": 34.0, "NDP": 12.6, "BQ": 5.2, "GPC": 2.8, "PPC": 2.3, "AUTRES": 1.0}},
+    "BC": {"n": 159, "libelle": "BC", "parts": {"LPC": 33.2, "CPC": 36.2, "NDP": 24.8, "GPC": 4.4, "PPC": 0.7, "AUTRES": 0.7}},
+    "AB": {"n": 584, "libelle": "AB", "parts": {"LPC": 26.6, "CPC": 56.4, "NDP": 8.4, "GPC": 2.2, "PPC": 3.1, "AUTRES": 3.3}},
+    "MBSK": {"n": 69, "libelle": "SK/MB", "parts": {"LPC": 38.9, "CPC": 42.6, "NDP": 14.2, "GPC": 0.9, "PPC": 1.4, "AUTRES": 2.0}},
+    "ON": {"n": 380, "libelle": "ON", "parts": {"LPC": 47.9, "CPC": 33.5, "NDP": 12.0, "GPC": 3.6, "PPC": 2.8, "AUTRES": 0.2}},
+    "QC": {"n": 209, "libelle": "QC", "parts": {"LPC": 41.9, "CPC": 19.1, "NDP": 9.0, "BQ": 23.6, "GPC": 2.4, "PPC": 2.9, "AUTRES": 1.2}},
+    "ATL": {"n": 83, "libelle": "Atl", "parts": {"LPC": 60.4, "CPC": 29.4, "NDP": 9.2, "GPC": 0.0, "PPC": 1.1, "AUTRES": 0.0}}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "2026-05-29",
+  "date_fin": "2026-06-01",
+  "document": "Federal Government Satisfaction – Survey of Canadians (Léger/Postmedia, 1er juin 2026)",
+  "reference": "https://leger360.com/wp-content/uploads/2026/06/Leger_Fed_Pol_May2026.pdf",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région. Terrain du 29 mai au 1er juin 2026 (p. 2). Note : l'en-tête « Total Canada » du tableau imprime n=1,521/1,522 alors que la méthodologie indique n=1,532.",
+  "groupes": {
+    "National": {
+      "n": 1327,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 50,
+        "CPC": 34,
+        "NDP": 6,
+        "BQ": 6,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 86,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 62,
+        "CPC": 29,
+        "NDP": 5,
+        "GPC": 4,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 348,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 50,
+        "CPC": 17,
+        "NDP": 3,
+        "BQ": 26,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 534,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 52,
+        "CPC": 38,
+        "NDP": 7,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 103,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 31,
+        "CPC": 51,
+        "NDP": 16,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 118,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 36,
+        "CPC": 60,
+        "NDP": 4,
+        "GPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 138,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 56,
+        "CPC": 28,
+        "NDP": 6,
+        "GPC": 11,
+        "AUTRES": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Mainstreet Research",
+  "date_debut": "2025-04-17",
+  "date_fin": "2025-04-19",
+  "document": "Mainstreet Research Survey - Canada, Canadian Federal Election Daily Tracker (fichier 2025-04-20_CAN_Daily_Tracker.pdf, Mainstreet Research, 2025-04-20)",
+  "reference": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/680460e82ad4d5770b2f34fc_2025-04-20_CAN_Daily_Tracker.pdf",
+  "note": "Page 8 du PDF complet (lié depuis le billet du suivi quotidien sur mainstreetresearch.ca, à côté de la version « Public » citée par Wikipédia, https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/680460edd39bd0623ff968be_2025-04-20_CAN_Daily_Tracker_Public.pdf, dont les cellules sont remplacées par des tirets) : tableau « broken out by age, gender, and region » de la question « If the federal election were held today, how would you vote? (decided and leaning voters) », indécis exclus ; le total national correspond à Wikipédia. Suivi quotidien, fenêtre glissante de 3 jours (2025-04-17 au 2025-04-19). n = effectifs non pondérés (« Unweighted Frequency ») sur la base décidés et enclins. « Prairies » = Manitoba et Saskatchewan (l'Alberta est une colonne distincte). AUTRES = « Other ». Bloc imprimé à 0 % hors Québec, omis.",
+  "groupes": {
+    "National": {
+      "n": 1288,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 39.1,
+        "CPC": 43.2,
+        "NDP": 6.3,
+        "BQ": 6.4,
+        "GPC": 1.3,
+        "PPC": 2.3,
+        "AUTRES": 1.4
+      }
+    },
+    "AB": {
+      "n": 157,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 20.7,
+        "CPC": 74.6,
+        "NDP": 3,
+        "GPC": 0.4,
+        "PPC": 1.3,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": 66,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 52.4,
+        "CPC": 35,
+        "NDP": 2.7,
+        "GPC": 0,
+        "PPC": 5,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": 175,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 40.9,
+        "CPC": 44.1,
+        "NDP": 9.4,
+        "GPC": 1.9,
+        "PPC": 3,
+        "AUTRES": 0.8
+      }
+    },
+    "MBSK": {
+      "n": 67,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 39.8,
+        "CPC": 51.4,
+        "NDP": 2.9,
+        "GPC": 5.2,
+        "PPC": 0.7,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 511,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 44.2,
+        "CPC": 44,
+        "NDP": 8.7,
+        "GPC": 0.9,
+        "PPC": 0.8,
+        "AUTRES": 1.5
+      }
+    },
+    "QC": {
+      "n": 312,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 35.2,
+        "CPC": 25.5,
+        "NDP": 3.7,
+        "BQ": 27.8,
+        "GPC": 1.6,
+        "PPC": 4.6,
+        "AUTRES": 1.7
+      }
+    }
+  }
+}

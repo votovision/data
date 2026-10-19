@@ -1,0 +1,93 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-09-17",
+  "date_fin": "2021-09-19",
+  "document": "Abacus Data’s Final Poll: Conservatives and Liberals are statistically tied on the eve of Election Day in Canada (Abacus Data, 2021-09-19)",
+  "reference": "https://abacusdata.ca/election-2021-final-poll-abacus-data/",
+  "note": "Graphique image « Vote intention by province/region » (https://abacusdata.ca/wp-content/uploads/2021/09/Slide3-7.jpg) ; national : diapositive « Federal Vote Intention » (Slide1-9.jpg). Base : estimation finale combinant ceux qui ont déjà voté et ceux qui voteront probablement, indécis exclus. n national = échantillon total (2 431) ; n régionaux non imprimés. Étiquettes illisibles omises : BC PPC/Other et ON PPC/Other (superposées). Concorde avec le texte du billet. Terrain : 17 au 19 septembre 2021.",
+  "groupes": {
+    "National": {
+      "n": 2431,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "CPC": 32,
+        "LPC": 31,
+        "NDP": 19,
+        "BQ": 7,
+        "PPC": 6,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 24,
+        "LPC": 41,
+        "NDP": 21,
+        "GPC": 7,
+        "PPC": 5,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 18,
+        "LPC": 31,
+        "NDP": 10,
+        "GPC": 4,
+        "BQ": 30,
+        "PPC": 6,
+        "AUTRES": 3
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 32,
+        "LPC": 40,
+        "NDP": 18,
+        "GPC": 3
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 40,
+        "LPC": 21,
+        "NDP": 27,
+        "GPC": 3,
+        "PPC": 8,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 51,
+        "LPC": 14,
+        "NDP": 22,
+        "GPC": 1,
+        "PPC": 6,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 35,
+        "LPC": 23,
+        "NDP": 32,
+        "GPC": 6
+      }
+    }
+  }
+}

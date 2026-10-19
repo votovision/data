@@ -1,0 +1,85 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-06-12",
+  "date_fin": "2026-06-17",
+  "document": "Federal Liberal Lead Holds Steady (Abacus Data, 2026-06-21)",
+  "reference": "https://abacusdata.ca/federal-liberal-lead-holds-steady/",
+  "note": "Graphique image « Committed vote intention by province/region » (diapositive 29, https://abacusdata.ca/wp-content/uploads/2026/06/Slide29.jpg) pour les régions ; diapositive 22 « Federal Vote » pour le national. Base : électeurs décidés (« Undecided removed »). n national = échantillon total (3 080) ; n régionaux non imprimés. Seules les étiquettes lisibles sans ambiguïté sont transcrites : « Other » non étiqueté partout ; AB : Vert et PPC omis (une seule étiquette « 1% » chevauchant les deux segments) ; SK/MB : Vert et PPC omis (étiquettes superposées illisibles) ; ATL : Vert absent du graphique. Lien Wikipédia absent ; billet retrouvé sur abacusdata.ca (n=3 080, 12 au 17 juin 2026).",
+  "groupes": {
+    "National": {
+      "n": 3080,
+      "libelle": "Federal Vote (current vote share)",
+      "parts": {
+        "LPC": 45,
+        "CPC": 37,
+        "NDP": 9,
+        "BQ": 6,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 38,
+        "LPC": 52,
+        "NDP": 9,
+        "PPC": 1
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 21,
+        "LPC": 47,
+        "NDP": 5,
+        "GPC": 2,
+        "BQ": 25
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 37,
+        "LPC": 48,
+        "NDP": 10,
+        "GPC": 3,
+        "PPC": 2
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 55,
+        "LPC": 33,
+        "NDP": 10
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 61,
+        "LPC": 27,
+        "NDP": 9
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 33,
+        "LPC": 48,
+        "NDP": 13,
+        "GPC": 3,
+        "PPC": 1
+      }
+    }
+  }
+}

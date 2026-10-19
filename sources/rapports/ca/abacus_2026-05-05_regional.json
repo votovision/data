@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-04-30",
+  "date_fin": "2026-05-05",
+  "document": "Canadian Politics: Carney Government Approval Hits New High as Liberals Lead Conservatives by 10 (Abacus Data, 2026-05-06)",
+  "reference": "https://abacusdata.ca/canadian-politics-carney-government-approval-hits-new-high-as-liberals-lead-conservatives-by-10/",
+  "note": "Widget « Federal Vote Intention — May 6, 2026 » du billet, onglet Region, tableau « Federal Vote Intention — by Region » (« Undecided removed »), ligne Canada comprise. Base : électeurs décidés (indécis retirés). n national = échantillon total (2 478) ; n régionaux non imprimés. Le BQ à 0 % hors Québec est omis. Terrain : 30 avril au 5 mai 2026.",
+  "groupes": {
+    "National": {
+      "n": 2478,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 46,
+        "CPC": 36,
+        "NDP": 8,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 62,
+        "CPC": 30,
+        "NDP": 8,
+        "GPC": 0,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 48,
+        "CPC": 20,
+        "NDP": 2,
+        "BQ": 26,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 50,
+        "CPC": 37,
+        "NDP": 9,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 34,
+        "CPC": 52,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 29,
+        "CPC": 56,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 47,
+        "CPC": 35,
+        "NDP": 14,
+        "GPC": 5,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    }
+  }
+}

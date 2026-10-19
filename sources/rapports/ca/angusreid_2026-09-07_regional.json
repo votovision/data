@@ -1,0 +1,101 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2026-09-02",
+  "date_fin": "2026-09-07",
+  "document": "“Trump Bump” lifts Liberals to 14-point vote intent lead over CPC; challenges for Poilievre continue – tableaux détaillés 2026.09.09_Fed_Poli_tables.pdf (Angus Reid Institute, 2026-09-10)",
+  "reference": "https://angusreid.org/wp-content/uploads/2026/09/2026.09.09_Fed_Poli_tables.pdf",
+  "note": "PDF des tableaux détaillés (lien « click here » du communiqué 2026.09.09Fed_vote_PP_future.pdf), page 2, tableau « QF1./QF2. (Decided Voters) Support + Leaners », colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : électeurs décidés et enclins. n = effectifs non pondérés (« Unweighted sample size » ; pondérés : Total 1 609, BC 212, AB 180, SK 49, MB 58, ON 616, QC 379, ATL 113). AUTRES = ligne « Other Party/Independent », qui inclut le Parti populaire (sous-ligne « -People’s Party of Canada » : total 1 %, AB 1 %, SK 1 %, MB 0 %, ON 0 %, QC 2 %, ATL 3 % ; non reprise à part pour éviter le double compte). Bloc : valeurs seulement pour Total et QC. Terrain : 2 au 7 septembre 2026 (communiqué, n=1 811).",
+  "groupes": {
+    "National": {
+      "n": 1611,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 32,
+        "LPC": 46,
+        "NDP": 12,
+        "BQ": 5,
+        "GPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 140,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 20,
+        "LPC": 62,
+        "NDP": 10,
+        "GPC": 4,
+        "AUTRES": 4
+      }
+    },
+    "QC": {
+      "n": 370,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 16,
+        "LPC": 49,
+        "NDP": 7,
+        "BQ": 21,
+        "GPC": 2,
+        "AUTRES": 4
+      }
+    },
+    "ON": {
+      "n": 404,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 33,
+        "LPC": 49,
+        "NDP": 15,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MB": {
+      "n": 132,
+      "libelle": "MB",
+      "parts": {
+        "CPC": 40,
+        "LPC": 45,
+        "NDP": 12,
+        "GPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "SK": {
+      "n": 128,
+      "libelle": "SK",
+      "parts": {
+        "CPC": 53,
+        "LPC": 32,
+        "NDP": 11,
+        "GPC": 1,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 196,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 54,
+        "LPC": 29,
+        "NDP": 14,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 241,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 37,
+        "LPC": 43,
+        "NDP": 14,
+        "GPC": 6,
+        "AUTRES": 1
+      }
+    }
+  }
+}

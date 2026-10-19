@@ -1,0 +1,19 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2025-10-30",
+  "date_fin": "2025-11-04",
+  "document": "Liberal Party Holds Stable Eight-Point Lead — Data tables (EKOS, 2025-11-05)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20251105datatables.pdf",
+  "note": "« Field Dates: October 30-November 4, 2025 » imprimé en tête du PDF, lié depuis https://www.ekospolitics.com/index.php/2025/11/liberal-party-holds-stable-eight-point-lead/. Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Total national 43,4/35,5/8,0/5,8/3,5/1,6/2,1 ; Wikipédia donne PPC 2,0 et autres 2,0, le reste identique. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 1025, 147, 120, 24, 32, 402, 228, 71. « BC+Ter » = Colombie-Britannique et territoires. Saskatchewan et Manitoba publiés séparément (petits effectifs). Partis imprimés Liberal Party, Conservative Party, New Democratic Party, Green Party, People's Party, Bloc Quebecois, Another party not listed here (= AUTRES). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": {"n": 1027, "libelle": "Total", "parts": {"LPC": 43.4, "CPC": 35.5, "NDP": 8.0, "BQ": 5.8, "GPC": 3.5, "PPC": 1.6, "AUTRES": 2.1}},
+    "BC": {"n": 165, "libelle": "BC+Ter", "parts": {"LPC": 46.7, "CPC": 33.2, "NDP": 6.3, "GPC": 12.3, "PPC": 0.9, "AUTRES": 0.7}},
+    "AB": {"n": 143, "libelle": "AB", "parts": {"LPC": 37.0, "CPC": 50.8, "NDP": 9.3, "GPC": 0.7, "PPC": 0.6, "AUTRES": 1.6}},
+    "SK": {"n": 40, "libelle": "SK", "parts": {"LPC": 33.6, "CPC": 53.7, "NDP": 12.7, "GPC": 0.0, "PPC": 0.0, "AUTRES": 0.0}},
+    "MB": {"n": 25, "libelle": "MB", "parts": {"LPC": 52.3, "CPC": 11.5, "NDP": 21.4, "GPC": 11.4, "PPC": 0.0, "AUTRES": 3.5}},
+    "ON": {"n": 340, "libelle": "ON", "parts": {"LPC": 45.5, "CPC": 37.8, "NDP": 10.4, "GPC": 3.0, "PPC": 2.5, "AUTRES": 0.7}},
+    "QC": {"n": 188, "libelle": "QC", "parts": {"LPC": 38.8, "CPC": 26.7, "NDP": 2.2, "BQ": 26.0, "GPC": 0.0, "PPC": 1.1, "AUTRES": 5.2}},
+    "ATL": {"n": 126, "libelle": "Atl", "parts": {"LPC": 49.2, "CPC": 34.2, "NDP": 7.1, "GPC": 2.1, "PPC": 3.2, "AUTRES": 4.3}}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2025-04-18",
+  "date_fin": "2025-04-21",
+  "document": "Abacus Data Poll: Liberals lead by 3 in final days of the campaign. (Abacus Data, 2025-04-23)",
+  "reference": "https://abacusdata.ca/2025-federal-election-poll-liberals-lead-by-3/",
+  "note": "Graphique image « Committed vote intention by province/region » (diapositive 14, 2025 Federal Election Tracker Wave 6, https://abacusdata.ca/wp-content/uploads/2025/04/image-92.png), mention « Voted and Committed » en bas de diapositive ; national : diapositive 9 « Federal Vote Intention » (image-90.png). Base : électeurs décidés (« Undecided removed »), incluant ceux qui ont déjà voté. n national = échantillon total (2 000) ; n régionaux non imprimés. Seules les étiquettes entièrement lisibles sont transcrites : AB Vert (non étiqueté), QC PPC (étiquette tronquée), ATL Vert, PPC et Other (étiquettes superposées) et « Other » ailleurs (non étiqueté) omis. Concorde avec le texte du billet (BC 42/33/15, QC 33/30/26). Terrain : 18 au 21 avril 2025.",
+  "groupes": {
+    "National": {
+      "n": 2000,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "LPC": 40,
+        "CPC": 37,
+        "NDP": 11,
+        "BQ": 7,
+        "PPC": 2,
+        "GPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 34,
+        "LPC": 52,
+        "NDP": 10
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 26,
+        "LPC": 33,
+        "NDP": 9,
+        "GPC": 2,
+        "BQ": 30
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 40,
+        "LPC": 45,
+        "NDP": 10,
+        "GPC": 2,
+        "PPC": 2
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 41,
+        "LPC": 35,
+        "NDP": 17,
+        "GPC": 4,
+        "PPC": 3
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 56,
+        "LPC": 31,
+        "NDP": 10,
+        "PPC": 3
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 33,
+        "LPC": 42,
+        "NDP": 15,
+        "GPC": 4,
+        "PPC": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "2026-10-09",
+  "date_fin": "2026-10-12",
+  "document": "Federal Politics – Survey of Canadians (Léger, octobre 2026, Fed_Pol_october_2026_EN.pdf)",
+  "reference": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/10.%20October%202026/Fed%20Poll/Fed_Pol_october_2026_EN.pdf",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Election (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région. Terrain du 9 au 12 octobre 2026 (p. 2). PDF trouvé via la page https://leger360.com/federal-politics-liberals-lead-carney-october-2026/. L'en-tête « Total Canada » imprime n=1,513/1,516 (méthodologie : 1,525) ; « another party » vaut 5 % dans la colonne Total Canada mais 2 % chez les décidés (valeurs recopiées telles quelles).",
+  "groupes": {
+    "National": {
+      "n": 1309,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 48,
+        "CPC": 33,
+        "NDP": 8,
+        "BQ": 6,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 80,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 53,
+        "CPC": 32,
+        "NDP": 7,
+        "GPC": 6,
+        "AUTRES": 3
+      }
+    },
+    "QC": {
+      "n": 354,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 47,
+        "CPC": 17,
+        "NDP": 7,
+        "BQ": 26,
+        "GPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 530,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 51,
+        "CPC": 38,
+        "NDP": 7,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 97,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 30,
+        "CPC": 46,
+        "NDP": 14,
+        "GPC": 4,
+        "AUTRES": 6
+      }
+    },
+    "AB": {
+      "n": 110,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 43,
+        "CPC": 43,
+        "NDP": 9,
+        "GPC": 3,
+        "AUTRES": 3
+      }
+    },
+    "BC": {
+      "n": 138,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 50,
+        "CPC": 32,
+        "NDP": 13,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "2026-08-01",
+  "date_fin": "2026-08-03",
+  "document": "Federal Poll – Survey of Canadians (Léger, août 2026)",
+  "reference": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/8.%20%C3%89tudes%20m%C3%A9diatiques%20Ao%C3%BBt%202026/Leger_Fed_Poll_August2026_EN.pdf",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région. Terrain du 1er au 3 août 2026 (p. 2).",
+  "groupes": {
+    "National": {
+      "n": 1301,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 46,
+        "CPC": 34,
+        "NDP": 8,
+        "BQ": 6,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 86,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 55,
+        "CPC": 33,
+        "NDP": 8,
+        "GPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 351,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 44,
+        "CPC": 19,
+        "NDP": 5,
+        "BQ": 27,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 509,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 49,
+        "CPC": 39,
+        "NDP": 6,
+        "GPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 108,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 41,
+        "CPC": 40,
+        "NDP": 14,
+        "GPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 117,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 41,
+        "CPC": 47,
+        "NDP": 5,
+        "GPC": 2,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": 130,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 45,
+        "CPC": 33,
+        "NDP": 16,
+        "GPC": 6,
+        "AUTRES": 0
+      }
+    }
+  }
+}

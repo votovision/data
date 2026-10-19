@@ -1,0 +1,84 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-07-09",
+  "date_fin": "2026-07-16",
+  "document": "Liberals Hold a Six-Point Lead as Carney Government Approval Remains Above 50% (Abacus Data, 2026-07-19)",
+  "reference": "https://abacusdata.ca/liberals-hold-a-six-point-lead-as-carney-government-approval-remains-above-50/",
+  "note": "Graphique image « Committed vote intention by province/region » (diapositive 32, https://abacusdata.ca/wp-content/uploads/2026/07/image-6.png) pour les régions ; diapositive 25 « Federal Vote » (image-5.png) pour le national. Base : électeurs décidés (« Undecided removed »). n national = échantillon total (4 205) ; n régionaux non imprimés. Seules les étiquettes entièrement lisibles sont transcrites : BC PPC, SK/MB Vert et PPC, QC PPC, ATL Vert (étiquettes tronquées ou superposées), AB Vert et « Other » (non étiquetés) omis. Les chiffres principaux concordent avec le texte du billet.",
+  "groupes": {
+    "National": {
+      "n": 4205,
+      "libelle": "Federal Vote (current vote share)",
+      "parts": {
+        "LPC": 43,
+        "CPC": 37,
+        "NDP": 9,
+        "BQ": 7,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 35,
+        "LPC": 52,
+        "NDP": 11
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 21,
+        "LPC": 43,
+        "NDP": 3,
+        "GPC": 3,
+        "BQ": 30
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 39,
+        "LPC": 46,
+        "NDP": 9,
+        "GPC": 3,
+        "PPC": 2
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 51,
+        "LPC": 35,
+        "NDP": 11
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 55,
+        "LPC": 30,
+        "NDP": 10,
+        "PPC": 2
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 37,
+        "LPC": 43,
+        "NDP": 15,
+        "GPC": 4
+      }
+    }
+  }
+}

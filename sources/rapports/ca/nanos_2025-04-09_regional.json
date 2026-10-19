@@ -1,0 +1,85 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Nanos Research",
+  "date_debut": "2025-04-07",
+  "date_fin": "2025-04-09",
+  "document": "LPC 43.0, CPC 38.1, NDP 8.9, BQ 5.7, GP 2.6, PPC 1.5 (Tracking ending April 9, 2025) (Nanos Research / CTV / The Globe and Mail, April 10, 2025)",
+  "reference": "https://nanos.co/wp-content/uploads/2025/04/2025-2783-ELXN-FED-2025-04-09-Field-Ended.pdf",
+  "note": "Page 4 du PDF, tableau « Ballot – by region » (Canada – Federal Special Issue – Ballot (decided only), April 7 to 9, 2025). Suivi quotidien CTV/Globe and Mail/Nanos, moyenne glissante de trois jours de terrain (April 7 to 9, 2025), échantillon total n=1,238. Pourcentages des électeurs décidés. n = effectifs des décidés imprimés sous chaque en-tête de colonne (Canada n=1,172). Prairies = Manitoba, Saskatchewan et Alberta ensemble. Bloc imprimé à 0.0% hors Québec, omis ; « Other » transcrit en AUTRES. Particularité : la part libérale en BC est imprimée « 43. 4% » (espace parasite), transcrite 43.4.",
+  "groupes": {
+    "National": {
+      "n": 1172,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 43.0,
+        "CPC": 38.1,
+        "NDP": 8.9,
+        "BQ": 5.7,
+        "GPC": 2.6,
+        "PPC": 1.5,
+        "AUTRES": 0.3
+      }
+    },
+    "ATL": {
+      "n": 115,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 52.3,
+        "CPC": 40.1,
+        "NDP": 7.6,
+        "GPC": 0.0,
+        "PPC": 0.0,
+        "AUTRES": 0.0
+      }
+    },
+    "QC": {
+      "n": 287,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 39.5,
+        "CPC": 26.8,
+        "NDP": 5.7,
+        "BQ": 24.9,
+        "GPC": 2.4,
+        "PPC": 0.5,
+        "AUTRES": 0.0
+      }
+    },
+    "ON": {
+      "n": 355,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 48.4,
+        "CPC": 38.6,
+        "NDP": 7.9,
+        "GPC": 2.9,
+        "PPC": 1.5,
+        "AUTRES": 0.7
+      }
+    },
+    "PRAIRIES": {
+      "n": 248,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 32.1,
+        "CPC": 53.3,
+        "NDP": 10.3,
+        "GPC": 1.1,
+        "PPC": 3.2,
+        "AUTRES": 0.0
+      }
+    },
+    "BC": {
+      "n": 167,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 43.4,
+        "CPC": 34.4,
+        "NDP": 15.6,
+        "GPC": 4.9,
+        "PPC": 1.3,
+        "AUTRES": 0.4
+      }
+    }
+  }
+}

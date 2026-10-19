@@ -1,0 +1,92 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Earnscliffe/Leger",
+  "date_debut": "2021-09-10",
+  "date_fin": "2021-09-12",
+  "document": "Federal Election Polling Update: Week 5 – Insights on national and regional races (Earnscliffe Strategy Group / Leger, 15 septembre 2021)",
+  "reference": "https://web.archive.org/web/20210915151311im_/https://earnscliffe.ca/wp-content/uploads/2021/09/Wk-5-slide-6.png",
+  "note": "Diapositive « Vote Intention » (Wk-5-slide-6.png) de la page https://earnscliffe.ca/en/news-and-insight/federal-election-polling-update-week-5/ (consultée via l'archive Wayback du 15 septembre 2021 ; page originale retirée). Barres horizontales avec étiquettes imprimées pour chaque segment ; seuls les segments étiquetés sont repris (pas d'étiquette pour « Other » en AC, QC, MB/SK, BC ni pour Green en AB). Base : « Decided, leaning & voted (gave party name) », n=1,361 sur 1 549 répondants. n = effectifs imprimés par région. AB « Other » = 5 %. Terrain du 10 au 12 septembre 2021 ; libellé « AC » = Atlantique.",
+  "groupes": {
+    "National": {
+      "n": 1361,
+      "libelle": "National",
+      "parts": {
+        "LPC": 32,
+        "CPC": 32,
+        "NDP": 20,
+        "GPC": 4,
+        "BQ": 7,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 92,
+      "libelle": "AC",
+      "parts": {
+        "LPC": 43,
+        "CPC": 28,
+        "NDP": 23,
+        "GPC": 3,
+        "PPC": 4
+      }
+    },
+    "QC": {
+      "n": 375,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 32,
+        "CPC": 18,
+        "NDP": 13,
+        "GPC": 3,
+        "BQ": 30,
+        "PPC": 4
+      }
+    },
+    "ON": {
+      "n": 543,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 33,
+        "CPC": 34,
+        "NDP": 21,
+        "GPC": 5,
+        "PPC": 6,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 106,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 24,
+        "CPC": 45,
+        "NDP": 25,
+        "GPC": 2,
+        "PPC": 3
+      }
+    },
+    "AB": {
+      "n": 108,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 21,
+        "CPC": 50,
+        "NDP": 19,
+        "PPC": 4,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": 137,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 33,
+        "CPC": 32,
+        "NDP": 28,
+        "GPC": 4,
+        "PPC": 3
+      }
+    }
+  }
+}

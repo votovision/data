@@ -8,7 +8,7 @@ Données électorales et de sondages du projet Votovision / election and poll da
 |---|---|
 | `csv/` | Tables publiées : sondages (`sondages.csv`), parts par parti (`parts.csv`), résultats officiels par circonscription (`resultats.csv`) et, pour le Québec, par section de vote (`resultats_sections_qc.csv`), candidatures, circonscriptions et recensement par circonscription. Chaque ligne indique sa source primaire. |
 | `geo/` | Limites des circonscriptions en GeoJSON simplifié (fédérales de 2023, Colombie-Britannique de 2023), lues par les tableaux de bord. |
-| `sources/` | Téléchargeurs et lecteurs, un par source publique (Wikipédia, Élections Canada, Élections Québec, Elections BC, Statistique Canada, rapports des maisons de sondage, agences provinciales), et transpositions d'une carte électorale à une autre. |
+| `sources/` | Téléchargeurs et lecteurs, un par source publique (Wikipédia, Élections Canada, Élections Québec, Elections BC, Statistique Canada, rapports des maisons de sondage, agences provinciales), et transpositions d'une carte électorale à une autre. `sources/rapports/<juridiction>/` : ventilations des sondages (régions, langue, âge) transcrites des rapports des sondeurs, un fichier JSON par sondage avec le document source ; la vigile les intègre aux tables. |
 | `vigile/` | Vigile des sondages : détecte les sondages nouveaux ou modifiés dans les sources, les intègre et met à jour les tables. |
 | `etat/` | État de la vigile : dernière révision lue de chaque source. |
 | `raw/` | Téléchargements bruts, locaux, non versionnés. |

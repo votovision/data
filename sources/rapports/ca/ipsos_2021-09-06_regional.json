@@ -1,0 +1,89 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2021-09-03",
+  "date_fin": "2021-09-06",
+  "document": "Conservatives Continue to Build Momentum and Slight National Lead over Liberals as NDP Surge Halts – Vote Choice Banner 2 (Ipsos/Global News, 8 septembre 2021)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-09/Vote%20Choice%20-%20Banner%202.pdf",
+  "note": "Bannière 2, p. 2, colonnes Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance. Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). PPC en AB = « * » (moins de 0,5 %), non repris ; pas de ligne « other party » dans ce tableau. Terrain du 3 au 6 septembre 2021 (n=1 500). Chiffres concordant avec le communiqué Week 4 FedVote Factum_1.pdf. Page : https://www.ipsos.com/en-ca/news-polls/conservatives-continue-to-build-momentum-and-slight-national-lead-over-liberals-as-ndp-surge-halts",
+  "groupes": {
+    "National": {
+      "n": 1288,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 32,
+        "CPC": 35,
+        "NDP": 21,
+        "BQ": 7,
+        "GPC": 2,
+        "PPC": 2
+      }
+    },
+    "ATL": {
+      "n": 103,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 44,
+        "CPC": 25,
+        "NDP": 26,
+        "GPC": 3,
+        "PPC": 1
+      }
+    },
+    "QC": {
+      "n": 262,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 33,
+        "CPC": 21,
+        "NDP": 8,
+        "BQ": 34,
+        "GPC": 2,
+        "PPC": 2
+      }
+    },
+    "ON": {
+      "n": 494,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 35,
+        "CPC": 37,
+        "NDP": 22,
+        "GPC": 2,
+        "PPC": 4
+      }
+    },
+    "MBSK": {
+      "n": 97,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 27,
+        "CPC": 48,
+        "NDP": 22,
+        "GPC": 2,
+        "PPC": 1
+      }
+    },
+    "AB": {
+      "n": 170,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 20,
+        "CPC": 54,
+        "NDP": 23,
+        "GPC": 2
+      }
+    },
+    "BC": {
+      "n": 162,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 29,
+        "CPC": 30,
+        "NDP": 35,
+        "GPC": 4,
+        "PPC": 3
+      }
+    }
+  }
+}

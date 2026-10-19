@@ -1,0 +1,104 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2021-09-15",
+  "date_fin": "2021-09-18",
+  "document": "Déjà vu all over again? CPC, Liberals locked in tight battle with smaller parties poised to make the difference (Angus Reid Institute, 2021-09-18)",
+  "reference": "https://angusreid.org/wp-content/uploads/2021/09/2021.09.18_federal_final.pdf",
+  "note": "PDF du communiqué, page 4, tableau « Federal vote intention – leaning and decided voters (Change since start of campaign noted) », colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : électeurs décidés et enclins. n = effectifs non pondérés imprimés dans l'en-tête du tableau ; contrairement aux autres vagues, le total imprimé (n=2 042) est celui de l'échantillon complet et non des seuls décidés, et les n régionaux sont donc vraisemblablement aussi ceux de l'échantillon complet. Les cellules « - » (Bloc hors Québec ; Vert en AB et SK ; Other en MB, ON, ATL) ne sont pas transcrites. Terrain : 15 au 18 septembre 2021.",
+  "groupes": {
+    "National": {
+      "n": 2042,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 32,
+        "LPC": 30,
+        "NDP": 20,
+        "BQ": 7,
+        "PPC": 5,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 168,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 28,
+        "LPC": 40,
+        "NDP": 24,
+        "PPC": 4,
+        "GPC": 4
+      }
+    },
+    "QC": {
+      "n": 482,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 19,
+        "LPC": 31,
+        "NDP": 11,
+        "BQ": 31,
+        "PPC": 4,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 664,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 33,
+        "LPC": 39,
+        "NDP": 20,
+        "PPC": 5,
+        "GPC": 3
+      }
+    },
+    "MB": {
+      "n": 121,
+      "libelle": "MB",
+      "parts": {
+        "CPC": 34,
+        "LPC": 25,
+        "NDP": 27,
+        "PPC": 11,
+        "GPC": 4
+      }
+    },
+    "SK": {
+      "n": 112,
+      "libelle": "SK",
+      "parts": {
+        "CPC": 52,
+        "LPC": 12,
+        "NDP": 20,
+        "PPC": 13,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 179,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 49,
+        "LPC": 14,
+        "NDP": 22,
+        "PPC": 9,
+        "AUTRES": 6
+      }
+    },
+    "BC": {
+      "n": 330,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 36,
+        "LPC": 20,
+        "NDP": 30,
+        "PPC": 4,
+        "GPC": 8,
+        "AUTRES": 1
+      }
+    }
+  }
+}

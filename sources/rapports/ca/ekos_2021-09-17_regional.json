@@ -1,0 +1,18 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "EKOS",
+  "date_debut": "2021-09-15",
+  "date_fin": "2021-09-17",
+  "document": "Daily Tracking: September 18, 2021 — data tables (EKOS, 2021-09-18)",
+  "reference": "https://www.ekospolitics.com/wp-content/uploads/20210918datatables.pdf",
+  "note": "Sondage de suivi quotidien EKOS (fenêtre glissante, « Field dates: September 15-17, 2021 » imprimé en tête), lié depuis https://www.ekospolitics.com/index.php/2021/09/daily-tracking-september-18-2021/. Tableau « Decided Federal vote intention (includes leaning) & Special ballot vote », code FEDVTX, page 1 du PDF. Base : électeurs décidés et enclins, votes par bulletin spécial inclus (pas de ligne indécis) ; le total national correspond à Wikipédia. n = ligne « Total: » (effectif non pondéré des décidés) ; la ligne « Weighted Total: » donne 1264 au total. Colonnes régionales imprimées : BC+Ter, AB, SK, MB, ON, QC, Atl, SK+MB ; seule la colonne combinée SK+MB est reprise (SK et MB séparés, à très petits effectifs, ne sont pas transcrits pour éviter le double compte). « BC+Ter » = Colombie-Britannique et territoires. Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec. « Another party not listed here » = AUTRES.",
+  "groupes": {
+    "National": {"n": 1271, "libelle": "Total", "parts": {"LPC": 30.6, "CPC": 27.7, "NDP": 20.0, "BQ": 7.3, "GPC": 4.5, "PPC": 9.1, "AUTRES": 0.8}},
+    "BC": {"n": 208, "libelle": "BC+Ter", "parts": {"LPC": 20.7, "CPC": 33.1, "NDP": 31.6, "GPC": 7.7, "PPC": 6.2, "AUTRES": 0.6}},
+    "AB": {"n": 152, "libelle": "AB", "parts": {"LPC": 20.9, "CPC": 39.5, "NDP": 13.1, "GPC": 5.3, "PPC": 20.5, "AUTRES": 0.7}},
+    "MBSK": {"n": 52, "libelle": "SK+MB", "parts": {"LPC": 27.3, "CPC": 51.4, "NDP": 13.3, "GPC": 0.0, "PPC": 7.4, "AUTRES": 0.5}},
+    "ON": {"n": 392, "libelle": "ON", "parts": {"LPC": 39.2, "CPC": 25.9, "NDP": 22.2, "GPC": 5.0, "PPC": 7.2, "AUTRES": 0.6}},
+    "QC": {"n": 360, "libelle": "QC", "parts": {"LPC": 27.4, "CPC": 15.7, "NDP": 14.8, "BQ": 30.2, "GPC": 2.8, "PPC": 7.4, "AUTRES": 1.7}},
+    "ATL": {"n": 107, "libelle": "Atl", "parts": {"LPC": 33.3, "CPC": 27.6, "NDP": 19.7, "GPC": 4.6, "PPC": 14.8, "AUTRES": 0.0}}
+  }
+}

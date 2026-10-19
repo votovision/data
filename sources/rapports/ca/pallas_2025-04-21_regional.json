@@ -1,0 +1,18 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Pallas Data",
+  "date_debut": "2025-04-21",
+  "date_fin": "2025-04-21",
+  "document": "Federal Voting Intentions — Week 5: 45th Federal Election Campaign (Pallas Data, 2025-04-22)",
+  "reference": "https://files.constantcontact.com/f737aa99901/ac4c3336-d424-4141-bc6e-e6b2d3bc7153.pdf",
+  "note": "Sondage IVR mené le 21 avril 2025 auprès de 1306 électeurs (méthodologie, p. 3). Total national 42,5/37,9/8,5/5,5/2,5/2,1/1 = Wikipédia. Tableau « If a federal election were held today, which party would you vote for? (Decided and Leaning Voters) [1] », page 14 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). n = « Unweighted Frequency » des décidés ; « Weighted Frequency » donne 1274, 174, 144, 83, 488, 298, 87. « Prairies » est imprimé à côté d'une colonne « Alberta » distincte : il s'agit du Manitoba et de la Saskatchewan. « Another Party » = AUTRES. Le Bloc (0 % hors Québec) n'est reporté que pour le Québec. Les pourcentages sont imprimés sans décimale lorsqu'elle est nulle (ex. « 32% »).",
+  "groupes": {
+    "National": {"n": 1274, "libelle": "Total", "parts": {"LPC": 42.5, "CPC": 37.9, "NDP": 8.5, "BQ": 5.5, "GPC": 2.5, "PPC": 2.1, "AUTRES": 1}},
+    "BC": {"n": 174, "libelle": "BC", "parts": {"LPC": 44.9, "CPC": 36.5, "NDP": 11.4, "GPC": 5.9, "PPC": 0.6, "AUTRES": 0.8}},
+    "AB": {"n": 119, "libelle": "Alberta", "parts": {"LPC": 32, "CPC": 57.8, "NDP": 6.6, "GPC": 0, "PPC": 3.6, "AUTRES": 0}},
+    "MBSK": {"n": 96, "libelle": "Prairies", "parts": {"LPC": 28.1, "CPC": 49.8, "NDP": 11.8, "GPC": 3.4, "PPC": 0, "AUTRES": 6.9}},
+    "ON": {"n": 479, "libelle": "Ontario", "parts": {"LPC": 47.7, "CPC": 35.7, "NDP": 9.9, "GPC": 2.2, "PPC": 3.4, "AUTRES": 1.1}},
+    "QC": {"n": 322, "libelle": "Quebec", "parts": {"LPC": 39, "CPC": 29.1, "NDP": 5.6, "BQ": 23.6, "GPC": 1.7, "PPC": 1.1, "AUTRES": 0}},
+    "ATL": {"n": 84, "libelle": "Atlantic", "parts": {"LPC": 52.4, "CPC": 39.1, "NDP": 4.6, "GPC": 3.1, "PPC": 0.9, "AUTRES": 0}}
+  }
+}

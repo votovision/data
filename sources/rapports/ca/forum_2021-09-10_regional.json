@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Forum Research",
+  "date_debut": "2021-09-10",
+  "date_fin": "2021-09-10",
+  "document": "Federal Election Poll - Sept 11th 2021 (Forum Research, communiqué du 11 septembre 2021)",
+  "reference": "https://poll.forumresearch.com/data/b0cc5e28-d576-46fd-8376-ac0df5c8fe95Federal%20Election%20Poll%20-%20Sept%2011th%202021.pdf",
+  "note": "Page 3, tableau « Region » de la question de vote « [Decided / Leaning] » (décidés et enclins), total national identique à Wikipédia. Pourcentages entiers. n = ligne « Sample » imprimée (total 1524, alors que la méthodologie et Wikipédia donnent 1579 répondants : la ligne « Sample » correspond probablement aux décidés et enclins). « PQ » = Québec. Bloc imprimé à 0 hors Québec, omis. AUTRES = « Other Parties ». Terrain : 10 septembre 2021. PDF lu dans la copie de l'Internet Archive du 2021-09-11 (serveur de Forum en maintenance le 2026-10-19).",
+  "groupes": {
+    "National": {
+      "n": 1524,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 31,
+        "LPC": 28,
+        "NDP": 18,
+        "GPC": 4,
+        "BQ": 8,
+        "PPC": 9,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 162,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 30,
+        "LPC": 34,
+        "NDP": 16,
+        "GPC": 5,
+        "PPC": 14,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 261,
+      "libelle": "PQ",
+      "parts": {
+        "CPC": 19,
+        "LPC": 24,
+        "NDP": 9,
+        "GPC": 4,
+        "BQ": 35,
+        "PPC": 6,
+        "AUTRES": 3
+      }
+    },
+    "ON": {
+      "n": 738,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 33,
+        "LPC": 35,
+        "NDP": 17,
+        "GPC": 4,
+        "PPC": 10,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 79,
+      "libelle": "MB / SK",
+      "parts": {
+        "CPC": 48,
+        "LPC": 20,
+        "NDP": 25,
+        "GPC": 2,
+        "PPC": 5,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": 127,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 45,
+        "LPC": 14,
+        "NDP": 22,
+        "GPC": 3,
+        "PPC": 12,
+        "AUTRES": 4
+      }
+    },
+    "BC": {
+      "n": 157,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 31,
+        "LPC": 24,
+        "NDP": 27,
+        "GPC": 4,
+        "PPC": 11,
+        "AUTRES": 3
+      }
+    }
+  }
+}

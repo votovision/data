@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Forum Research",
+  "date_debut": "2025-04-27",
+  "date_fin": "2025-04-27",
+  "document": "Liberals Hold Lead Over Conservatives Heading into Election Day (Forum Research, communiqué du 27 avril 2025)",
+  "reference": "https://poll.forumresearch.com/data/c692522c-7995-4789-b451-f8ccca2ee18bLiberals%20Hold%20Lead%20Over%20Conservatives%20Heading%20into%20Election%20Day%20April%2027%202025_v2.pdf",
+  "note": "Page 2, tableau « Region » de la question « [Decided/ Leaning] » (décidés et enclins), total national identique à Wikipédia. Pourcentages entiers. n = « TOTAL (u/w) », effectif non pondéré des décidés et enclins. Bloc imprimé à 0 hors Québec, omis. Le serveur de Forum étant en maintenance le 2026-10-19, le PDF a été lu dans la copie de l'Internet Archive du 2025-05-09 (http://web.archive.org/web/20250509060100/ + l'URL de référence).",
+  "groupes": {
+    "National": {
+      "n": 1134,
+      "libelle": "TOTAL",
+      "parts": {
+        "CPC": 39,
+        "LPC": 43,
+        "NDP": 8,
+        "GPC": 2,
+        "BQ": 6,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 121,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 34,
+        "LPC": 59,
+        "NDP": 5,
+        "GPC": 1,
+        "PPC": 0,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 192,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 27,
+        "LPC": 30,
+        "NDP": 9,
+        "GPC": 3,
+        "BQ": 27,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 401,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 36,
+        "LPC": 54,
+        "NDP": 7,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": 120,
+      "libelle": "MB/SK",
+      "parts": {
+        "CPC": 41,
+        "LPC": 43,
+        "NDP": 14,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": 139,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 60,
+        "LPC": 32,
+        "NDP": 5,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 161,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 48,
+        "LPC": 36,
+        "NDP": 10,
+        "GPC": 4,
+        "PPC": 0,
+        "AUTRES": 2
+      }
+    }
+  }
+}

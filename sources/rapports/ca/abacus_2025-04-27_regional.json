@@ -1,0 +1,81 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2025-04-24",
+  "date_fin": "2025-04-27",
+  "document": "Abacus Data: Our Final Poll of the Campaign (Abacus Data, 2025-04-27)",
+  "reference": "https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/",
+  "note": "Graphique image « Vote by province/region » (diapositive 10, Wave 7, https://abacusdata.ca/wp-content/uploads/2025/04/image-146.png) ; national : diapositive 8 « Final popular vote estimate » (image-144.png). Base : modèle d'électeurs probables, décidés (« Undecided removed ») : « Voted in Advance and Likely Voters (n=1,809) » ; échantillon total 2 500. n national = 1 809 (base du graphique) ; n régionaux non imprimés. Seules les étiquettes entièrement lisibles sont transcrites : BC Vert/PPC, ON Vert/PPC (étiquettes superposées), ATL Vert (tronquée), AB et SK/MB Vert, « Other » (non étiquetés) omis. Concorde avec le texte du billet. Terrain : 24 au 27 avril 2025.",
+  "groupes": {
+    "National": {
+      "n": 1809,
+      "libelle": "Final popular vote estimate",
+      "parts": {
+        "LPC": 41,
+        "CPC": 39,
+        "NDP": 10,
+        "BQ": 6,
+        "PPC": 3,
+        "GPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 37,
+        "LPC": 56,
+        "NDP": 5
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 20,
+        "LPC": 39,
+        "NDP": 7,
+        "BQ": 29,
+        "PPC": 3
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 42,
+        "LPC": 45,
+        "NDP": 7
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 47,
+        "LPC": 39,
+        "NDP": 13
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 58,
+        "LPC": 19,
+        "NDP": 15,
+        "PPC": 8
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 40,
+        "LPC": 38,
+        "NDP": 17
+      }
+    }
+  }
+}

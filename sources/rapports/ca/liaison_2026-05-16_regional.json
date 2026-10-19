@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Liaison Strategies",
+  "date_debut": "2026-05-04",
+  "date_fin": "2026-05-16",
+  "document": "Weekly Federal Tracker, National Survey (Liaison Strategies, 18 mai 2026)",
+  "reference": "https://storage.ghost.io/c/5a/2c/5a2c6702-fc8c-4232-bdc0-33fad8d71a80/content/files/2026/05/2026.05.18---Federal-Tracker.pdf",
+  "note": "PDF (pages en image) p. 9 (Total) et p. 10 (tableau régional « If a Federal Election were held today, which party would you vote for? », sans ligne Undecided, après le graphique « Decided and Leaning » p. 8). Base : électeurs décidés et enclins. n = effectifs non pondérés « Decided & Leaning » imprimés p. 4 (pondérés : Total 1385, ATL 93, QC 322, ON 530, MB/SK 91, AB 153, BC 198). BQ imprimé à 0 % hors Québec, omis. Terrain IVR du 4 au 16 mai 2026, 1526 répondants dont suréchantillon québécois (n = 750).",
+  "groupes": {
+    "National": {
+      "n": 1388,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 43,
+        "CPC": 34,
+        "NDP": 11,
+        "BQ": 6,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 63,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 55,
+        "CPC": 26,
+        "NDP": 18,
+        "GPC": 2,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 685,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 35,
+        "CPC": 26,
+        "NDP": 10,
+        "BQ": 25,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 343,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 49,
+        "CPC": 36,
+        "NDP": 10,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 65,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 34,
+        "CPC": 45,
+        "NDP": 12,
+        "GPC": 2,
+        "PPC": 4,
+        "AUTRES": 4
+      }
+    },
+    "AB": {
+      "n": 99,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 36,
+        "CPC": 39,
+        "NDP": 10,
+        "GPC": 4,
+        "PPC": 5,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": 133,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 42,
+        "CPC": 38,
+        "NDP": 15,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    }
+  }
+}

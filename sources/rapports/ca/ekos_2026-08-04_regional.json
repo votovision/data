@@ -1,0 +1,19 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2026-07-21",
+  "date_fin": "2026-08-04",
+  "document": "Liberal Dominance Masks a Rapidly Churning Political Landscape — Data tables (EKOS, 2026-08-11)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20260811datatables.pdf",
+  "note": "Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF (Field dates: July 21-August 4, 2026). Base : électeurs décidés et enclins (pas de ligne indécis) ; le total national correspond à Wikipédia. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 2752, 410, 306, 76, 95, 1074, 606, 184. La colonne BC est « BC+Ter » (Colombie-Britannique et territoires). Saskatchewan et Manitoba publiés séparément. Partis imprimés LP, CP, NDP, GP, BQ, PP, Other. Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": { "n": 2772, "libelle": "Total", "parts": { "LPC": 44.7, "CPC": 27.1, "NDP": 17.0, "BQ": 4.4, "GPC": 3.5, "PPC": 2.2, "AUTRES": 1.0 } },
+    "BC": { "n": 409, "libelle": "BC+Ter", "parts": { "LPC": 44.8, "CPC": 27.2, "NDP": 21.3, "GPC": 5.8, "PPC": 0.5, "AUTRES": 0.3 } },
+    "AB": { "n": 305, "libelle": "AB", "parts": { "LPC": 33.9, "CPC": 41.8, "NDP": 16.7, "GPC": 1.6, "PPC": 3.4, "AUTRES": 2.5 } },
+    "SK": { "n": 72, "libelle": "SK", "parts": { "LPC": 35.8, "CPC": 47.1, "NDP": 14.4, "GPC": 0.0, "PPC": 2.6, "AUTRES": 0.0 } },
+    "MB": { "n": 93, "libelle": "MB", "parts": { "LPC": 42.5, "CPC": 27.8, "NDP": 20.9, "GPC": 3.9, "PPC": 3.3, "AUTRES": 1.5 } },
+    "ON": { "n": 1079, "libelle": "ON", "parts": { "LPC": 48.3, "CPC": 25.3, "NDP": 19.4, "GPC": 3.5, "PPC": 2.3, "AUTRES": 1.2 } },
+    "QC": { "n": 625, "libelle": "QC", "parts": { "LPC": 40.8, "CPC": 21.7, "NDP": 10.9, "BQ": 20.1, "GPC": 3.8, "PPC": 2.1, "AUTRES": 0.5 } },
+    "ATL": { "n": 188, "libelle": "Atl", "parts": { "LPC": 59.0, "CPC": 22.3, "NDP": 13.2, "GPC": 1.6, "PPC": 2.4, "AUTRES": 1.5 } }
+  }
+}

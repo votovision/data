@@ -1,0 +1,91 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Leger",
+  "date_debut": "2021-09-03",
+  "date_fin": "2021-09-06",
+  "document": "Postmedia-Leger Poll – Federal Ballot, September 2021 (PostMedia_NationalPost_FederalBallot_Sep2021v2-ballot.pdf) (Léger/Postmedia, 7 septembre 2021)",
+  "reference": "https://leger360.com/wp-content/uploads/2024/02/PostMedia_NationalPost_FederalBallot_Sep2021v2-ballot.pdf",
+  "note": "PDF p. 5, tableau « Federal Voting Intentions – September 07, 2021 » (Q1/Q2, avec relance des indécis). Colonnes « Decided Voters » et Region (ATL, QC, ON, MB/ SK, AB, BC). Base : électeurs décidés. n = effectifs pondérés imprimés (Weighted n) ; leur somme régionale (2 579) égale le n pondéré des décidés ; aucun n non pondéré imprimé. « Someone else » imprimé « <1% » sauf en Ontario (1 %) : seul ON est repris en AUTRES. Terrain du 3 au 6 septembre 2021 (p. 3). Fichier republié par Léger en 2024 dans wp-content/uploads/2024/02.",
+  "groupes": {
+    "National": {
+      "n": 2579,
+      "libelle": "Decided Voters",
+      "parts": {
+        "LPC": 33,
+        "CPC": 33,
+        "NDP": 21,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 3
+      }
+    },
+    "ATL": {
+      "n": 171,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 39,
+        "CPC": 27,
+        "NDP": 26,
+        "GPC": 6,
+        "PPC": 2
+      }
+    },
+    "QC": {
+      "n": 596,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 34,
+        "CPC": 21,
+        "NDP": 12,
+        "BQ": 27,
+        "GPC": 2,
+        "PPC": 3
+      }
+    },
+    "ON": {
+      "n": 989,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 36,
+        "CPC": 35,
+        "NDP": 22,
+        "GPC": 2,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 164,
+      "libelle": "MB/ SK",
+      "parts": {
+        "LPC": 25,
+        "CPC": 41,
+        "NDP": 26,
+        "GPC": 1,
+        "PPC": 7
+      }
+    },
+    "AB": {
+      "n": 300,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 21,
+        "CPC": 53,
+        "NDP": 23,
+        "GPC": 1,
+        "PPC": 1
+      }
+    },
+    "BC": {
+      "n": 359,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 33,
+        "CPC": 31,
+        "NDP": 28,
+        "GPC": 6,
+        "PPC": 2
+      }
+    }
+  }
+}

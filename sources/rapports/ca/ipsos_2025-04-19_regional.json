@@ -1,0 +1,87 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2025-04-17",
+  "date_fin": "2025-04-19",
+  "document": "Race Tightens Further as Campaign Hits Final Stretch – Fedvote Table 2 (Ipsos/Global News, avril 2025)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2025-04/Fedvote%20Table%202_0.pdf",
+  "note": "Tableau 2, p. 1, bannière Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance (« lean towards »). Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). Valeurs « * » (moins de 0,5 %) et « - » non reprises : PPC en BC et QC, GPC en AB, « other » national et en Ontario. Terrain du 17 au 19 avril 2025 (communiqué Fedvote Release.pdf, n=1 001). Page : https://www.ipsos.com/en-ca/race-tightens-further-campaign-hits-final-stretch",
+  "groupes": {
+    "National": {
+      "n": 893,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 41,
+        "CPC": 38,
+        "NDP": 12,
+        "BQ": 5,
+        "GPC": 2,
+        "PPC": 2
+      }
+    },
+    "ATL": {
+      "n": 58,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 56,
+        "CPC": 38,
+        "NDP": 5,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 204,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 40,
+        "CPC": 22,
+        "NDP": 9,
+        "BQ": 25,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 354,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 44,
+        "CPC": 36,
+        "NDP": 13,
+        "GPC": 2,
+        "PPC": 4
+      }
+    },
+    "MBSK": {
+      "n": 56,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 29,
+        "CPC": 48,
+        "NDP": 22,
+        "GPC": 1
+      }
+    },
+    "AB": {
+      "n": 96,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 31,
+        "CPC": 56,
+        "NDP": 11,
+        "PPC": 2
+      }
+    },
+    "BC": {
+      "n": 125,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 43,
+        "CPC": 44,
+        "NDP": 10,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}

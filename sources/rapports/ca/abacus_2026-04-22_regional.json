@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-04-16",
+  "date_fin": "2026-04-22",
+  "document": "Canadian Politics: Liberals Extend Lead and Consolidate Support After Securing Majority (Abacus Data, 2026-04-26)",
+  "reference": "https://abacusdata.ca/canadian-politics-liberals-extend-lead-and-consolidate-support-following-majority-wins/",
+  "note": "Widget interactif « Federal Vote Intention – Abacus Data Apr 2026 W2 » du billet : onglet Overall (« April 22, 2026 — All Canadians ») pour le national, onglet Region, tableau « Vote Intention by Region » (« Federal vote intention by region — Undecided removed ») pour les régions. Base : électeurs décidés (indécis retirés). n national = échantillon total (2 000) ; n régionaux non imprimés. Le BQ à 0 % hors Québec est omis. Terrain : « April 16 to 21, 2026 » dans le widget, « April 16 to 22, 2026 » dans la méthodologie du billet ; date_fin de la liste conservée.",
+  "groupes": {
+    "National": {
+      "n": 2000,
+      "libelle": "All Canadians",
+      "parts": {
+        "LPC": 45,
+        "CPC": 36,
+        "NDP": 8,
+        "GPC": 2,
+        "BQ": 7,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 58,
+        "CPC": 33,
+        "NDP": 8,
+        "GPC": 1,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 43,
+        "CPC": 19,
+        "NDP": 4,
+        "GPC": 2,
+        "BQ": 30,
+        "PPC": 0,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 50,
+        "CPC": 38,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 40,
+        "CPC": 47,
+        "NDP": 10,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 26,
+        "CPC": 60,
+        "NDP": 10,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 48,
+        "CPC": 34,
+        "NDP": 12,
+        "GPC": 2,
+        "PPC": 4,
+        "AUTRES": 0
+      }
+    }
+  }
+}

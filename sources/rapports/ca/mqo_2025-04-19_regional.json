@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "MQO Research",
+  "date_debut": "2025-04-17",
+  "date_fin": "2025-04-19",
+  "document": "Canada Federal Election 2025 — tableaux, terrain 17-19 avril 2025 (MQO Research, 21 avril 2025)",
+  "reference": "https://www.mqoresearch.com/wp-content/uploads/2025/04/MQO_FEDelxn_tables_Apr17-Apr19_2025.04.21.pdf",
+  "note": "Page 1, dernier tableau « VOTE_INTENTALL )) [DECIDED/LEANING VOTERS] Party Voting Intention (DECIDED+LEANING) », colonnes « CAD REGION » ; base : décidés ou enclins (indécis et abstentionnistes exclus), total national identique à Wikipédia. Pourcentages entiers. n = effectifs non pondérés (« UNWEIGHTED SAMPLE SIZE ») sur cette base. Pas de ligne « Other » dans ce tableau. Bloc imprimé à 0 hors Québec, omis.",
+  "groupes": {
+    "National": {
+      "n": 2153,
+      "libelle": "OVERALL",
+      "parts": {
+        "LPC": 44,
+        "CPC": 36,
+        "NDP": 10,
+        "BQ": 5,
+        "PPC": 3,
+        "GPC": 3
+      }
+    },
+    "ATL": {
+      "n": 158,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 49,
+        "CPC": 37,
+        "NDP": 6,
+        "PPC": 5,
+        "GPC": 3
+      }
+    },
+    "QC": {
+      "n": 545,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 48,
+        "CPC": 22,
+        "NDP": 5,
+        "BQ": 20,
+        "PPC": 2,
+        "GPC": 2
+      }
+    },
+    "ON": {
+      "n": 589,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 47,
+        "CPC": 37,
+        "NDP": 10,
+        "PPC": 3,
+        "GPC": 2
+      }
+    },
+    "MBSK": {
+      "n": 206,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 31,
+        "CPC": 44,
+        "NDP": 16,
+        "PPC": 4,
+        "GPC": 4
+      }
+    },
+    "AB": {
+      "n": 308,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 31,
+        "CPC": 55,
+        "NDP": 9,
+        "PPC": 2,
+        "GPC": 2
+      }
+    },
+    "BC": {
+      "n": 347,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 44,
+        "CPC": 35,
+        "NDP": 15,
+        "PPC": 2,
+        "GPC": 4
+      }
+    }
+  }
+}

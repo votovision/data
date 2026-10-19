@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Leger",
+  "date_debut": "2025-04-21",
+  "date_fin": "2025-04-25",
+  "document": "Federal Election 2025 – Voting Intentions, April 25th FINAL (Léger, avril 2025)",
+  "reference": "https://leger360.com/wp-content/uploads/2025/04/Leger-CAN_voting_intentions_April_25th_FINAL.pdf",
+  "note": "PDF p. 6, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région. Terrain du 21 au 25 avril 2025 (p. 2), n=1 502 ; la liste source indique n=150245 (coquille probable de Wikipédia). Question incluant les votes déjà exprimés par anticipation.",
+  "groupes": {
+    "National": {
+      "n": 1333,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 43,
+        "CPC": 39,
+        "NDP": 8,
+        "BQ": 6,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 81,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 55,
+        "CPC": 37,
+        "NDP": 6,
+        "GPC": 0,
+        "PPC": 0,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": 345,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 42,
+        "CPC": 24,
+        "NDP": 5,
+        "BQ": 26,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 550,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 48,
+        "CPC": 40,
+        "NDP": 8,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 103,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 36,
+        "CPC": 50,
+        "NDP": 11,
+        "GPC": 0,
+        "PPC": 0,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 116,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 32,
+        "CPC": 56,
+        "NDP": 9,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 138,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 43,
+        "CPC": 40,
+        "NDP": 11,
+        "GPC": 5,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    }
+  }
+}

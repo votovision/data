@@ -1,0 +1,108 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2021-09-09",
+  "date_fin": "2021-09-12",
+  "document": "Election 44: With one week left in campaign, CPC and Liberals locked in two-way race, mirroring 2019 (Angus Reid Institute, 2021-09-14)",
+  "reference": "https://angusreid.org/wp-content/uploads/2021/09/2021.09.14_fed_vote.pdf",
+  "note": "PDF du communiqué, page 7, tableau « Federal vote intention – leaning and decided voters (Change since start of campaign noted) », colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : électeurs décidés et enclins. n = effectifs non pondérés imprimés. Les cellules « - » (Bloc hors Québec ; Vert en AB) ne sont pas transcrites. Terrain : 9 au 12 septembre 2021 (n=1 840).",
+  "groupes": {
+    "National": {
+      "n": 1689,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 32,
+        "LPC": 30,
+        "NDP": 21,
+        "BQ": 7,
+        "PPC": 6,
+        "GPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 142,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 27,
+        "LPC": 43,
+        "NDP": 19,
+        "PPC": 8,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 367,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 20,
+        "LPC": 30,
+        "NDP": 15,
+        "BQ": 29,
+        "PPC": 4,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 515,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 32,
+        "LPC": 37,
+        "NDP": 22,
+        "PPC": 7,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "MB": {
+      "n": 114,
+      "libelle": "MB",
+      "parts": {
+        "CPC": 37,
+        "LPC": 28,
+        "NDP": 23,
+        "PPC": 7,
+        "GPC": 3,
+        "AUTRES": 3
+      }
+    },
+    "SK": {
+      "n": 122,
+      "libelle": "SK",
+      "parts": {
+        "CPC": 53,
+        "LPC": 13,
+        "NDP": 19,
+        "PPC": 5,
+        "GPC": 1,
+        "AUTRES": 9
+      }
+    },
+    "AB": {
+      "n": 143,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 57,
+        "LPC": 14,
+        "NDP": 14,
+        "PPC": 10,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": 285,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 33,
+        "LPC": 21,
+        "NDP": 35,
+        "PPC": 4,
+        "GPC": 5,
+        "AUTRES": 2
+      }
+    }
+  }
+}

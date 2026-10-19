@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2026-07-23",
+  "date_fin": "2026-07-29",
+  "document": "Liberals Maintain Six-Point Lead as Trump Tariff Threat and Wildfires Reshape the Public Agenda (Abacus Data, 2026-08-02)",
+  "reference": "https://abacusdata.ca/liberals-maintain-six-point-lead-as-trump-tariff-threat-and-wildfires-reshape-the-public-agenda/",
+  "note": "Widget du billet, onglet By Region, tableau HTML « Federal Vote by Region » (« Undecided removed »), ligne Canada comprise. Base : électeurs décidés. n national = échantillon total (1 910) ; n régionaux non imprimés. BQ à 0 % hors Québec omis. Concorde avec le texte du billet. Terrain : 23 au 29 juillet 2026.",
+  "groupes": {
+    "National": {
+      "n": 1910,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 44,
+        "CPC": 38,
+        "NDP": 9,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 45,
+        "CPC": 45,
+        "NDP": 9,
+        "GPC": 1,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 48,
+        "CPC": 20,
+        "NDP": 2,
+        "BQ": 28,
+        "GPC": 2,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 47,
+        "CPC": 38,
+        "NDP": 11,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "Sask. / Manitoba",
+      "parts": {
+        "LPC": 38,
+        "CPC": 47,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 4,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 27,
+        "CPC": 60,
+        "NDP": 9,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "British Columbia",
+      "parts": {
+        "LPC": 43,
+        "CPC": 37,
+        "NDP": 13,
+        "GPC": 6,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    }
+  }
+}

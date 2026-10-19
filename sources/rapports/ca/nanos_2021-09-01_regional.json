@@ -1,0 +1,85 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Nanos Research",
+  "date_debut": "",
+  "date_fin": "2021-09-01",
+  "document": "Ballot: CPC 34.2, LPC 30.5, NDP 20.1 > Conservatives open up advantage in tracking ending the day of the Liberal platform release. (Nanos Research / CTV / The Globe and Mail, #ELXN44 Nightly Ballot Tracking, released September 2, 2021)",
+  "reference": "https://nanos.co/wp-content/uploads/2021/09/2021-1947-ELXN44-Nightly-Tracking-Report-20210901.pdf",
+  "note": "Page 13 du PDF, tableaux détaillés (tabulations), bloc « Ballot » (deuxième tableau de la page, sous « Vote Profile ») ; colonnes Region : Atlantic, Quebec, Ontario, Prairies, British Columbia. Le tableau Ballot exclut les indécis (pourcentages des électeurs décidés, cohérents avec le total national). Suivi quotidien CTV/Globe and Mail/Nanos, moyenne glissante de trois nuits se terminant le 2021-09-01 (échantillon total n=1270) ; date de début non imprimée. n = effectifs NON pondérés des décidés (ligne « Unwgt N ») ; effectifs pondérés (« Wgt N ») : Canada 1049, Atlantic 68, Quebec 236, Ontario 412, Prairies 189, British Columbia 144. Chiffres lus sur l'image du tableau (non présents dans la couche texte), vérifiés à fort grossissement. Prairies = Manitoba, Saskatchewan et Alberta ensemble. Bloc imprimé à 0.0 hors Québec, omis ; « Other » transcrit en AUTRES. Dans les autres rapports quotidiens de 2021, les colonnes régionales sont masquées (« Available to Subscribers Only ») ; elles ne le sont pas dans celui-ci.",
+  "groupes": {
+    "National": {
+      "n": 1113,
+      "libelle": "Canada 2021-09-01",
+      "parts": {
+        "LPC": 30.5,
+        "CPC": 34.2,
+        "NDP": 20.1,
+        "BQ": 6.0,
+        "GPC": 4.0,
+        "PPC": 4.8,
+        "AUTRES": 0.3
+      }
+    },
+    "ATL": {
+      "n": 103,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 36.4,
+        "CPC": 31.7,
+        "NDP": 22.7,
+        "GPC": 4.4,
+        "PPC": 4.8,
+        "AUTRES": 0.0
+      }
+    },
+    "QC": {
+      "n": 248,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 32.6,
+        "CPC": 21.0,
+        "NDP": 12.4,
+        "BQ": 26.6,
+        "GPC": 5.1,
+        "PPC": 2.2,
+        "AUTRES": 0.0
+      }
+    },
+    "ON": {
+      "n": 337,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 38.3,
+        "CPC": 32.2,
+        "NDP": 20.6,
+        "GPC": 3.6,
+        "PPC": 5.1,
+        "AUTRES": 0.2
+      }
+    },
+    "PRAIRIES": {
+      "n": 231,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 12.2,
+        "CPC": 58.1,
+        "NDP": 20.1,
+        "GPC": 2.1,
+        "PPC": 6.1,
+        "AUTRES": 1.4
+      }
+    },
+    "BC": {
+      "n": 194,
+      "libelle": "British Columbia",
+      "parts": {
+        "LPC": 26.2,
+        "CPC": 31.8,
+        "NDP": 30.3,
+        "GPC": 5.3,
+        "PPC": 6.3,
+        "AUTRES": 0.0
+      }
+    }
+  }
+}

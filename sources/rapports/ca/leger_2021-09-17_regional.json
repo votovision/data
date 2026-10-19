@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Leger",
+  "date_debut": "2021-09-14",
+  "date_fin": "2021-09-17",
+  "document": "2021 Federal Election – Report (Léger/Postmedia/Le Journal de Montréal, publication 18 septembre 2021)",
+  "reference": "https://leger360.com/wp-content/uploads/2024/02/Federal_Politics-Sept.-18th-2021_VF-002.pdf",
+  "note": "PDF p. 10, tableau « Voting Intentions - Federal Election » (CP1A et CP1B, avec relance et vote déjà exprimé). Colonnes « Decided voters », ATL, QC, ON, MB/SK, AB, BC. Base : électeurs décidés ; BQ parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) ; QC (925) inclut un suréchantillon québécois de 604 répondants. Le Maverick Party (code non prévu) n'est pas repris : 0 % national, 0 % MB/SK, 2 % AB. Terrain du 14 au 17 septembre 2021 ; échantillon total 2 147 (1 541 + suréchantillon). Page identique dans la copie https://qc125.com/proj/2021-09-18-leger.pdf ; page d'annonce https://leger360.com/the-2021-federal-election-september-18-2021-2/.",
+  "groupes": {
+    "National": {
+      "n": 1943,
+      "libelle": "Decided voters",
+      "parts": {
+        "LPC": 32,
+        "CPC": 33,
+        "NDP": 19,
+        "BQ": 7,
+        "GPC": 2,
+        "PPC": 6,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 97,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 39,
+        "CPC": 34,
+        "NDP": 19,
+        "GPC": 2,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 925,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 33,
+        "CPC": 19,
+        "NDP": 11,
+        "BQ": 32,
+        "GPC": 1,
+        "PPC": 4,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 537,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 38,
+        "CPC": 35,
+        "NDP": 18,
+        "GPC": 2,
+        "PPC": 6,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 123,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 23,
+        "CPC": 39,
+        "NDP": 24,
+        "GPC": 3,
+        "PPC": 10,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 112,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 17,
+        "CPC": 50,
+        "NDP": 25,
+        "GPC": 0,
+        "PPC": 6,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 149,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 27,
+        "CPC": 34,
+        "NDP": 29,
+        "GPC": 4,
+        "PPC": 6,
+        "AUTRES": 0
+      }
+    }
+  }
+}

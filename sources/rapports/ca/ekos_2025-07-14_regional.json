@@ -1,0 +1,19 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2025-07-08",
+  "date_fin": "2025-07-14",
+  "document": "Liberals Hold 13-Point Lead as Post-Election Honeymoon Continues — Data tables (EKOS, 2025-07-24)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20250724datatables.pdf",
+  "note": "« Field dates: July 8-14, 2025 » imprimé en tête du PDF, lié depuis https://www.ekospolitics.com/index.php/2025/07/liberals-hold-13-point-lead-as-post-election-honeymoon-continues/. Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Total national 43,2/30,5/13,0/5,5/3,5/3,6/0,7 ; Wikipédia donne les mêmes chiffres sauf « autres » 1,0. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 1660, 221, 189, 48, 59, 651, 390, 97. Saskatchewan et Manitoba publiés séparément (petits effectifs). Partis imprimés LIB, CONS, NDP, GRN, BQ, PPC, OTH (OTH = AUTRES). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": {"n": 1674, "libelle": "Total", "parts": {"LPC": 43.2, "CPC": 30.5, "NDP": 13.0, "BQ": 5.5, "GPC": 3.5, "PPC": 3.6, "AUTRES": 0.7}},
+    "BC": {"n": 174, "libelle": "BC", "parts": {"LPC": 32.8, "CPC": 36.0, "NDP": 21.0, "GPC": 6.4, "PPC": 2.7, "AUTRES": 1.2}},
+    "AB": {"n": 126, "libelle": "AB", "parts": {"LPC": 36.2, "CPC": 47.7, "NDP": 8.5, "GPC": 2.3, "PPC": 5.4, "AUTRES": 0.0}},
+    "SK": {"n": 37, "libelle": "SK", "parts": {"LPC": 31.2, "CPC": 41.9, "NDP": 19.8, "GPC": 1.1, "PPC": 6.0, "AUTRES": 0.0}},
+    "MB": {"n": 28, "libelle": "MB", "parts": {"LPC": 34.0, "CPC": 35.5, "NDP": 22.5, "GPC": 0.0, "PPC": 8.1, "AUTRES": 0.0}},
+    "ON": {"n": 471, "libelle": "ON", "parts": {"LPC": 49.7, "CPC": 29.6, "NDP": 12.4, "GPC": 4.0, "PPC": 3.6, "AUTRES": 0.7}},
+    "QC": {"n": 742, "libelle": "QC", "parts": {"LPC": 42.1, "CPC": 20.2, "NDP": 8.3, "BQ": 23.4, "GPC": 2.5, "PPC": 2.8, "AUTRES": 0.6}},
+    "ATL": {"n": 87, "libelle": "Atl", "parts": {"LPC": 54.0, "CPC": 23.3, "NDP": 17.4, "GPC": 2.8, "PPC": 0.0, "AUTRES": 2.6}}
+  }
+}

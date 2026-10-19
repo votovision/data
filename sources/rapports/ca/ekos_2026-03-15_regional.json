@@ -1,0 +1,19 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2026-03-05",
+  "date_fin": "2026-03-15",
+  "document": "From Collapse to Dominance — Data tables (EKOS, 2026-03-18)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20260318datatables.pdf",
+  "note": "« Field Dates: March 5-15, 2026 » imprimé en tête du PDF, lié depuis https://www.ekospolitics.com/index.php/2026/03/from-collapse-to-dominance/. Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Le total national correspond à Wikipédia. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 927, 131, 109, 25, 31, 369, 202, 56. Saskatchewan et Manitoba publiés séparément (petits effectifs). Partis imprimés LPC, CPC, NDP, GRN, BQ, PPC, OT (OT = AUTRES). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": {"n": 937, "libelle": "Total", "parts": {"LPC": 47.5, "CPC": 27.0, "NDP": 15.1, "BQ": 4.1, "GPC": 4.5, "PPC": 1.5, "AUTRES": 0.4}},
+    "BC": {"n": 143, "libelle": "BC", "parts": {"LPC": 45.4, "CPC": 30.1, "NDP": 13.7, "GPC": 9.0, "PPC": 1.8, "AUTRES": 0.0}},
+    "AB": {"n": 103, "libelle": "AB", "parts": {"LPC": 40.5, "CPC": 36.5, "NDP": 16.5, "GPC": 4.7, "PPC": 1.0, "AUTRES": 0.9}},
+    "SK": {"n": 39, "libelle": "SK", "parts": {"LPC": 32.9, "CPC": 48.7, "NDP": 15.6, "GPC": 0.0, "PPC": 2.8, "AUTRES": 0.0}},
+    "MB": {"n": 28, "libelle": "MB", "parts": {"LPC": 56.6, "CPC": 22.0, "NDP": 21.4, "GPC": 0.0, "PPC": 0.0, "AUTRES": 0.0}},
+    "ON": {"n": 357, "libelle": "ON", "parts": {"LPC": 47.3, "CPC": 30.9, "NDP": 16.1, "GPC": 3.2, "PPC": 2.3, "AUTRES": 0.2}},
+    "QC": {"n": 202, "libelle": "QC", "parts": {"LPC": 49.2, "CPC": 11.3, "NDP": 14.3, "BQ": 18.7, "GPC": 6.1, "PPC": 0.4, "AUTRES": 0.0}},
+    "ATL": {"n": 61, "libelle": "Atl", "parts": {"LPC": 65.0, "CPC": 23.3, "NDP": 6.9, "GPC": 1.9, "PPC": 0.0, "AUTRES": 2.9}}
+  }
+}

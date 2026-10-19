@@ -1,0 +1,19 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2025-05-28",
+  "date_fin": "2025-06-04",
+  "document": "June 2025 Political Update — Data tables (EKOS, 2025-06-10)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20250610datatables.pdf",
+  "note": "Tableaux détaillés déposés sur le site d'EKOS avec le rapport du 10 juin 2025 (https://www.ekospolitics.com/index.php/2025/06/june-2025-political-update/), mais non liés depuis l'article, qui ne renvoie qu'au rapport en diapositives (20250610fullreport.pdf, sans ventilation régionale du vote). « Field Dates: May 28-June 4, 2025 ». Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Total national 43,9/32,0/12,7/5,2/2,9/2,6/0,8 ; Wikipédia (d'après la diapositive arrondie) donne GPC 3,0, PPC 3,0 et autres 1,0, le reste identique. n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » donne 1433, 200, 161, 43, 51, 553, 330, 92. Saskatchewan et Manitoba publiés séparément (petits effectifs). Partis imprimés LPC, CPC, NDP, GRN, PPC, BQ, OT (OT = AUTRES). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec.",
+  "groupes": {
+    "National": {"n": 1435, "libelle": "Total", "parts": {"LPC": 43.9, "CPC": 32.0, "NDP": 12.7, "BQ": 5.2, "GPC": 2.9, "PPC": 2.6, "AUTRES": 0.8}},
+    "BC": {"n": 189, "libelle": "BC", "parts": {"LPC": 41.4, "CPC": 32.2, "NDP": 19.5, "GPC": 4.3, "PPC": 2.2, "AUTRES": 0.4}},
+    "AB": {"n": 158, "libelle": "AB", "parts": {"LPC": 36.5, "CPC": 48.1, "NDP": 9.8, "GPC": 1.1, "PPC": 1.9, "AUTRES": 2.6}},
+    "SK": {"n": 52, "libelle": "SK", "parts": {"LPC": 32.5, "CPC": 41.6, "NDP": 18.6, "GPC": 0.0, "PPC": 6.3, "AUTRES": 1.0}},
+    "MB": {"n": 43, "libelle": "MB", "parts": {"LPC": 37.5, "CPC": 33.5, "NDP": 14.7, "GPC": 2.9, "PPC": 11.4, "AUTRES": 0.0}},
+    "ON": {"n": 535, "libelle": "ON", "parts": {"LPC": 48.8, "CPC": 33.4, "NDP": 12.2, "GPC": 2.3, "PPC": 2.4, "AUTRES": 0.9}},
+    "QC": {"n": 339, "libelle": "QC", "parts": {"LPC": 39.0, "CPC": 21.4, "NDP": 10.0, "BQ": 22.6, "GPC": 4.6, "PPC": 2.1, "AUTRES": 0.3}},
+    "ATL": {"n": 113, "libelle": "Atl", "parts": {"LPC": 59.3, "CPC": 26.2, "NDP": 11.3, "GPC": 2.0, "PPC": 1.1, "AUTRES": 0.0}}
+  }
+}

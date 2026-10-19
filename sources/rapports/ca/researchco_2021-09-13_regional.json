@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Research Co.",
+  "date_debut": "2021-09-11",
+  "date_fin": "2021-09-13",
+  "document": "Federal election poll – Data tables (Tables_Politics_CAN_14Sep2021.pdf) (Research Co., 14 septembre 2021)",
+  "reference": "https://researchco.ca/wp-content/uploads/2021/09/Tables_Politics_CAN_14Sep2021.pdf",
+  "note": "Tableaux de données PDF p. 3, question d'intention de vote fédérale (incluant le vote déjà exprimé par anticipation), second bloc « Decided Voters » (le premier bloc, mal étiqueté dans l'extraction, inclut la ligne « Undecided/ Would not vote »), colonnes REGION (BC, Alberta, SK / MB, Ontario, Quebec, Atlantic). Base : électeurs décidés. Aucun effectif imprimé (n = null ; 1 000 adultes). BQ = 0 % hors Québec non repris. Terrain du 11 au 13 septembre 2021 (communiqué Release_Politics_CAN_14Sep2021.pdf). Page : https://researchco.ca/2021/09/14/elxn44-canada-poll/",
+  "groupes": {
+    "National": {
+      "n": null,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 34,
+        "CPC": 30,
+        "NDP": 20,
+        "BQ": 7,
+        "PPC": 5,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 40,
+        "CPC": 34,
+        "NDP": 18,
+        "PPC": 5,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 37,
+        "CPC": 16,
+        "NDP": 12,
+        "BQ": 29,
+        "PPC": 3,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 37,
+        "CPC": 34,
+        "NDP": 19,
+        "PPC": 6,
+        "GPC": 4,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK / MB",
+      "parts": {
+        "LPC": 24,
+        "CPC": 43,
+        "NDP": 22,
+        "PPC": 9,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 20,
+        "CPC": 50,
+        "NDP": 20,
+        "PPC": 7,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 28,
+        "CPC": 30,
+        "NDP": 29,
+        "PPC": 4,
+        "GPC": 7,
+        "AUTRES": 1
+      }
+    }
+  }
+}
