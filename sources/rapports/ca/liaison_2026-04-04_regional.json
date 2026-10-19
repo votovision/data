@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Liaison Strategies",
+  "date_debut": "2026-03-23",
+  "date_fin": "2026-04-04",
+  "document": "Weekly Federal Tracker, National Survey (Liaison Strategies, 7 avril 2026)",
+  "reference": "https://storage.ghost.io/c/5a/2c/5a2c6702-fc8c-4232-bdc0-33fad8d71a80/content/files/2026/04/2026.04.07-Federal-Tracker.pdf",
+  "note": "Rapport graphique « Weekly Federal Tracker » : tableau « If a Federal Election were held today, which party would you vote for? Decided and Leaning » — parts régionales et colonne « Total » (national), lues par position (OCR du PDF vectorisé (Vision de macOS), lecture par bandes de colonnes, contrôlée cellule par cellule). Base : électeurs décidés et enclins. n = effectifs NON pondérés des décidés et enclins (bloc « Decided & Leaning » de la page « All Voters » ; pondérés : Total 930, Atlantic 62, Quebec 213, Ontario 356, MB/SK 63, Alberta 104, BC 132). La colonne « MB/SK » correspond au Manitoba et à la Saskatchewan (code MBSK). BQ imprimé à 0 % hors Québec, omis. Terrain IVR du 2026-03-23 au 2026-04-04 (1000 répondants).",
+  "groupes": {
+    "National": {
+      "n": 930,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 44,
+        "CPC": 33,
+        "NDP": 9,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 62,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 47,
+        "CPC": 32,
+        "NDP": 13,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 214,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 39,
+        "CPC": 20,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0,
+        "BQ": 28
+      }
+    },
+    "ON": {
+      "n": 356,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 51,
+        "CPC": 34,
+        "NDP": 10,
+        "GPC": 1,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 62,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 45,
+        "CPC": 42,
+        "NDP": 1,
+        "GPC": 5,
+        "PPC": 5,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 103,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 31,
+        "CPC": 46,
+        "NDP": 8,
+        "GPC": 5,
+        "PPC": 3,
+        "AUTRES": 8
+      }
+    },
+    "BC": {
+      "n": 133,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 43,
+        "CPC": 35,
+        "NDP": 12,
+        "GPC": 4,
+        "PPC": 2,
+        "AUTRES": 4
+      }
+    }
+  }
+}

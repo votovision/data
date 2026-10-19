@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Liaison Strategies",
+  "date_debut": "2025-12-26",
+  "date_fin": "2026-01-03",
+  "document": "Weekly Federal Tracker, National Survey (Liaison Strategies, 5 janvier 2026)",
+  "reference": "https://press.liaisonstrategies.ca/content/files/2026/01/2026.01.05---Federal-Tracker.pdf",
+  "note": "Rapport graphique « Weekly Federal Tracker » : tableau « If a Federal Election were held today, which party would you vote for? Decided and Leaning » — parts régionales et colonne « Total » (national), lues par position (texte du PDF). Base : électeurs décidés et enclins. n = effectifs NON pondérés des décidés et enclins (bloc « Decided » de la page « All Voters » ; pondérés : Total 945, Atlantic 63, Quebec 212, Ontario 366, MB/SK 62, Alberta 106, BC 136). La colonne « MB/SK » correspond au Manitoba et à la Saskatchewan (code MBSK). BQ imprimé à 0 % hors Québec, omis. Terrain IVR du 2025-12-26 au 2026-01-03 (1000 répondants).",
+  "groupes": {
+    "National": {
+      "n": 945,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 38,
+        "CPC": 37,
+        "NDP": 12,
+        "BQ": 7,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 64,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 49,
+        "CPC": 33,
+        "NDP": 13,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": 213,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 37,
+        "CPC": 21,
+        "NDP": 9,
+        "GPC": 2,
+        "PPC": 0,
+        "AUTRES": 0,
+        "BQ": 31
+      }
+    },
+    "ON": {
+      "n": 364,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 42,
+        "CPC": 38,
+        "NDP": 11,
+        "GPC": 4,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "MBSK": {
+      "n": 62,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 33,
+        "CPC": 46,
+        "NDP": 15,
+        "GPC": 0,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 105,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 23,
+        "CPC": 64,
+        "NDP": 8,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 137,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 36,
+        "CPC": 39,
+        "NDP": 21,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}
