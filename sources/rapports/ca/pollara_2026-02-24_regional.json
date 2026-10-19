@@ -1,0 +1,83 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Pollara",
+  "date_debut": "2026-02-19",
+  "date_fin": "2026-02-24",
+  "document": "Carney's First Year – Pollara Crosstabs, Media Release (Pollara, mars 2026, PollaraRelease-xtabs-CarneysFirstYear.pdf)",
+  "reference": "https://www.pollara.com/wp-content/uploads/2026/03/PollaraRelease-xtabs-CarneysFirstYear.pdf",
+  "note": "Tableaux croisés, p. 1 : Q1 « If a federal election were held today, who would you be most likely to vote for or lean towards? », base « All Respondents with decided vote ». n = « Total Interviews (Unweighted) » de la même base (pondérés : Total 1 903, Atlantic 127, Quebec 388, Ontario 762, Man/SK 118, Alberta 219, BC 289). La colonne « Man/SK » correspond au Manitoba et à la Saskatchewan (code MBSK). Bloc imprimé à 0 % hors Québec, omis. Le Parti vert n'est pas offert comme option de réponse ; « Another party » (transcrit en AUTRES) l'absorbe. Terrain du 19 au 24 février 2026, sondage en ligne auprès de 2 410 adultes canadiens (fenêtre de terrain et méthodologie du communiqué « Carney's First Year », p. 1). Valeurs recopiées telles quelles.",
+  "groupes": {
+    "National": {
+      "n": 1917,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 47,
+        "CPC": 34,
+        "NDP": 9,
+        "BQ": 7,
+        "AUTRES": 3
+      }
+    },
+    "ATL": {
+      "n": 156,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 56,
+        "CPC": 31,
+        "NDP": 9,
+        "AUTRES": 3
+      }
+    },
+    "QC": {
+      "n": 637,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 45,
+        "CPC": 17,
+        "NDP": 3,
+        "BQ": 32,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 280,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 47,
+        "CPC": 38,
+        "NDP": 10,
+        "AUTRES": 4
+      }
+    },
+    "MBSK": {
+      "n": 152,
+      "libelle": "Man/SK",
+      "parts": {
+        "LPC": 46,
+        "CPC": 41,
+        "NDP": 10,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 480,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 40,
+        "CPC": 49,
+        "NDP": 9,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 212,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 49,
+        "CPC": 34,
+        "NDP": 12,
+        "AUTRES": 5
+      }
+    }
+  }
+}

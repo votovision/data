@@ -168,10 +168,10 @@
  "rapport:ca/liaison_2026-06-06_regional.json": "cbd8e85a6877b21f7c56685be77ad12ee14fb113",
  "rapport:ca/liaison_2026-06-13_regional.json": "0a14fb6693b4bceaf6cc2a392f15255dfc8ae870",
  "rapport:ca/liaison_2026-06-20_regional.json": "09221da43da7716ddcd5f5d6d414444a2910a1ba",
- "rapport:ca/liaison_2026-06-27_regional.json": "c72593dd1a5e807c6601910cb5847aa8937f16c0",
+ "rapport:ca/liaison_2026-06-27_regional.json": "6573045179862e3ff52de46c024ad38b9a287034",
  "rapport:ca/liaison_2026-07-04_regional.json": "390b4368d272050cb381ea93e5da3a7bc6cc15c7",
  "rapport:ca/liaison_2026-07-11_regional.json": "6bb952d3d3fad3efe5a16ba8167450aa83e809ef",
- "rapport:ca/liaison_2026-07-18_regional.json": "74ca0c22b1fcbddce2ddca698dbf1fd8635df160",
+ "rapport:ca/liaison_2026-07-18_regional.json": "3653c923035e60d1ab6dbedae0e97bb5de7170c9",
  "rapport:ca/liaison_2026-07-25_regional.json": "057e4b110a8bbb73952d1f7836780c5851b9fa12",
  "rapport:ca/liaison_2026-08-01_regional.json": "126642986bb5ba7ce0e64bdf70994c3e57390446",
  "rapport:ca/liaison_2026-08-08_regional.json": "158e99a95aa291256b10929587721768fd5a7a37",
@@ -255,5 +255,9 @@
  "rapport:ca/liaison_2026-03-28_regional.json": "c9e4bc295b9bfd38c125bed0dbc5a8995a9dc683",
  "rapport:ca/liaison_2026-04-04_regional.json": "79d176c5e33318402ec20d215503ca79d1ea3cfc",
  "rapport:ca/liaison_2026-04-11_regional.json": "2f2483ecb00968b9f930d88a28eb990c0d7c6e54",
- "rapport:ca/liaison_2026-04-18_regional.json": "e312e3cb8cb93a487c5513de38ee79140a16b9c6"
+ "rapport:ca/liaison_2026-04-18_regional.json": "e312e3cb8cb93a487c5513de38ee79140a16b9c6",
+ "rapport:ca/leger_2026-01-26_regional.json": "3825c368355c4c537397da1280dbd989c7f38ee8",
+ "rapport:ca/leger_2026-03-02_regional.json": "dc31845c71232da0bf0692da56bcbacb718a7b90",
+ "rapport:ca/leger_2026-03-30_regional.json": "96b5e8a0933b3f2c62dcaad01ef4cad9489bb77e",
+ "rapport:ca/pollara_2026-02-24_regional.json": "afa59d90c82443e60a35a02f463afe5896ee6753"
 }

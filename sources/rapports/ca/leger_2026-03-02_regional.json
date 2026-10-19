@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "2026-02-27",
+  "date_fin": "2026-03-02",
+  "document": "Federal Politics – Survey of Canadians (Léger, mars 2026, Leger_FedPol_EN_March2026.pdf)",
+  "reference": "https://www.mainstreetresearch.ca/post/carney-enjoying-extended-honeymoon-one-year-in",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région (pondérés : Total 1423, ATL 87, QC 307, ON 566, MB/SK 86, AB 168, BC 209). Terrain du 27 février 2026 au 2 mars 2026 (p. 2, échantillon canadien n= 1627). « another party » transcrit en AUTRES ; BQ imprimé à 0 % hors Québec (tiret), omis. Valeurs recopiées telles quelles.",
+  "groupes": {
+    "National": {
+      "n": 1435,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 49,
+        "CPC": 35,
+        "BQ": 5,
+        "NDP": 5,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 99,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 68,
+        "CPC": 25,
+        "NDP": 4,
+        "GPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 369,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 48,
+        "CPC": 20,
+        "NDP": 4,
+        "GPC": 1,
+        "AUTRES": 2,
+        "BQ": 25
+      }
+    },
+    "ON": {
+      "n": 569,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 52,
+        "CPC": 36,
+        "NDP": 4,
+        "GPC": 5,
+        "AUTRES": 3
+      }
+    },
+    "MBSK": {
+      "n": 118,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 39,
+        "CPC": 49,
+        "NDP": 8,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 128,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 37,
+        "CPC": 56,
+        "NDP": 4,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 152,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 50,
+        "CPC": 37,
+        "NDP": 7,
+        "GPC": 5,
+        "AUTRES": 1
+      }
+    }
+  }
+}

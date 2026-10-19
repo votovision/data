@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "2026-01-23",
+  "date_fin": "2026-01-26",
+  "document": "Federal Politics – Survey of Canadians (Léger, janvier 2026, Léger_FederalPoliticsReport_Part1_GovSatisfaction_26Jan2026_EN.pdf)",
+  "reference": "https://leger360.com/wp-content/uploads/2026/01/Leger_FederalPoliticsReport_Part1_GovSatisfaction_26Jan2026.pdf",
+  "note": "PDF p. 7, tableau « Voting Intentions - Federal Elections (2/2) » (Q1). Base : électeurs décidés ; Bloc parmi les Québécois seulement. n = effectifs non pondérés (Unweighted n) des décidés par région (pondérés : Total 1359, ATL 85, QC 308, ON 529, MB/SK 83, AB 157, BC 197). Terrain du 23 janvier 2026 au 26 janvier 2026 (p. 2, échantillon canadien n= 1611). « another party » transcrit en AUTRES ; BQ imprimé à 0 % hors Québec (tiret), omis. Valeurs recopiées telles quelles.",
+  "groupes": {
+    "National": {
+      "n": 1381,
+      "libelle": "Total Decided voters",
+      "parts": {
+        "LPC": 47,
+        "CPC": 38,
+        "BQ": 6,
+        "NDP": 5,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 90,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 63,
+        "CPC": 32,
+        "NDP": 1,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 356,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 46,
+        "CPC": 22,
+        "NDP": 3,
+        "GPC": 2,
+        "AUTRES": 2,
+        "BQ": 26
+      }
+    },
+    "ON": {
+      "n": 532,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 51,
+        "CPC": 40,
+        "NDP": 6,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 110,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 44,
+        "CPC": 46,
+        "NDP": 7,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 139,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 35,
+        "CPC": 58,
+        "NDP": 6,
+        "GPC": 0,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 154,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 45,
+        "CPC": 43,
+        "NDP": 5,
+        "GPC": 6,
+        "AUTRES": 1
+      }
+    }
+  }
+}
