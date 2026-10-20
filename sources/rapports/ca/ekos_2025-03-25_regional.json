@@ -1,0 +1,109 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ekos",
+  "date_debut": "2025-03-21",
+  "date_fin": "2025-03-25",
+  "document": "Liberals Maintain Commanding Lead with Major Seat Efficiency Advantage — 5-day IVR data tables (EKOS, 2025-03-26)",
+  "reference": "https://ekospolitics.com/wp-content/uploads/20250326datatables_5day.pdf",
+  "note": "Volet IVR sur 5 jours, « Field Dates: March 21-25, 2025 » imprimé en tête, lié depuis https://www.ekospolitics.com/index.php/2025/03/liberals-maintain-commanding-lead-with-major-seat-efficiency-advantage/. Le total national correspond à la ligne Wikipédia (n 1 621, ce qui inclut les indécis ; n du tableau = décidés). Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). n = ligne « Total: » (effectif non pondéré des décidés) ; « Weighted Total: » est différent. « BC+Ter » = Colombie-Britannique et territoires ; Saskatchewan et Manitoba publiés séparément (petits effectifs). Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec. « Another party not listed here » = AUTRES.",
+  "groupes": {
+    "National": {
+      "n": 1495,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 49.6,
+        "CPC": 34.6,
+        "NDP": 7.2,
+        "GPC": 1.6,
+        "PPC": 1.5,
+        "BQ": 3.9,
+        "AUTRES": 1.6
+      }
+    },
+    "BC": {
+      "n": 209,
+      "libelle": "BC+Ter",
+      "parts": {
+        "LPC": 49.5,
+        "CPC": 36.2,
+        "NDP": 9.3,
+        "GPC": 2.8,
+        "PPC": 0.4,
+        "AUTRES": 1.8
+      }
+    },
+    "AB": {
+      "n": 182,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 32.9,
+        "CPC": 53.1,
+        "NDP": 9.3,
+        "GPC": 0.5,
+        "PPC": 1.6,
+        "AUTRES": 2.6
+      }
+    },
+    "SK": {
+      "n": 44,
+      "libelle": "SK",
+      "parts": {
+        "LPC": 18.0,
+        "CPC": 58.1,
+        "NDP": 21.7,
+        "GPC": 0.0,
+        "PPC": 0.9,
+        "AUTRES": 1.2
+      }
+    },
+    "MB": {
+      "n": 46,
+      "libelle": "MB",
+      "parts": {
+        "LPC": 58.2,
+        "CPC": 39.6,
+        "NDP": 2.2,
+        "GPC": 0.0,
+        "PPC": 0.0,
+        "AUTRES": 0.0
+      }
+    },
+    "ON": {
+      "n": 580,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 57.2,
+        "CPC": 33.1,
+        "NDP": 5.3,
+        "GPC": 1.4,
+        "PPC": 2.5,
+        "AUTRES": 0.5
+      }
+    },
+    "QC": {
+      "n": 309,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 48.0,
+        "CPC": 20.7,
+        "NDP": 7.9,
+        "GPC": 1.4,
+        "PPC": 1.4,
+        "BQ": 17.6,
+        "AUTRES": 3.1
+      }
+    },
+    "ATL": {
+      "n": 125,
+      "libelle": "Atl",
+      "parts": {
+        "LPC": 46.6,
+        "CPC": 42.4,
+        "NDP": 4.4,
+        "GPC": 4.0,
+        "PPC": 0.0,
+        "AUTRES": 2.5
+      }
+    }
+  }
+}

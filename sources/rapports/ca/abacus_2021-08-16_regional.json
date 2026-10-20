@@ -1,0 +1,68 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-08-12",
+  "date_fin": "2021-08-16",
+  "document": "As the campaign kicks off, Liberals lead by 5 over Conservatives as the NDP rises to 22% (Abacus Data, 2021-08-18)",
+  "reference": "https://abacusdata.ca/election-2021-liberal-lead-shrinks/",
+  "note": "Graphique image « Vote intention by province/region » (diapositive Slide6, https://abacusdata.ca/wp-content/uploads/2021/08/Slide6.jpg). Base : intentions de vote exprimées (« committed respondents », indécis exclus). n national = échantillon total ; n régionaux non imprimés. Seules les étiquettes isolées et lisibles sont transcrites : étiquettes superposées ou se touchant (Vert, PPC, Maverick, Other pour la plupart des régions) omises ; Maverick (code non prévu) non repris. Pas de groupe National : la diapositive nationale (Slide2.jpg) est un graphique de suivi sans PPC ni Other. SK/MB : seul Other (6) est isolé. Terrain : 12 au 16 août 2021, n=1 500.",
+  "groupes": {
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 47,
+        "CPC": 20,
+        "NDP": 26
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 34,
+        "CPC": 14,
+        "NDP": 10,
+        "GPC": 8,
+        "BQ": 31
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 36,
+        "CPC": 30,
+        "NDP": 23
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 19,
+        "CPC": 48,
+        "NDP": 19,
+        "AUTRES": 6
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 23,
+        "CPC": 39,
+        "NDP": 29
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 31,
+        "CPC": 30,
+        "NDP": 29
+      }
+    }
+  }
+}

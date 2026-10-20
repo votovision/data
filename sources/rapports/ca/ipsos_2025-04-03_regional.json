@@ -1,0 +1,87 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2025-04-01",
+  "date_fin": "2025-04-03",
+  "document": "Carney Liberals Open Double-Digit Lead – Vote Banner 2 (Ipsos/Global News, avril 2025)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2025-04/Vote%20Banner%202%20%281%29.pdf",
+  "note": "Bannière 2, p. 3, bannière Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance (« lean towards »). Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). Cellules « - » et « * » (moins de 0,5 %) non reprises. « Or some other party » = AUTRES quand il est imprimé. Terrain du 1er au 3 avril 2025 (communiqué, n=1 000). Page : https://www.ipsos.com/en-ca/carney-liberals-open-double-digit-lead",
+  "groupes": {
+    "National": {
+      "n": 886,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 34,
+        "LPC": 46,
+        "NDP": 10,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 1
+      }
+    },
+    "BC": {
+      "n": 115,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 41,
+        "LPC": 45,
+        "NDP": 7,
+        "GPC": 6
+      }
+    },
+    "AB": {
+      "n": 99,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 52,
+        "LPC": 40,
+        "NDP": 7,
+        "PPC": 1
+      }
+    },
+    "MBSK": {
+      "n": 88,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 38,
+        "LPC": 39,
+        "NDP": 12,
+        "GPC": 11
+      }
+    },
+    "ON": {
+      "n": 318,
+      "libelle": "Ontario",
+      "parts": {
+        "CPC": 31,
+        "LPC": 51,
+        "NDP": 14,
+        "GPC": 3,
+        "PPC": 1
+      }
+    },
+    "QC": {
+      "n": 190,
+      "libelle": "Quebec",
+      "parts": {
+        "CPC": 24,
+        "LPC": 42,
+        "NDP": 6,
+        "BQ": 26,
+        "GPC": 1,
+        "PPC": 1
+      }
+    },
+    "ATL": {
+      "n": 76,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 33,
+        "LPC": 58,
+        "NDP": 3,
+        "GPC": 1,
+        "PPC": 5
+      }
+    }
+  }
+}

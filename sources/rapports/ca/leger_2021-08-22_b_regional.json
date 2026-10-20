@@ -1,0 +1,83 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Leger",
+  "date_debut": "2021-08-20",
+  "date_fin": "2021-08-22",
+  "document": "The Federal Ballot: A Postmedia – Leger Poll, August 24, 2021 (Léger/Postmedia, 24 août 2021)",
+  "reference": "https://leger360.com/wp-content/uploads/2024/02/PostMedia_NationalPost_Ballot_August-24-2021.pdf",
+  "note": "PDF p. 5, tableau « Federal Voting Intentions – August 22, 2021 » (Q1/Q2, avec relance des indécis). Colonnes « Decided Voters » et Region (ATL, QC, ON, MB/SK, AB, BC) ; la somme des n régionaux (1 680) égale le n des décidés. Base : électeurs décidés. n = effectifs pondérés imprimés (« Weighted n ») ; aucun n non pondéré imprimé. La ligne « PPC/Someone else » regroupe le PPC et les autres partis (national 4 ; ATL 7, QC 3, ON 4, MB/SK 6, AB 7, BC 1) : non reprise, faute de pouvoir la séparer ; les parts publiées d'un groupe font donc 93 à 98. Bloc parmi les Québécois seulement. Terrain du 20 au 22 août 2021, n=2 002.",
+  "groupes": {
+    "National": {
+      "n": 1679,
+      "libelle": "Decided Voters",
+      "parts": {
+        "LPC": 33,
+        "CPC": 31,
+        "NDP": 21,
+        "BQ": 7,
+        "GPC": 4
+      }
+    },
+    "ATL": {
+      "n": 107,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 40,
+        "CPC": 33,
+        "NDP": 16,
+        "GPC": 4
+      }
+    },
+    "QC": {
+      "n": 400,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 37,
+        "CPC": 16,
+        "NDP": 13,
+        "BQ": 29,
+        "GPC": 3
+      }
+    },
+    "ON": {
+      "n": 634,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 35,
+        "CPC": 33,
+        "NDP": 25,
+        "GPC": 3
+      }
+    },
+    "MBSK": {
+      "n": 109,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 24,
+        "CPC": 40,
+        "NDP": 31,
+        "GPC": 1
+      }
+    },
+    "AB": {
+      "n": 199,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 20,
+        "CPC": 47,
+        "NDP": 20,
+        "GPC": 6
+      }
+    },
+    "BC": {
+      "n": 231,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 35,
+        "CPC": 31,
+        "NDP": 25,
+        "GPC": 7
+      }
+    }
+  }
+}

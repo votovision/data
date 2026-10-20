@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "EKOS",
+  "date_debut": "2021-08-14",
+  "date_fin": "2021-08-16",
+  "document": "Daily Tracking: August 17, 2021 — data tables (EKOS, 2021-08-17)",
+  "reference": "https://www.ekospolitics.com/wp-content/uploads/20210817datatablesc.pdf",
+  "note": "Sondage de suivi quotidien EKOS (fenêtre glissante, « Field Dates: August 14-16, 2021 » imprimé en tête), lié depuis https://www.ekospolitics.com/index.php/2021/08/daily-tracking-august-17-2021/. Tableau « Decided Federal vote intention (includes leaning) », code FEDVT, page 1 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis ni de bulletin spécial). Le total national correspond à Wikipédia. n = ligne « Total: » (effectif non pondéré des décidés) ; la ligne « Weighted Total: » est différente. Colonnes régionales imprimées : BC+Ter, AB, SK, MB, ON, QC, Atl, SK+MB ; seule la colonne combinée SK+MB est reprise (SK et MB séparés, à très petits effectifs, ne sont pas transcrits pour éviter le double compte). « BC+Ter » = Colombie-Britannique et territoires. Le BQ (0,0 % hors Québec) n'est reporté que pour le Québec. « Another party not listed here » = AUTRES.",
+  "groupes": {
+    "National": {
+      "n": 730,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 33.7,
+        "CPC": 29.4,
+        "NDP": 20.5,
+        "GPC": 5.7,
+        "PPC": 4.2,
+        "BQ": 5.4,
+        "AUTRES": 1.1
+      }
+    },
+    "BC": {
+      "n": 111,
+      "libelle": "BC+Ter",
+      "parts": {
+        "LPC": 23.7,
+        "CPC": 27.2,
+        "NDP": 28.1,
+        "GPC": 8.5,
+        "PPC": 9.8,
+        "AUTRES": 2.6
+      }
+    },
+    "AB": {
+      "n": 91,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 22.9,
+        "CPC": 48.0,
+        "NDP": 23.1,
+        "GPC": 0.6,
+        "PPC": 3.0,
+        "AUTRES": 2.3
+      }
+    },
+    "MBSK": {
+      "n": 58,
+      "libelle": "SK+MB",
+      "parts": {
+        "LPC": 24.6,
+        "CPC": 42.2,
+        "NDP": 23.1,
+        "GPC": 0.0,
+        "PPC": 6.4,
+        "AUTRES": 3.7
+      }
+    },
+    "ON": {
+      "n": 271,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 43.6,
+        "CPC": 29.8,
+        "NDP": 16.8,
+        "GPC": 5.1,
+        "PPC": 4.3,
+        "AUTRES": 0.3
+      }
+    },
+    "QC": {
+      "n": 142,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 32.0,
+        "CPC": 16.7,
+        "NDP": 18.5,
+        "GPC": 7.6,
+        "PPC": 0.6,
+        "BQ": 24.1,
+        "AUTRES": 0.4
+      }
+    },
+    "ATL": {
+      "n": 57,
+      "libelle": "Atl",
+      "parts": {
+        "LPC": 27.9,
+        "CPC": 30.9,
+        "NDP": 26.6,
+        "GPC": 11.1,
+        "PPC": 3.5,
+        "AUTRES": 0.0
+      }
+    }
+  }
+}

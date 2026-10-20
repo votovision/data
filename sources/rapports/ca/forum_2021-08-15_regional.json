@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Forum Research",
+  "date_debut": "2021-08-15",
+  "date_fin": "2021-08-15",
+  "document": "Tories and Liberals Neck and Neck in Federal Election (Forum Research, communiqué du 15 août 2021)",
+  "reference": "https://poll.forumresearch.com/post/3079/tories-and-liberals-neck-and-neck-in-federal-election",
+  "note": "Communiqué PDF p.3, tableau « Region » de la question de vote « [Decided / Leaning] » (décidés et enclins). Les chiffres ont été lus dans le PDF du communiqué (copie téléchargée ; la page web de Forum était indisponible, serveur en maintenance le 2026-10-20, lien de référence tiré d'une recherche web). Total national 31/28/19/8/7/5/3 identique au texte du communiqué. Pourcentages entiers. n = ligne « Sample » imprimée (total 1124, alors que la méthodologie p.2 donne 1203 répondants : la ligne « Sample » correspond aux décidés et enclins). « PQ » = Québec ; « MB / SK » = Manitoba et Saskatchewan. Bloc imprimé à 0 hors Québec, omis. AUTRES = « Other Parties ». Terrain : 15 août 2021.",
+  "groupes": {
+    "National": {
+      "n": 1124,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 31,
+        "LPC": 28,
+        "NDP": 19,
+        "GPC": 8,
+        "BQ": 7,
+        "PPC": 5,
+        "AUTRES": 3
+      }
+    },
+    "ATL": {
+      "n": 99,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 28,
+        "LPC": 33,
+        "NDP": 25,
+        "GPC": 9,
+        "PPC": 5,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 216,
+      "libelle": "PQ",
+      "parts": {
+        "CPC": 16,
+        "LPC": 29,
+        "NDP": 9,
+        "GPC": 13,
+        "BQ": 27,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 407,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 34,
+        "LPC": 31,
+        "NDP": 18,
+        "GPC": 5,
+        "PPC": 7,
+        "AUTRES": 4
+      }
+    },
+    "MBSK": {
+      "n": 106,
+      "libelle": "MB / SK",
+      "parts": {
+        "CPC": 40,
+        "LPC": 20,
+        "NDP": 24,
+        "GPC": 5,
+        "PPC": 4,
+        "AUTRES": 6
+      }
+    },
+    "AB": {
+      "n": 118,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 46,
+        "LPC": 17,
+        "NDP": 24,
+        "GPC": 5,
+        "PPC": 4,
+        "AUTRES": 4
+      }
+    },
+    "BC": {
+      "n": 178,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 33,
+        "LPC": 25,
+        "NDP": 27,
+        "GPC": 9,
+        "PPC": 4,
+        "AUTRES": 2
+      }
+    }
+  }
+}

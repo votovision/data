@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Pollara",
+  "date_debut": "2025-04-22",
+  "date_fin": "2025-04-24",
+  "document": "Pollara FedMandate2025 XtabsF Vote Apr 25 (Pollara, avril 2025)",
+  "reference": "https://www.pollara.com/wp-content/uploads/2025/04/Pollara-FedMandate2025-XtabsF_VoteApr25.pdf",
+  "note": "Tableaux croisés, p. 1, second tableau « Q3_1 - [DECIDED VOTE] If election day were today, who would you vote for or lean towards? », base « Decided Vote at Q4 ». n = « Unweighted Total » de cette base (pondérés : Total 2142, Atlantic 145, Quebec 487, Ontario 818, MB/SK 137, Alberta 237, BC 311). Le rapport imprime aussi Manitoba, Saskatchewan et North séparément ; seule la colonne combinée « MB/SK » (MBSK) est transcrite. Terrain du 22 au 24 avril 2025 (conforme à la liste), N=2 382. Cases vides omises ; « 0% » imprimé pour Someone else en Ontario. Valeurs recopiées telles quelles.",
+  "groupes": {
+    "National": {
+      "n": 2166,
+      "libelle": "TOTAL",
+      "parts": {
+        "LPC": 41,
+        "CPC": 38,
+        "NDP": 10,
+        "BQ": 6,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 297,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 50,
+        "CPC": 37,
+        "NDP": 8,
+        "GPC": 1,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": 374,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 39,
+        "CPC": 24,
+        "NDP": 4,
+        "BQ": 26,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 3
+      }
+    },
+    "ON": {
+      "n": 548,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 46,
+        "CPC": 37,
+        "NDP": 12,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": 324,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 32,
+        "CPC": 49,
+        "NDP": 13,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 304,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 26,
+        "CPC": 64,
+        "NDP": 8,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 315,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 42,
+        "CPC": 38,
+        "NDP": 15,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}

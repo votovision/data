@@ -1,0 +1,96 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2025-03-24",
+  "date_fin": "2025-03-26",
+  "document": "Liberals Lead over Conservatives in Week One of Campaign – Vote Banner 2 (Ipsos/Global News, mars 2025)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2025-03/Vote%20Banner%202.pdf",
+  "note": "Bannière 2, p. 3, bannière Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance (« lean towards »). Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). Cellules « - » et « * » (moins de 0,5 %) non reprises. « Or some other party » = AUTRES quand il est imprimé. Terrain du 24 au 26 mars 2025 (communiqué, n=1 500). Page : https://www.ipsos.com/en-ca/liberals-lead-over-conservatives-week-one-campaign",
+  "groupes": {
+    "National": {
+      "n": 1322,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 38,
+        "LPC": 44,
+        "NDP": 9,
+        "BQ": 5,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 187,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 39,
+        "LPC": 49,
+        "NDP": 9,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 142,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 51,
+        "LPC": 36,
+        "NDP": 9,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "MBSK": {
+      "n": 115,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 52,
+        "LPC": 28,
+        "NDP": 17,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 471,
+      "libelle": "Ontario",
+      "parts": {
+        "CPC": 43,
+        "LPC": 47,
+        "NDP": 8,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 279,
+      "libelle": "Quebec",
+      "parts": {
+        "CPC": 21,
+        "LPC": 41,
+        "NDP": 8,
+        "BQ": 24,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 3
+      }
+    },
+    "ATL": {
+      "n": 128,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 31,
+        "LPC": 58,
+        "NDP": 8,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}

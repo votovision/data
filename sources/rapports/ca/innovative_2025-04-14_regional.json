@@ -1,0 +1,78 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Innovative Research",
+  "date_debut": "2025-04-10",
+  "date_fin": "2025-04-14",
+  "document": "Canada This Month, Federal Election Wave 2 (Innovative Research Group, 2025-04-15)",
+  "reference": "https://innovativeresearch.ca/wp-content/uploads/2025/04/CTM-2504-Wave-2-Federal-Election-Deck.pdf",
+  "note": "PDF p. 16. Tableau « Decided Vote by REGION », colonnes BC, AB, Prairies, ON, QC, Atlantic ; base : électeurs décidés (y compris enclins : « which party do you lean toward slightly »), n = (N=) imprimé sous chaque colonne. Bloc imprimé 0 % hors Québec : non repris. AUTRES = « Other ». Pas de ligne PPC. Terrain publié : 10 au 14 avril 2025 (n total 1 000 ; décidés 912). Pas de total national décidé repris : étiquettes de fin de série qui se chevauchent sur le graphique de suivi.",
+  "groupes": {
+    "BC": {
+      "n": 132,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 40,
+        "LPC": 36,
+        "NDP": 18,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 101,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 53,
+        "LPC": 32,
+        "NDP": 11,
+        "GPC": 1,
+        "AUTRES": 4
+      }
+    },
+    "PRAIRIES": {
+      "n": 56,
+      "libelle": "Prairies",
+      "parts": {
+        "CPC": 45,
+        "LPC": 36,
+        "NDP": 12,
+        "GPC": 3,
+        "AUTRES": 4
+      }
+    },
+    "ON": {
+      "n": 358,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 38,
+        "LPC": 44,
+        "NDP": 11,
+        "GPC": 4,
+        "AUTRES": 3
+      }
+    },
+    "QC": {
+      "n": 208,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 18,
+        "LPC": 39,
+        "NDP": 10,
+        "BQ": 27,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 57,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 27,
+        "LPC": 54,
+        "NDP": 10,
+        "GPC": 5,
+        "AUTRES": 4
+      }
+    }
+  }
+}

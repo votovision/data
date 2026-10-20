@@ -1,0 +1,106 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2021-08-27",
+  "date_fin": "2021-08-29",
+  "document": "Trudeau's Troubles: Loss of traditional support among women boosts O'Toole; CPC lead Liberals in vote intent (Angus Reid Institute, 2021-08-30)",
+  "reference": "https://angusreid.org/wp-content/uploads/2021/08/2021.08.30_Election_Week_3.pdf",
+  "note": "PDF du communiqué, page 11, tableau « Federal vote intention, including leaners, decided voters only: » (Unweighted sample sizes), colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : électeurs décidés et enclins. n = effectifs non pondérés imprimés dans l'en-tête de colonne. Cellules « - » non transcrites (Bloc hors Québec, etc.). AUTRES = « Other Party ». Terrain : 27 au 29 août 2021 (n=1 639).",
+  "groupes": {
+    "National": {
+      "n": 1483,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 33,
+        "LPC": 30,
+        "NDP": 21,
+        "BQ": 7,
+        "PPC": 4,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 261,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 33,
+        "LPC": 24,
+        "NDP": 34,
+        "PPC": 3,
+        "GPC": 6
+      }
+    },
+    "AB": {
+      "n": 135,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 52,
+        "LPC": 15,
+        "NDP": 17,
+        "PPC": 5,
+        "GPC": 1,
+        "AUTRES": 10
+      }
+    },
+    "SK": {
+      "n": 115,
+      "libelle": "SK",
+      "parts": {
+        "CPC": 55,
+        "LPC": 17,
+        "NDP": 15,
+        "PPC": 3,
+        "GPC": 3,
+        "AUTRES": 6
+      }
+    },
+    "MB": {
+      "n": 114,
+      "libelle": "MB",
+      "parts": {
+        "CPC": 40,
+        "LPC": 24,
+        "NDP": 25,
+        "PPC": 8,
+        "GPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 398,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 34,
+        "LPC": 36,
+        "NDP": 22,
+        "PPC": 4,
+        "GPC": 3
+      }
+    },
+    "QC": {
+      "n": 342,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 21,
+        "LPC": 31,
+        "NDP": 15,
+        "BQ": 28,
+        "PPC": 2,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 117,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 31,
+        "LPC": 39,
+        "NDP": 23,
+        "PPC": 6,
+        "GPC": 2
+      }
+    }
+  }
+}

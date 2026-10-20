@@ -1,0 +1,109 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Campaign Research",
+  "date_debut": "2021-08-30",
+  "date_fin": "2021-09-01",
+  "document": "NDP is on top in British Columbia and is rising in Ontario — Public Opinion Polling Press Release (Campaign Research, 2 septembre 2021)",
+  "reference": "https://drive.google.com/file/d/1QbklJeiZtSo7oteWB36Q98g2Bjvmu6d3/view",
+  "note": "Communiqué PDF (lien Google Drive relevé sur la page 338Canada du sondage, www.338canada.com/20210831-cam.htm), p. 2, graphique « Decided Voter Intent By Region - Canada » : chaque barre porte son étiquette de pourcentage entier (aucune lecture à l'œil). Base : électeurs décidés ; n = effectif imprimé entre parenthèses sous chaque région (Canada n=2485, Atlantic Canada n=173, Quebec n=570, Ontario n=951, Manitoba n=93, Saskatchewan n=67, Alberta n=282, British Columbia n=349), supposé être celui des décidés. Terrain du 30 août au 1er septembre 2021, 3 011 Canadiens (texte p. 1). Manitoba et Saskatchewan publiés séparément. Ordre des barres : LPC, CPC, NDP, GPC, BQ, PPC, Another party ; BQ imprimé à 0 % hors Québec, omis. Les parts de l'Ontario somment à 102 (arrondis imprimés, 36/34/22/4/5/1). Saskatchewan : Parti vert à 16 % tel qu'imprimé (petit échantillon). Les étiquettes du graphique sont entourées de cercles rouges et bleus dans l'original (mise en évidence des changements), sans effet sur les valeurs.",
+  "groupes": {
+    "National": {
+      "n": 2485,
+      "libelle": "Canada (n=2485)",
+      "parts": {
+        "LPC": 30,
+        "CPC": 33,
+        "NDP": 22,
+        "GPC": 4,
+        "BQ": 6,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 173,
+      "libelle": "Atlantic Canada (n=173)",
+      "parts": {
+        "LPC": 35,
+        "CPC": 29,
+        "NDP": 27,
+        "GPC": 4,
+        "PPC": 5,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 570,
+      "libelle": "Quebec (n=570)",
+      "parts": {
+        "LPC": 34,
+        "CPC": 20,
+        "NDP": 12,
+        "GPC": 3,
+        "BQ": 28,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 951,
+      "libelle": "Ontario (n=951)",
+      "parts": {
+        "LPC": 36,
+        "CPC": 34,
+        "NDP": 22,
+        "GPC": 4,
+        "PPC": 5,
+        "AUTRES": 1
+      }
+    },
+    "MB": {
+      "n": 93,
+      "libelle": "Manitoba (n=93)",
+      "parts": {
+        "LPC": 29,
+        "CPC": 42,
+        "NDP": 19,
+        "GPC": 4,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "SK": {
+      "n": 67,
+      "libelle": "Saskatchewan (n=67)",
+      "parts": {
+        "LPC": 12,
+        "CPC": 47,
+        "NDP": 21,
+        "GPC": 16,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 282,
+      "libelle": "Alberta (n=282)",
+      "parts": {
+        "LPC": 19,
+        "CPC": 48,
+        "NDP": 25,
+        "GPC": 1,
+        "PPC": 5,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 349,
+      "libelle": "British Columbia (n=349)",
+      "parts": {
+        "LPC": 26,
+        "CPC": 32,
+        "NDP": 36,
+        "GPC": 4,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    }
+  }
+}

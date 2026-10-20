@@ -1,0 +1,91 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Innovative Research",
+  "date_debut": "2021-08-26",
+  "date_fin": "2021-08-30",
+  "document": "Canada This Month, Weekly Tracking, Wave 2 (Innovative Research Group, 2021-08-30)",
+  "reference": "https://innovativeresearch.ca/wp-content/uploads/2021/09/IRG.29-2021-Election-Wave-2-Core-Tracking-Report-RELEASE-.pdf",
+  "note": "PDF p. 25, tableau « Decided vote by Region » (BC, AB, Prairies, ON, QC, Atlantic). Base : électeurs décidés (y compris enclins), n = (N=) imprimé par colonne. Bloc imprimé 0 % hors Québec : non repris ; AUTRES = « Other ». Pas de ligne PPC ni Maverick par région. National : PDF p. 23, décidés n=2 082, PPC 4, Maverick 1 (non repris), Other 1. Terrain : 26 au 30 août 2021, échantillon pondéré 2 400 (échantillon de base 1 200 plus un échantillon additionnel) ; la liste porte n=2806.",
+  "groupes": {
+    "National": {
+      "n": 2082,
+      "libelle": "Decided voters",
+      "parts": {
+        "CPC": 29,
+        "LPC": 32,
+        "NDP": 23,
+        "BQ": 8,
+        "GPC": 4,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 300,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 30,
+        "LPC": 28,
+        "NDP": 32,
+        "GPC": 6,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 226,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 45,
+        "LPC": 19,
+        "NDP": 25,
+        "GPC": 1,
+        "AUTRES": 9
+      }
+    },
+    "PRAIRIES": {
+      "n": 125,
+      "libelle": "Prairies",
+      "parts": {
+        "CPC": 39,
+        "LPC": 28,
+        "NDP": 23,
+        "GPC": 4,
+        "AUTRES": 6
+      }
+    },
+    "ON": {
+      "n": 803,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 30,
+        "LPC": 36,
+        "NDP": 26,
+        "GPC": 4,
+        "AUTRES": 5
+      }
+    },
+    "QC": {
+      "n": 489,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 17,
+        "LPC": 31,
+        "NDP": 11,
+        "BQ": 34,
+        "GPC": 3,
+        "AUTRES": 4
+      }
+    },
+    "ATL": {
+      "n": 139,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 32,
+        "LPC": 39,
+        "NDP": 21,
+        "GPC": 6,
+        "AUTRES": 2
+      }
+    }
+  }
+}

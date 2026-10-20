@@ -1,0 +1,91 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Innovative Research",
+  "date_debut": "2025-04-24",
+  "date_fin": "2025-04-26",
+  "document": "Canada This Month, April Wave 4 – Pre-election (Innovative Research Group, 2025-04-26)",
+  "reference": "https://innovativeresearch.ca/wp-content/uploads/2025/04/CTM2504-Pre-Election-Release-Deck-2025-04-26.pdf",
+  "note": "PDF p. 6, tableau « Decided vote by REGION ». Tableau « Decided Vote by REGION », colonnes BC, AB, Prairies, ON, QC, Atlantic ; base : électeurs décidés (y compris enclins : « which party do you lean toward slightly »), n = (N=) imprimé sous chaque colonne. Bloc imprimé 0 % hors Québec : non repris. AUTRES = « Other ». Pas de ligne PPC. National : PDF p. 4, décidés n=1 184, avec PPC 2 % et Other 0 % imprimés.",
+  "groupes": {
+    "National": {
+      "n": 1184,
+      "libelle": "Decided voters",
+      "parts": {
+        "CPC": 37,
+        "LPC": 41,
+        "NDP": 11,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 168,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 34,
+        "LPC": 43,
+        "NDP": 16,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 132,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 57,
+        "LPC": 25,
+        "NDP": 15,
+        "GPC": 0,
+        "AUTRES": 2
+      }
+    },
+    "PRAIRIES": {
+      "n": 75,
+      "libelle": "Prairies",
+      "parts": {
+        "CPC": 43,
+        "LPC": 38,
+        "NDP": 16,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 458,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 40,
+        "LPC": 45,
+        "NDP": 8,
+        "GPC": 3,
+        "AUTRES": 4
+      }
+    },
+    "QC": {
+      "n": 269,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 25,
+        "LPC": 39,
+        "NDP": 6,
+        "BQ": 24,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 81,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 33,
+        "LPC": 48,
+        "NDP": 17,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    }
+  }
+}

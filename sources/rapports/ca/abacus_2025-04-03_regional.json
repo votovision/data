@@ -1,0 +1,87 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2025-03-31",
+  "date_fin": "2025-04-03",
+  "document": "Abacus Data Poll: Liberals and Conservatives remain deadlocked at 39% each. (Abacus Data, 2025-04-06)",
+  "reference": "https://abacusdata.ca/2025-federal-election-poll-liberals-conservatives-tied-april-6/",
+  "note": "Graphique image « Committed vote intention by province/region » (diapositive 16, Wave 3, April 2025, https://abacusdata.ca/wp-content/uploads/2025/04/image-13.png) ; national : diapositive 11 « Federal Vote Intention » (image-10.png). Base : électeurs décidés (« Undecided removed »). n national = échantillon total ; n régionaux non imprimés. Seules les étiquettes lisibles sont transcrites : segments non étiquetés (« Other » partout, Vert en AB, etc.) et étiquettes superposées ou tronquées omis. BC PPC et QC PPC lus malgré une étiquette partiellement tronquée ; SK/MB Vert, PPC, Other superposés omis. Terrain : 31 mars au 3 avril 2025, n=1 800.",
+  "groupes": {
+    "National": {
+      "n": 1800,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "LPC": 39,
+        "CPC": 39,
+        "NDP": 11,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 32,
+        "LPC": 51,
+        "NDP": 9,
+        "GPC": 3,
+        "PPC": 4
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 26,
+        "LPC": 36,
+        "NDP": 6,
+        "GPC": 5,
+        "BQ": 25,
+        "PPC": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 39,
+        "LPC": 45,
+        "NDP": 10,
+        "GPC": 3,
+        "PPC": 3
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 49,
+        "LPC": 33,
+        "NDP": 16
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 58,
+        "LPC": 27,
+        "NDP": 14
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 39,
+        "LPC": 36,
+        "NDP": 19,
+        "GPC": 3,
+        "PPC": 2
+      }
+    }
+  }
+}

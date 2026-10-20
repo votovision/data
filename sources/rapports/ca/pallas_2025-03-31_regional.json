@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Pallas Data",
+  "date_debut": "2025-03-31",
+  "date_fin": "2025-03-31",
+  "document": "Federal Voting Intentions, Week 2: 45th Federal Election Campaign (Pallas Data, 2025-04-01)",
+  "reference": "https://files.constantcontact.com/f737aa99901/90d3eae2-b07b-4a72-ae87-c0ede38db238.pdf",
+  "note": "Tableau « If a federal election were held today, which party would you vote for? (Decided and Leaning Voters) [1] », page 12 du PDF. Base : électeurs décidés et enclins (pas de ligne indécis). Sondage IVR mené le 31 mars 2025 auprès de 1267 adultes (méthodologie, p. 3). n = « Unweighted Frequency » des décidés et enclins. « Prairies » est imprimé à côté d'une colonne « Alberta » distincte : il s'agit du Manitoba et de la Saskatchewan (code MBSK). « Another Party » = AUTRES. Le Bloc (0 % hors Québec) n'est reporté que pour le Québec. Pourcentages imprimés avec décimale (sans décimale lorsqu'elle est nulle). Total national identique à la colonne « Total » du tableau.",
+  "groupes": {
+    "National": {
+      "n": 1241,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 44.6,
+        "CPC": 35.7,
+        "NDP": 8.5,
+        "BQ": 5.6,
+        "GPC": 2.8,
+        "PPC": 2.2,
+        "AUTRES": 0.6
+      }
+    },
+    "BC": {
+      "n": 106,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 48,
+        "CPC": 34.9,
+        "NDP": 9.7,
+        "GPC": 6.8,
+        "PPC": 0,
+        "AUTRES": 0.6
+      }
+    },
+    "AB": {
+      "n": 183,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 21.8,
+        "CPC": 67,
+        "NDP": 4.8,
+        "GPC": 0.9,
+        "PPC": 4.2,
+        "AUTRES": 1.2
+      }
+    },
+    "MBSK": {
+      "n": 50,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 28.3,
+        "CPC": 46.7,
+        "NDP": 20.1,
+        "GPC": 4.9,
+        "PPC": 0,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": 478,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 53.2,
+        "CPC": 34.3,
+        "NDP": 6.8,
+        "GPC": 2,
+        "PPC": 2.9,
+        "AUTRES": 0.8
+      }
+    },
+    "QC": {
+      "n": 368,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 40.8,
+        "CPC": 23,
+        "NDP": 7.2,
+        "BQ": 23.7,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 0.2
+      }
+    },
+    "ATL": {
+      "n": 56,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 57,
+        "CPC": 26.5,
+        "NDP": 14.2,
+        "GPC": 0,
+        "PPC": 2.3,
+        "AUTRES": 0
+      }
+    }
+  }
+}

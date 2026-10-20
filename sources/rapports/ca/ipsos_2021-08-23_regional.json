@@ -1,0 +1,94 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2021-08-20",
+  "date_fin": "2021-08-23",
+  "document": "Election Race Tightens as Liberal Campaign Stalls (Ipsos/Global News, 2021-08-24)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-08/Week%202%20Vote%20Factum_0.pdf",
+  "note": "Communiqué (Factum), page 1 : parts régionales imprimées dans le texte (aucun tableau régional publié). Base : « decided national vote » ; les parts de chaque région totalisent 99 à 101, cohérent avec une base décidée. n non imprimés. Le communiqué indique 16 % d'indécis et 3 % qui ne voteraient pas à l'échelle nationale, non repris. « others » = AUTRES. Terrain du 20 au 23 août 2021, n=1 500 (p. 3). Page : https://www.ipsos.com/en-ca/news-polls/election-race-tightens-as-liberal-campaign-stalls",
+  "groupes": {
+    "National": {
+      "n": null,
+      "libelle": "Nationally",
+      "parts": {
+        "LPC": 33,
+        "CPC": 32,
+        "NDP": 21,
+        "GPC": 5,
+        "BQ": 6,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic Canada",
+      "parts": {
+        "LPC": 52,
+        "CPC": 21,
+        "NDP": 18,
+        "GPC": 6,
+        "PPC": 3
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 37,
+        "BQ": 27,
+        "CPC": 19,
+        "NDP": 10,
+        "GPC": 6,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "CPC": 35,
+        "LPC": 31,
+        "NDP": 23,
+        "GPC": 6,
+        "PPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "Saskatchewan and Manitoba",
+      "parts": {
+        "NDP": 39,
+        "CPC": 32,
+        "LPC": 23,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "CPC": 50,
+        "LPC": 26,
+        "NDP": 19,
+        "GPC": 1,
+        "PPC": 1,
+        "AUTRES": 3
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "British Columbia",
+      "parts": {
+        "CPC": 34,
+        "LPC": 31,
+        "NDP": 27,
+        "GPC": 4,
+        "PPC": 3
+      }
+    }
+  }
+}

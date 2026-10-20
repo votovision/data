@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "MQO Research",
+  "date_debut": "2025-04-10",
+  "date_fin": "2025-04-12",
+  "document": "Canada Federal Election 2025 — tableaux (national), terrain 10-12 avril 2025 (MQO Research, 13 avril 2025)",
+  "reference": "https://www.mqoresearch.com/wp-content/uploads/2025/04/MQO_FEDelxn_tables_Apr10-Apr12_NATIONAL_2025.04.13.pdf",
+  "note": "Page 1, tableau « VOTE_INTENTALL )) [DECIDED/LEANING VOTERS] Party Voting Intention (DECIDED+LEANING) », colonnes « CAD REGION » ; base : décidés ou enclins (« Those who are decided OR leaning toward a party (Undecided / 'Not voting' excluded) »). Pourcentages entiers ; le total national est la colonne « OVERALL » du même tableau (non comparé à Wikipédia). n = « UNWEIGHTED SAMPLE SIZE (#) » sur cette base. Pas de ligne « Other » dans ce tableau. Bloc imprimé à 0 hors Québec, omis. Colonnes régionales : Atlantic, Quebec, Ontario, MB/SK, Alberta, BC. Sondage en ligne N=2 445 électeurs admissibles, avec suréchantillons de l'Atlantique (n=420) et de la Colombie-Britannique (n=127), ce qui explique les effectifs non pondérés élevés de ces régions.",
+  "groupes": {
+    "National": {
+      "n": 2182,
+      "libelle": "OVERALL",
+      "parts": {
+        "LPC": 44,
+        "CPC": 35,
+        "NDP": 12,
+        "BQ": 4,
+        "GPC": 4,
+        "PPC": 1
+      }
+    },
+    "ATL": {
+      "n": 467,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 49,
+        "CPC": 37,
+        "NDP": 11,
+        "GPC": 2,
+        "PPC": 1
+      }
+    },
+    "QC": {
+      "n": 449,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 50,
+        "CPC": 23,
+        "NDP": 6,
+        "BQ": 18,
+        "GPC": 3,
+        "PPC": 1
+      }
+    },
+    "ON": {
+      "n": 615,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 49,
+        "CPC": 33,
+        "NDP": 13,
+        "GPC": 4,
+        "PPC": 1
+      }
+    },
+    "MBSK": {
+      "n": 120,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 36,
+        "CPC": 42,
+        "NDP": 16,
+        "GPC": 4,
+        "PPC": 2
+      }
+    },
+    "AB": {
+      "n": 202,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 32,
+        "CPC": 52,
+        "NDP": 14,
+        "GPC": 2,
+        "PPC": 0
+      }
+    },
+    "BC": {
+      "n": 329,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 33,
+        "CPC": 43,
+        "NDP": 17,
+        "GPC": 6,
+        "PPC": 1
+      }
+    }
+  }
+}

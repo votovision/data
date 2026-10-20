@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2025-04-08",
+  "date_fin": "2025-04-10",
+  "document": "Race Tightens as Campaign Moves into Critical Debate Week – Fedvote Table 2 (Ipsos/Global News, avril 2025)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2025-04/Fedvote%20Table%202.pdf",
+  "note": "Tableau 2, p. 2, bannière Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance (« lean towards »). Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). Cellules « - » et « * » (moins de 0,5 %) non reprises. « Or some other party » = AUTRES quand il est imprimé. Terrain du 8 au 10 avril 2025 (communiqué, n=1 000). Page : https://www.ipsos.com/en-ca/race-tightens-campaign-moves-critical-debate-week",
+  "groupes": {
+    "National": {
+      "n": 877,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 36,
+        "LPC": 42,
+        "NDP": 11,
+        "BQ": 6,
+        "GPC": 2,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 128,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 38,
+        "LPC": 46,
+        "NDP": 11,
+        "GPC": 1,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 91,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 51,
+        "LPC": 32,
+        "NDP": 16,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 67,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 48,
+        "LPC": 37,
+        "NDP": 11,
+        "GPC": 3
+      }
+    },
+    "ON": {
+      "n": 331,
+      "libelle": "Ontario",
+      "parts": {
+        "CPC": 37,
+        "LPC": 47,
+        "NDP": 12,
+        "GPC": 3,
+        "PPC": 1
+      }
+    },
+    "QC": {
+      "n": 196,
+      "libelle": "Quebec",
+      "parts": {
+        "CPC": 24,
+        "LPC": 35,
+        "NDP": 7,
+        "BQ": 25,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 5
+      }
+    },
+    "ATL": {
+      "n": 64,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 33,
+        "LPC": 54,
+        "NDP": 11,
+        "GPC": 2
+      }
+    }
+  }
+}

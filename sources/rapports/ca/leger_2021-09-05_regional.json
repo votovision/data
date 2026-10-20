@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Earnscliffe/Leger",
+  "date_debut": "2021-09-03",
+  "date_fin": "2021-09-05",
+  "document": "Federal Election Polling Update: Week 4 (Earnscliffe Strategy Group / Leger, 8 septembre 2021) – tableaux de bannière Week-4-Banner-Tables.xlsx",
+  "reference": "https://web.archive.org/web/2021id_/https://earnscliffe.ca/wp-content/uploads/2021/09/Week-4-Banner-Tables.xlsx",
+  "note": "Fichier Excel de tableaux de bannière publié par Earnscliffe (archive Wayback ; page d'origine https://earnscliffe.ca/en/news-and-insight/federal-election-polling-update-week-4/), onglet « Banner 1 (Percents, count, sig) », tableau « FEDX: Voting intentions among decided by Banner 1 », colonnes REGION : Total, ATL, QC, ON, MB / SK, AB, BC (colonnes WEST et ROC non reprises). Base : électeurs décidés et enclins (« decided and leaning »). Pourcentages stockés non arrondis dans la feuille, affichés au pourcentage entier (format 0 %) : transcrits tels qu'affichés. n = « Unweighted Total » de la colonne (somme des effectifs bruts des partis = base décidée). Bloc 0 hors Québec : non repris ; AUTRES = « Other ». Terrain du 3 au 5 septembre 2021, 1 521 répondants (Leger, panel en ligne).",
+  "groupes": {
+    "National": {
+      "n": 1289,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 33,
+        "CPC": 33,
+        "NDP": 21,
+        "BQ": 6,
+        "GPC": 3,
+        "PPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 84,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 49,
+        "CPC": 27,
+        "NDP": 20,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "QC": {
+      "n": 346,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 36,
+        "CPC": 19,
+        "NDP": 13,
+        "BQ": 27,
+        "GPC": 2,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 505,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 35,
+        "CPC": 34,
+        "NDP": 23,
+        "GPC": 3,
+        "PPC": 6,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": 109,
+      "libelle": "MB / SK",
+      "parts": {
+        "LPC": 19,
+        "CPC": 44,
+        "NDP": 30,
+        "GPC": 3,
+        "PPC": 5,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": 110,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 20,
+        "CPC": 55,
+        "NDP": 17,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 4
+      }
+    },
+    "BC": {
+      "n": 135,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 31,
+        "CPC": 30,
+        "NDP": 30,
+        "GPC": 6,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    }
+  }
+}

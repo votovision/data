@@ -1,0 +1,81 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-09-01",
+  "date_fin": "2021-09-04",
+  "document": "16 Days to Go: A statistical tie between the Liberals and Conservatives as those thinking the Conservatives will win continues to rise (Abacus Data, 2021-09-05)",
+  "reference": "https://abacusdata.ca/election-2021-week-3-liberals-conservatives-tied/",
+  "note": "Graphique image « Vote intention by province/region » (diapositive Slide5, https://abacusdata.ca/wp-content/uploads/2021/09/Slide5.jpg). Base : intentions de vote exprimées (« committed respondents », indécis exclus). n national = échantillon total ; n régionaux non imprimés. Seules les étiquettes isolées et lisibles sont transcrites : étiquettes superposées ou se touchant (Vert, PPC, Maverick, Other pour la plupart des régions) omises ; Maverick (code non prévu) non repris. National : diapositive « Federal Vote Intention » (Slide1.jpg). Terrain : 1er au 4 septembre 2021, n=2 692 (dont 62 % après le débat TVA).",
+  "groupes": {
+    "National": {
+      "n": 2692,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "CPC": 33,
+        "LPC": 32,
+        "NDP": 21,
+        "BQ": 7,
+        "PPC": 3,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 42,
+        "CPC": 31,
+        "NDP": 22
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 31,
+        "CPC": 18,
+        "NDP": 16,
+        "GPC": 2,
+        "BQ": 31,
+        "PPC": 1
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 36,
+        "CPC": 35,
+        "NDP": 21
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 21,
+        "CPC": 53,
+        "NDP": 18
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 24,
+        "CPC": 50,
+        "NDP": 19
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 30,
+        "CPC": 30,
+        "NDP": 32
+      }
+    }
+  }
+}

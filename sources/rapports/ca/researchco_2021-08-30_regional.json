@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Research Co.",
+  "date_debut": "2021-08-28",
+  "date_fin": "2021-08-30",
+  "document": "Poll conducted by Research Co. on Federal Politics in Canada - August 31, 2021 (Tables_Politics_CAN_31Aug2021.pdf) (Research Co., 31 août 2021)",
+  "reference": "https://researchco.ca/wp-content/uploads/2021/08/Tables_Politics_CAN_31Aug2021.pdf",
+  "note": "Tableaux de données PDF p. 3, question d'intention de vote fédérale, second bloc « Decided Voters » (le premier bloc inclut la ligne « Undecided/ Would not vote »), colonnes REGION (BC, Alberta, SK / MB, Ontario, Quebec, Atlantic). Base : électeurs décidés. Aucun effectif imprimé (n = null ; 1 000 adultes, terrain en ligne du 28 au 30 août 2021 selon le communiqué https://researchco.ca/2021/08/31/elxn43-canada-poll/). BQ = 0 % hors Québec non repris. Colonne « Maverick Party » (imprimée seulement en Alberta 2 % et au national 0 %) omise faute de code ; AUTRES = « Another party / An independent candidate ». Pourcentages entiers.",
+  "groupes": {
+    "National": {
+      "n": null,
+      "libelle": "Canada",
+      "parts": {
+        "LPC": 33,
+        "CPC": 32,
+        "NDP": 22,
+        "BQ": 6,
+        "GPC": 4,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 28,
+        "CPC": 32,
+        "NDP": 32,
+        "GPC": 8,
+        "PPC": 1,
+        "AUTRES": 0
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "LPC": 19,
+        "CPC": 49,
+        "NDP": 22,
+        "GPC": 2,
+        "PPC": 5,
+        "AUTRES": 0
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK / MB",
+      "parts": {
+        "LPC": 25,
+        "CPC": 46,
+        "NDP": 22,
+        "GPC": 2,
+        "PPC": 5,
+        "AUTRES": 0
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 35,
+        "CPC": 36,
+        "NDP": 23,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 40,
+        "CPC": 16,
+        "NDP": 10,
+        "BQ": 24,
+        "GPC": 6,
+        "PPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 40,
+        "CPC": 33,
+        "NDP": 25,
+        "GPC": 1,
+        "PPC": 2,
+        "AUTRES": 0
+      }
+    }
+  }
+}

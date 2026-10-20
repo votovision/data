@@ -1,0 +1,97 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Liaison Strategies",
+  "date_debut": "2025-04-01",
+  "date_fin": "2025-04-03",
+  "document": "National Survey for the National Ethnic Press and Media Council of Canada (Liaison Strategies, 4 Apr 2025)",
+  "reference": "https://press.liaisonstrategies.ca/content/files/2025/04/LS-National-2025---April-4.pdf",
+  "note": "Rapport PDF (diapositives), p. 7 : tableau « Voting Intent - National », section « Decided & Leaning » (question de vote suivie de la relance aux indécis). Base : électeurs décidés et enclins. n = « Sample (Unweighted) » de cette section (effectifs non pondérés ; la ligne « Weighted » donne les effectifs pondérés). BQ imprimé « - » hors Québec, omis. Sondage de suivi quotidien en fenêtre glissante de trois jours ; terrain IVR du 1 april au 3 april 2025, 1500 répondants selon le communiqué (date de fin identique à la liste).",
+  "groupes": {
+    "National": {
+      "n": 1472,
+      "libelle": "All",
+      "parts": {
+        "LPC": 46,
+        "CPC": 38,
+        "NDP": 6,
+        "BQ": 4,
+        "GPC": 2,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 100,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 59,
+        "CPC": 32,
+        "NDP": 3,
+        "GPC": 1,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 330,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 46,
+        "CPC": 28,
+        "NDP": 4,
+        "BQ": 17,
+        "GPC": 1,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 577,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 47,
+        "CPC": 40,
+        "NDP": 7,
+        "GPC": 1,
+        "PPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "MBSK": {
+      "n": 95,
+      "libelle": "MB/SK",
+      "parts": {
+        "LPC": 38,
+        "CPC": 46,
+        "NDP": 9,
+        "GPC": 2,
+        "PPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 161,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 36,
+        "CPC": 55,
+        "NDP": 4,
+        "GPC": 3,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 209,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 46,
+        "CPC": 37,
+        "NDP": 11,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    }
+  }
+}

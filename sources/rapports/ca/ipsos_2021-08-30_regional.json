@@ -1,0 +1,96 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2021-08-27",
+  "date_fin": "2021-08-30",
+  "document": "Liberals (31%, -2) and Conservatives (32%, unchanged) Remain Neck and Neck in Tight Election Campaign as NDP Gains Steam – Week 3 Vote Choice Tables 2 (Ipsos/Global News, 2021-09-01)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-08/Week_3_Vote_Choice-Tables_2-2021-09-01-v1.pdf",
+  "note": "Tableaux 2, page 2, bannière Region (BC, AB, SK/MB, Ontario, Quebec, Atlantic), intention de vote fédérale avec relance (« lean towards »). Base : Decided Voters Leaners (décidés et enclins). n = effectifs non pondérés (unwtd). Cellules « - » non reprises. « Other » = AUTRES. Terrain du 27 au 30 août 2021 (« Dates of field »), n=1 501 (communiqué). Page : https://www.ipsos.com/en-ca/node/804281",
+  "groupes": {
+    "National": {
+      "n": 1306,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 32,
+        "LPC": 31,
+        "NDP": 23,
+        "BQ": 7,
+        "GPC": 4,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 189,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 30,
+        "LPC": 27,
+        "NDP": 32,
+        "GPC": 8,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 155,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 53,
+        "LPC": 21,
+        "NDP": 23,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 90,
+      "libelle": "SK/MB",
+      "parts": {
+        "CPC": 47,
+        "LPC": 17,
+        "NDP": 27,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 3
+      }
+    },
+    "ON": {
+      "n": 518,
+      "libelle": "Ontario",
+      "parts": {
+        "CPC": 33,
+        "LPC": 35,
+        "NDP": 27,
+        "GPC": 3,
+        "PPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 265,
+      "libelle": "Quebec",
+      "parts": {
+        "CPC": 20,
+        "LPC": 31,
+        "NDP": 11,
+        "BQ": 30,
+        "GPC": 4,
+        "PPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 89,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 25,
+        "LPC": 53,
+        "NDP": 16,
+        "GPC": 2,
+        "PPC": 2,
+        "AUTRES": 2
+      }
+    }
+  }
+}

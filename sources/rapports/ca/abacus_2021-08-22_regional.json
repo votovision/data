@@ -1,0 +1,80 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Abacus Data",
+  "date_debut": "2021-08-17",
+  "date_fin": "2021-08-22",
+  "document": "Liberals ahead by 4. Erin O'Toole making some progress improving his image while NDP support continuing to rise. (Abacus Data, 2021-08-24)",
+  "reference": "https://abacusdata.ca/election-2021-liberals-lead-by-4-otoole-rising/",
+  "note": "Graphique image « Vote intention by province/region » (diapositive Slide3, https://abacusdata.ca/wp-content/uploads/2021/08/Slide3-1.jpg). Base : intentions de vote exprimées (« committed respondents », indécis exclus). n national = échantillon total ; n régionaux non imprimés. Seules les étiquettes isolées et lisibles sont transcrites : étiquettes superposées ou se touchant (Vert, PPC, Maverick, Other pour la plupart des régions) omises ; Maverick (code non prévu) non repris. National : diapositive « Current Federal Vote Intention » (Slide1-3.jpg). Terrain : 17 au 22 août 2021, n=2 000.",
+  "groupes": {
+    "National": {
+      "n": 2000,
+      "libelle": "Federal Vote Intention (current vote share)",
+      "parts": {
+        "LPC": 33,
+        "CPC": 29,
+        "NDP": 23,
+        "BQ": 6,
+        "PPC": 4,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 45,
+        "CPC": 32,
+        "NDP": 16
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 35,
+        "CPC": 19,
+        "NDP": 11,
+        "GPC": 3,
+        "BQ": 29
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 35,
+        "CPC": 29,
+        "NDP": 26
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "SK/MB",
+      "parts": {
+        "LPC": 26,
+        "CPC": 35,
+        "NDP": 26
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 15,
+        "CPC": 45,
+        "NDP": 30
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 33,
+        "CPC": 28,
+        "NDP": 31
+      }
+    }
+  }
+}

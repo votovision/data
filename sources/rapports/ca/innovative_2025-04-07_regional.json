@@ -1,0 +1,78 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Innovative Research",
+  "date_debut": "2025-04-03",
+  "date_fin": "2025-04-07",
+  "document": "Canada This Month, Federal Election Wave 1 (Innovative Research Group, 2025-04-07)",
+  "reference": "https://innovativeresearch.ca/wp-content/uploads/2025/04/CTM-2504-Wave-1-Federal-Election-Deck-Public-Release-2025-04-07.pdf",
+  "note": "PDF p. 16. Tableau « Decided Vote by REGION », colonnes BC, AB, Prairies, ON, QC, Atlantic ; base : électeurs décidés (y compris enclins : « which party do you lean toward slightly »), n = (N=) imprimé sous chaque colonne. Bloc imprimé 0 % hors Québec : non repris. AUTRES = « Other ». Pas de ligne PPC. Terrain publié : 3 au 7 avril 2025 (n total 1 000 ; décidés 906). Pas de total national repris : étiquettes de fin de série qui se chevauchent.",
+  "groupes": {
+    "BC": {
+      "n": 129,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 38,
+        "LPC": 41,
+        "NDP": 16,
+        "GPC": 3,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 98,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 51,
+        "LPC": 29,
+        "NDP": 14,
+        "GPC": 2,
+        "AUTRES": 4
+      }
+    },
+    "PRAIRIES": {
+      "n": 60,
+      "libelle": "Prairies",
+      "parts": {
+        "CPC": 46,
+        "LPC": 37,
+        "NDP": 14,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "ON": {
+      "n": 353,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 38,
+        "LPC": 44,
+        "NDP": 12,
+        "GPC": 5,
+        "AUTRES": 2
+      }
+    },
+    "QC": {
+      "n": 207,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 19,
+        "LPC": 40,
+        "NDP": 7,
+        "BQ": 26,
+        "GPC": 3,
+        "AUTRES": 4
+      }
+    },
+    "ATL": {
+      "n": 58,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 24,
+        "LPC": 54,
+        "NDP": 18,
+        "GPC": 2,
+        "AUTRES": 3
+      }
+    }
+  }
+}

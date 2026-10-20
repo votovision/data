@@ -1,0 +1,98 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2025-03-28",
+  "date_fin": "2025-03-31",
+  "document": "Tableaux détaillés 2025.03.31_Election_Poll_2_tables.pdf (Angus Reid Institute, 2025-03-31)",
+  "reference": "https://angusreid.org/wp-content/uploads/2025/03/2025.03.31_Election_Poll_2_tables.pdf",
+  "note": "PDF des tableaux détaillés, page 2, tableau « QF1./QF2. (Decided Voters) Support + Leaners », colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : « Decided voters » (électeurs décidés et enclins). n = effectif imprimé sur la ligne « Base = Decided voters » (sans précision pondéré ou non pondéré). Cellules vides non transcrites (Bloc hors Québec, etc.). AUTRES = « Other Party/Independent » ; les lignes en retrait sous « Other » (PPC, etc.) en sont des sous-catégories et ne sont pas reprises séparément. Terrain : 28 au 31 mars 2025 (n=2 131).",
+  "groupes": {
+    "National": {
+      "n": 1937,
+      "libelle": "Total",
+      "parts": {
+        "CPC": 38,
+        "LPC": 46,
+        "NDP": 7,
+        "BQ": 7,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "BC": {
+      "n": 313,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 39,
+        "LPC": 47,
+        "NDP": 11,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 190,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 57,
+        "LPC": 32,
+        "NDP": 8,
+        "AUTRES": 3
+      }
+    },
+    "SK": {
+      "n": 109,
+      "libelle": "SK",
+      "parts": {
+        "CPC": 66,
+        "LPC": 17,
+        "NDP": 18
+      }
+    },
+    "MB": {
+      "n": 114,
+      "libelle": "MB",
+      "parts": {
+        "CPC": 48,
+        "LPC": 36,
+        "NDP": 12,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 601,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 39,
+        "LPC": 53,
+        "NDP": 5,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "QC": {
+      "n": 408,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 19,
+        "LPC": 44,
+        "NDP": 4,
+        "BQ": 30,
+        "GPC": 1,
+        "AUTRES": 2
+      }
+    },
+    "ATL": {
+      "n": 180,
+      "libelle": "ATL",
+      "parts": {
+        "CPC": 33,
+        "LPC": 58,
+        "NDP": 6,
+        "GPC": 0,
+        "AUTRES": 2
+      }
+    }
+  }
+}

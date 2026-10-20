@@ -1,0 +1,90 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Ipsos",
+  "date_debut": "2021-08-13",
+  "date_fin": "2021-08-16",
+  "document": "Out of the Starting Blocks - More of the Same: Liberals 36%, Conservatives 31%, NDP 20%, Bloc 6%, Green 5% (Ipsos/Global News, 2021-08-17)",
+  "reference": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-08/Week_1_Vote-Factum-2021-08-17-v1.pdf",
+  "note": "Communiqué (Factum), page 1 : parts régionales imprimées dans le texte (aucun tableau régional publié). Base : « decided popular vote » ; les parts de chaque région totalisent 100. n non imprimés par région. Le communiqué indique 13 % d'indécis et 4 % qui ne voteraient pas à l'échelle nationale, non repris. « others » = AUTRES ; PPC non imprimé par région (1 % au national). Terrain du 13 au 16 août 2021, n=2 001 (1 501 en ligne et 500 par téléphone ; p. 2). Page : https://www.ipsos.com/en-ca/node/801631",
+  "groupes": {
+    "National": {
+      "n": null,
+      "libelle": "nationally",
+      "parts": {
+        "LPC": 36,
+        "CPC": 31,
+        "NDP": 20,
+        "GPC": 5,
+        "BQ": 6,
+        "PPC": 1,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": null,
+      "libelle": "Atlantic Canada",
+      "parts": {
+        "LPC": 49,
+        "CPC": 21,
+        "NDP": 18,
+        "GPC": 9,
+        "AUTRES": 3
+      }
+    },
+    "QC": {
+      "n": null,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 39,
+        "BQ": 28,
+        "CPC": 17,
+        "NDP": 12,
+        "GPC": 4
+      }
+    },
+    "ON": {
+      "n": null,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 40,
+        "CPC": 31,
+        "NDP": 23,
+        "GPC": 3,
+        "AUTRES": 3
+      }
+    },
+    "MBSK": {
+      "n": null,
+      "libelle": "Saskatchewan and Manitoba",
+      "parts": {
+        "CPC": 46,
+        "LPC": 23,
+        "NDP": 24,
+        "GPC": 6,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": null,
+      "libelle": "Alberta",
+      "parts": {
+        "CPC": 53,
+        "LPC": 19,
+        "NDP": 20,
+        "GPC": 5,
+        "AUTRES": 3
+      }
+    },
+    "BC": {
+      "n": null,
+      "libelle": "British Columbia",
+      "parts": {
+        "LPC": 37,
+        "CPC": 32,
+        "NDP": 20,
+        "GPC": 10,
+        "AUTRES": 1
+      }
+    }
+  }
+}

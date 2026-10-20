@@ -1,0 +1,101 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2021-08-14",
+  "date_fin": "2021-08-17",
+  "document": "Election 44: O'Toole preferred among leaders on economy, but Trudeau bests CPC leader head-to-head (Angus Reid Institute, 2021-08-19)",
+  "reference": "https://angusreid.org/wp-content/uploads/2021/08/2021.08.19_Federal_Election_Economy.pdf",
+  "note": "PDF du communiqué, page 11, tableau « Federal vote intention, including leaners, decided voters only: » (Unweighted sample sizes), colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : électeurs décidés et enclins. n = effectifs non pondérés imprimés dans l'en-tête de colonne. Cellules « - » non transcrites (Bloc hors Québec, etc.). AUTRES = « Other Party ». Pas de ligne PPC dans ce tableau. Terrain : 14 au 17 août 2021 (n=1 614).",
+  "groupes": {
+    "National": {
+      "n": 1470,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 36,
+        "CPC": 30,
+        "NDP": 20,
+        "BQ": 6,
+        "GPC": 4,
+        "AUTRES": 5
+      }
+    },
+    "BC": {
+      "n": 178,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 31,
+        "CPC": 31,
+        "NDP": 30,
+        "GPC": 7,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 134,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 20,
+        "CPC": 54,
+        "NDP": 17,
+        "GPC": 2,
+        "AUTRES": 8
+      }
+    },
+    "SK": {
+      "n": 120,
+      "libelle": "SK",
+      "parts": {
+        "LPC": 16,
+        "CPC": 51,
+        "NDP": 20,
+        "GPC": 1,
+        "AUTRES": 12
+      }
+    },
+    "MB": {
+      "n": 113,
+      "libelle": "MB",
+      "parts": {
+        "LPC": 22,
+        "CPC": 38,
+        "NDP": 28,
+        "GPC": 2,
+        "AUTRES": 10
+      }
+    },
+    "ON": {
+      "n": 424,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 40,
+        "CPC": 30,
+        "NDP": 22,
+        "GPC": 3,
+        "AUTRES": 5
+      }
+    },
+    "QC": {
+      "n": 371,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 41,
+        "CPC": 15,
+        "NDP": 13,
+        "BQ": 25,
+        "GPC": 3,
+        "AUTRES": 3
+      }
+    },
+    "ATL": {
+      "n": 127,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 41,
+        "CPC": 30,
+        "NDP": 20,
+        "GPC": 5,
+        "AUTRES": 5
+      }
+    }
+  }
+}

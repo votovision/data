@@ -1,0 +1,78 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Innovative Research",
+  "date_debut": "2025-03-26",
+  "date_fin": "2025-03-31",
+  "document": "Canada This Month, Federal Election Wave 4 – Leadership and Vote (Innovative Research Group, 2025-04-02)",
+  "reference": "https://innovativeresearch.ca/wp-content/uploads/2025/04/CTM-2503-Wave-4-Federal-Election-Leadership-Vote-Deck-Public-Release.pdf",
+  "note": "PDF p. 18. Tableau « Decided Vote by REGION », colonnes BC, AB, Prairies, ON, QC, Atlantic ; base : électeurs décidés (y compris enclins : « which party do you lean toward slightly »), n = (N=) imprimé sous chaque colonne. Bloc imprimé 0 % hors Québec : non repris. AUTRES = « Other ». Pas de ligne PPC. Terrain publié : 26 au 31 mars 2025 (n total 1 000 ; décidés 903). Pas de total national repris : étiquettes de fin de série qui se chevauchent.",
+  "groupes": {
+    "BC": {
+      "n": 127,
+      "libelle": "BC",
+      "parts": {
+        "CPC": 40,
+        "LPC": 38,
+        "NDP": 16,
+        "GPC": 4,
+        "AUTRES": 2
+      }
+    },
+    "AB": {
+      "n": 99,
+      "libelle": "AB",
+      "parts": {
+        "CPC": 65,
+        "LPC": 18,
+        "NDP": 13,
+        "GPC": 2,
+        "AUTRES": 2
+      }
+    },
+    "PRAIRIES": {
+      "n": 54,
+      "libelle": "Prairies",
+      "parts": {
+        "CPC": 39,
+        "LPC": 33,
+        "NDP": 22,
+        "GPC": 2,
+        "AUTRES": 4
+      }
+    },
+    "ON": {
+      "n": 352,
+      "libelle": "ON",
+      "parts": {
+        "CPC": 41,
+        "LPC": 41,
+        "NDP": 11,
+        "GPC": 4,
+        "AUTRES": 4
+      }
+    },
+    "QC": {
+      "n": 208,
+      "libelle": "QC",
+      "parts": {
+        "CPC": 20,
+        "LPC": 36,
+        "NDP": 10,
+        "BQ": 28,
+        "GPC": 2,
+        "AUTRES": 4
+      }
+    },
+    "ATL": {
+      "n": 62,
+      "libelle": "Atlantic",
+      "parts": {
+        "CPC": 38,
+        "LPC": 48,
+        "NDP": 11,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    }
+  }
+}

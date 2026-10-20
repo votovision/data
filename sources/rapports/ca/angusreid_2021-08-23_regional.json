@@ -1,0 +1,105 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Angus Reid",
+  "date_debut": "2021-08-20",
+  "date_fin": "2021-08-23",
+  "document": "Writ Reaction: Liberal lead fizzles in first week as O'Toole, Singh pick up early campaign momentum (Angus Reid Institute, 2021-08-23)",
+  "reference": "https://angusreid.org/wp-content/uploads/2021/08/2021.08.23_Federal_leaders_issues.pdf",
+  "note": "PDF du communiqué, page 10, tableau « Federal vote intention, including leaners, decided voters only: » (Unweighted sample sizes), colonnes Total et Region (BC, AB, SK, MB, ON, QC, ATL). Base : électeurs décidés et enclins. n = effectifs non pondérés imprimés dans l'en-tête de colonne. Cellules « - » non transcrites (Bloc hors Québec, etc.). AUTRES = « Other Party ». Les effectifs régionaux imprimés sont identiques à ceux du tableau du 19 août (178, 134, 120, 113, 424, 371, 127), tels quels. Terrain : 20 au 23 août 2021 (n=1 692).",
+  "groupes": {
+    "National": {
+      "n": 1584,
+      "libelle": "Total",
+      "parts": {
+        "LPC": 33,
+        "CPC": 31,
+        "NDP": 22,
+        "BQ": 7,
+        "PPC": 3,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "BC": {
+      "n": 178,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 27,
+        "CPC": 32,
+        "NDP": 30,
+        "PPC": 4,
+        "GPC": 6,
+        "AUTRES": 1
+      }
+    },
+    "AB": {
+      "n": 134,
+      "libelle": "AB",
+      "parts": {
+        "LPC": 19,
+        "CPC": 46,
+        "NDP": 24,
+        "PPC": 6,
+        "GPC": 1,
+        "AUTRES": 5
+      }
+    },
+    "SK": {
+      "n": 120,
+      "libelle": "SK",
+      "parts": {
+        "LPC": 10,
+        "CPC": 62,
+        "NDP": 19,
+        "PPC": 4,
+        "AUTRES": 5
+      }
+    },
+    "MB": {
+      "n": 113,
+      "libelle": "MB",
+      "parts": {
+        "LPC": 25,
+        "CPC": 46,
+        "NDP": 26,
+        "PPC": 2,
+        "GPC": 2
+      }
+    },
+    "ON": {
+      "n": 424,
+      "libelle": "ON",
+      "parts": {
+        "LPC": 38,
+        "CPC": 32,
+        "NDP": 23,
+        "PPC": 3,
+        "GPC": 3
+      }
+    },
+    "QC": {
+      "n": 371,
+      "libelle": "QC",
+      "parts": {
+        "LPC": 36,
+        "CPC": 17,
+        "NDP": 13,
+        "BQ": 29,
+        "PPC": 2,
+        "GPC": 2,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 127,
+      "libelle": "ATL",
+      "parts": {
+        "LPC": 37,
+        "CPC": 31,
+        "NDP": 27,
+        "PPC": 3,
+        "AUTRES": 2
+      }
+    }
+  }
+}

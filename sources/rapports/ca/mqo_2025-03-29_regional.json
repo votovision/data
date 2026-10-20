@@ -1,0 +1,79 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "MQO Research",
+  "date_debut": "2025-03-25",
+  "date_fin": "2025-03-29",
+  "document": "Canada Federal Election 2025 — tableaux, terrain 25-29 mars 2025 (MQO Research, 30 mars 2025)",
+  "reference": "https://www.mqoresearch.com/wp-content/uploads/2025/03/MQO_FEDelxn_tables_Mar25-Mar29_2025.03.30.pdf",
+  "note": "Page 1, tableau « VOTE_INTENTALL )) Party Voting Intention (DECIDED+LEANING) », colonnes « CAD REGION » ; base : décidés ou enclins (« Those who are decided OR leaning toward a party », indécis exclus ; il existe un tableau précédent du même nom qui garde une ligne « Undecided / Not voting / Other », non utilisé). Pourcentages entiers ; le total national est la colonne « OVERALL » du même tableau (non comparé à Wikipédia). n = « UNWEIGHTED SAMPLE SIZE (#) » sur cette base. Pas de ligne « Other » dans ce tableau. Bloc imprimé à 0 hors Québec, omis. Ce rapport publie une seule colonne « Prairies » (échantillon « n=288 AB/SK/MB oversample ») : Alberta, Saskatchewan et Manitoba ensemble, code PRAIRIES ; l'effectif non pondéré de cette colonne (826) inclut le suréchantillon. Terrain 25-29 mars 2025, N=1 938 électeurs admissibles, en ligne.",
+  "groupes": {
+    "National": {
+      "n": 1694,
+      "libelle": "OVERALL",
+      "parts": {
+        "LPC": 45,
+        "CPC": 34,
+        "NDP": 11,
+        "BQ": 4,
+        "GPC": 4,
+        "PPC": 2
+      }
+    },
+    "ATL": {
+      "n": 106,
+      "libelle": "Atlantic",
+      "parts": {
+        "LPC": 60,
+        "CPC": 32,
+        "NDP": 6,
+        "GPC": 2,
+        "PPC": 1
+      }
+    },
+    "QC": {
+      "n": 217,
+      "libelle": "Quebec",
+      "parts": {
+        "LPC": 46,
+        "CPC": 24,
+        "NDP": 9,
+        "BQ": 16,
+        "GPC": 4,
+        "PPC": 2
+      }
+    },
+    "ON": {
+      "n": 403,
+      "libelle": "Ontario",
+      "parts": {
+        "LPC": 50,
+        "CPC": 34,
+        "NDP": 8,
+        "GPC": 5,
+        "PPC": 3
+      }
+    },
+    "PRAIRIES": {
+      "n": 826,
+      "libelle": "Prairies",
+      "parts": {
+        "LPC": 29,
+        "CPC": 52,
+        "NDP": 15,
+        "GPC": 2,
+        "PPC": 2
+      }
+    },
+    "BC": {
+      "n": 142,
+      "libelle": "BC",
+      "parts": {
+        "LPC": 46,
+        "CPC": 31,
+        "NDP": 17,
+        "GPC": 5,
+        "PPC": 1
+      }
+    }
+  }
+}
