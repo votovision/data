@@ -27,6 +27,7 @@ for a in "$@"; do case "$a" in --force) FORCE=1 ;; --sans-push) PUSH=0 ;; esac; 
 
 # Deno et Node installés pour l'utilisateur (deno.land, nvm, fnm…).
 export PATH="$HOME/.deno/bin:$HOME/.local/bin:$PATH"
+export NO_COLOR=1   # journal lisible : pas de codes couleur de Deno
 [ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" >/dev/null 2>&1
 command -v fnm >/dev/null 2>&1 && eval "$(fnm env)"
 
@@ -53,7 +54,7 @@ done
 
 # --- Données -----------------------------------------------------------------
 cd "$RACINE/data" || exit 1
-SORTIE=$( { deno task vigile; deno task liaison; deno task vigile; } 2>&1 | grep -v 'Download\|Initialize\|^Task\|warning:\|format error' )
+SORTIE=$( { deno task vigile; deno task liaison; deno task vigile; } 2>&1 | grep -v 'Download\|Initialize\|Task \|warning:\|format error' )
 printf '%s\n' "$SORTIE" | sed 's/^/  /'
 AJOUTS=$(printf '%s\n' "$SORTIE" | grep -E '^\s+\+ ' | sed -E 's/^\s+\+ //' | sort -u)
 CHANGE=0
