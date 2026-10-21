@@ -5,6 +5,7 @@
     "npm:fflate@~0.8.2": "0.8.2",
     "npm:linkedom@~0.18.13": "0.18.13",
     "npm:mapshaper@0.6": "0.6.121",
+    "npm:mupdf@1": "1.28.1",
     "npm:xlsx@~0.18.5": "0.18.5"
   },
   "npm": {
@@ -1087,6 +1088,9 @@
         "msgpackr-extract"
       ]
     },
+    "mupdf@1.28.1": {
+      "integrity": "sha512-Gi11Ow2G1SlrXKJNZBL1eAIGFVih5+4ZKqjptamTVaj/5hnlrcVrVbyb7lHE2lfFKdxZPyv9ZtfOOq7XgjzEig=="
+    },
     "mute-stream@3.0.0": {
       "integrity": "sha512-dkEJPVvun4FryqBmZ5KhDo0K9iDXAwn08tMLDinNdRBNPcYEDiWYysLcc6k3mjTMlbP9KyylvRpd4wFtwrT9rw=="
     },
@@ -1459,6 +1463,7 @@
       "npm:fflate@~0.8.2",
       "npm:linkedom@~0.18.13",
       "npm:mapshaper@0.6",
+      "npm:mupdf@1",
       "npm:xlsx@~0.18.5"
     ]
   }

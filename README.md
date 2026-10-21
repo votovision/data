@@ -32,6 +32,15 @@ deno task transposition-sections-qc --de AAAA-MM-JJ --vers AAAA-MM-JJ    # résu
 
 Chaque script de `sources/` documente en tête sa source, sa licence et sa commande.
 
+### Vigile quotidienne
+
+`vigile/quotidien.sh` enchaîne, pour une machine toujours allumée : mise à jour des quatre dépôts voisins (`data`, `canada`, `bc`, `quebec`), vigile des sondages, lecture automatique des tableaux détaillés de Liaison (`deno task liaison`, `sources/liaison_tableaux.ts` : un tableau n'est écrit que s'il passe les contrôles de sommes, de moyenne régionale et d'accord avec Wikipédia), intégration, puis recalcul et push des prévisions si un sondage est arrivé. Il liste dans son journal (`~/.local/state/votovision/quotidien.log`) les sondages fédéraux récents dont la ventilation reste à transcrire à la main.
+
+```
+bash vigile/installer-systemd.sh 07:15     # minuterie systemd de l'utilisateur, chaque jour
+bash vigile/quotidien.sh --sans-push       # essai à la main, sans rien pousser
+```
+
 ## Licences
 
 - **Code** (`sources/`, `vigile/`, outils) : GNU GPL v3 (`LICENSE`).
