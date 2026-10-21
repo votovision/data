@@ -13,13 +13,18 @@
  * Le texte OCR et la réponse du modèle de chaque cas sont écrits dans
  * raw/banc_ocr/ pour inspection.
  *
- * Run: deno task banc-ocr
+ * Option --vision : les pages sont données en images au modèle de vision
+ * (VOTOVISION_LLM_VISION, glm-5.3-flash:cloud par défaut), sans OCR.
+ *
+ * Run: deno task banc-ocr [--vision]
  */
 
 import * as mupdf from "mupdf";
-import { enTexte, rangeesOcr } from "../lib/pdf.ts";
+import { enTexte, imagePng, rangeesOcr } from "../lib/pdf.ts";
 import { RACINE, USER_AGENT } from "../lib/commun.ts";
-import { MODELE, relire } from "./contreverif.ts";
+import { MODELE, MODELE_VISION, relire, relireImages } from "./contreverif.ts";
+
+const VISION = Deno.args.includes("--vision");
 
 const CAS = [
   { ref: "liaison_2026-06-27", pages: [2], n: true },
@@ -32,19 +37,24 @@ const SORTIE = new URL("raw/banc_ocr/", RACINE);
 Deno.mkdirSync(SORTIE, { recursive: true });
 
 let total = 0, faux = 0;
-console.log(`Modèle : ${MODELE}`);
+console.log(`Modèle : ${VISION ? MODELE_VISION + " (images)" : MODELE + " (texte OCR)"}`);
 for (const c of CAS) {
   const f = JSON.parse(Deno.readTextFileSync(new URL(`sources/rapports/ca/${c.ref}_regional.json`, RACINE)));
   const r = await fetch(f.reference, { headers: { "User-Agent": USER_AGENT } });
   if (!r.ok) { console.log(`${c.ref.padEnd(24)} PDF introuvable (${r.status})`); continue; }
   const doc = mupdf.Document.openDocument(new Uint8Array(await r.arrayBuffer()), "application/pdf");
   const t0 = Date.now();
-  const textes = [];
-  for (const p of c.pages) textes.push(enTexte(await rangeesOcr(doc.loadPage(p - 1))));
-  const texte = textes.join("\n=== page suivante ===\n");
-  Deno.writeTextFileSync(new URL(`${c.ref}.ocr.txt`, SORTIE), texte);
-  const lu = await relire(texte);
-  Deno.writeTextFileSync(new URL(`${c.ref}.llm.txt`, SORTIE), lu?.brut ?? "(pas de réponse)");
+  let lu;
+  if (VISION) {
+    lu = await relireImages(c.pages.map((p) => imagePng(doc.loadPage(p - 1))));
+  } else {
+    const textes = [];
+    for (const p of c.pages) textes.push(enTexte(await rangeesOcr(doc.loadPage(p - 1))));
+    const texte = textes.join("\n=== page suivante ===\n");
+    Deno.writeTextFileSync(new URL(`${c.ref}.ocr.txt`, SORTIE), texte);
+    lu = await relire(texte);
+  }
+  Deno.writeTextFileSync(new URL(`${c.ref}.${VISION ? "vision" : "llm"}.txt`, SORTIE), lu?.brut ?? "(pas de réponse)");
   const ecarts: string[] = [];
   let n = 0;
   for (const [g, v] of Object.entries(f.groupes) as [string, { n: number | null; parts: Record<string, number> }][]) {

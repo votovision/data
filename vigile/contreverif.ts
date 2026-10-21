@@ -20,9 +20,11 @@
 
 import * as mupdf from "mupdf";
 import { enTexte, rangeesAuto } from "../lib/pdf.ts";
+import { encodeBase64 } from "jsr:@std/encoding@1/base64";
 import { RACINE, USER_AGENT } from "../lib/commun.ts";
 
 export const MODELE = Deno.env.get("VOTOVISION_LLM") ?? "glm-5.3:cloud";
+export const MODELE_VISION = Deno.env.get("VOTOVISION_LLM_VISION") ?? "glm-5.3-flash:cloud";
 const HOTE = Deno.env.get("OLLAMA_HOST") ?? "http://localhost:11434";
 const A_VERIFIER = new URL("raw/a_verifier/", RACINE);
 
@@ -46,14 +48,25 @@ async function pageDuTableau(url: string): Promise<string | null> {
   return null;
 }
 
+/** Lecture d'images de pages par le modèle de vision, ou null s'il ne répond pas. */
+export async function relireImages(images: Uint8Array[]): Promise<{ groupes: Groupes; brut: string } | null> {
+  const consigne = CONSIGNE.replace("Le texte ci-dessous est la page, une ligne par rangée du document ; chaque cellule est suivie de sa position horizontale (@xNNN) : une valeur appartient à la colonne dont l'en-tête a la position la plus proche.",
+    "Les images ci-jointes sont les pages du rapport ; s'il y en a plusieurs, le total national peut être sur une page et les régions sur une autre.");
+  return await demander(MODELE_VISION, [{ role: "system", content: consigne },
+    { role: "user", content: "Voici les pages.", images: images.map((i) => encodeBase64(i)) }]);
+}
+
 /** Lecture du modèle, ou null s'il ne répond pas. Le JSON peut suivre un raisonnement. */
 export async function relire(page: string): Promise<{ groupes: Groupes; brut: string } | null> {
+  return await demander(MODELE, [{ role: "system", content: CONSIGNE }, { role: "user", content: page }]);
+}
+
+async function demander(modele: string, messages: unknown[]): Promise<{ groupes: Groupes; brut: string } | null> {
   let j;
   try {
     const r = await fetch(`${HOTE}/api/chat`, {
       method: "POST",
-      body: JSON.stringify({ model: MODELE, stream: false, format: "json", think: false, options: { temperature: 0 },
-        messages: [{ role: "system", content: CONSIGNE }, { role: "user", content: page }] }),
+      body: JSON.stringify({ model: modele, stream: false, format: "json", think: false, options: { temperature: 0 }, messages }),
     });
     j = await r.json();
   } catch { return null; }

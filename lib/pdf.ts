@@ -8,6 +8,7 @@
  *   couche texte (glyphes vectorisés, images). Demande la permission
  *   --allow-run=tesseract.
  * - rangeesAuto(page) : la couche texte si elle existe, sinon l'OCR.
+ * - imagePng(page) : la page rendue en PNG, pour un modèle de vision.
  * - enTexte(rangees) : une ligne par rangée, cellules « texte@xNNN » de gauche
  *   à droite, x en points de la page.
  */
@@ -72,3 +73,8 @@ export async function rangeesAuto(page: mupdf.Page): Promise<{ rangees: Cellule[
 }
 
 export const enTexte = (r: Cellule[][]): string => r.map((l) => l.map((c) => `${c.s}@x${Math.round(c.x)}`).join(" | ")).join("\n");
+
+export function imagePng(page: mupdf.Page, dpi = 200): Uint8Array {
+  const e = dpi / 72;
+  return page.toPixmap(mupdf.Matrix.scale(e, e), mupdf.ColorSpace.DeviceRGB, false, true).asPNG();
+}
