@@ -13,8 +13,6 @@
     "limites-federales": "deno run --allow-read --allow-write --allow-env --allow-sys --allow-net=www.elections.ca sources/limites_federales.ts",
     "sections-qc": "deno run --allow-read --allow-write --allow-net=donnees.electionsquebec.qc.ca sources/elections_quebec_sections.ts",
     "transposition-sections-qc": "deno run --allow-read --allow-write --allow-ffi --allow-env --allow-sys --allow-net=donnees.electionsquebec.qc.ca,extensions.duckdb.org sources/transposition_sections_qc.ts",
-    "liaison": "deno run --allow-read --allow-write --allow-env --allow-net=press.liaisonstrategies.ca,storage.ghost.io sources/liaison_tableaux.ts",
-    "contreverif": "deno run --allow-read --allow-write --allow-env --allow-net --allow-run=tesseract vigile/contreverif.ts",
-    "banc-ocr": "deno run --allow-read --allow-write --allow-env --allow-net --allow-run=tesseract vigile/banc_ocr.ts"
+    "liaison": "deno run --allow-read --allow-write --allow-env --allow-net=press.liaisonstrategies.ca,storage.ghost.io sources/liaison_tableaux.ts"
   }
 }
