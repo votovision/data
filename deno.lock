@@ -1,12 +1,18 @@
 {
   "version": "5",
   "specifiers": {
+    "jsr:@std/encoding@1": "1.0.11",
     "npm:@duckdb/node-api@^1.5.5-r.4": "1.5.5-r.5",
     "npm:fflate@~0.8.2": "0.8.2",
     "npm:linkedom@~0.18.13": "0.18.13",
     "npm:mapshaper@0.6": "0.6.121",
     "npm:mupdf@1": "1.28.1",
     "npm:xlsx@~0.18.5": "0.18.5"
+  },
+  "jsr": {
+    "@std/encoding@1.0.11": {
+      "integrity": "e7cef2f0b3153bccc17431e7c864a1de03a4b6d9647389c43e08aaa775d37385"
+    }
   },
   "npm": {
     "@bokuweb/zstd-wasm@0.0.27": {
