@@ -3,8 +3,9 @@
  *
  * Pour chaque fichier de sources/rapports/ca/ donné en argument : le document
  * source (champ reference, PDF) est téléchargé, la page du tableau des
- * électeurs décidés est repérée et son texte extrait par MuPDF (une ligne par
- * rangée, chaque cellule avec sa position horizontale) ; un modèle servi par
+ * électeurs décidés est repérée et son texte extrait par MuPDF, ou par OCR
+ * (tesseract) pour un PDF sans couche texte (lib/pdf.ts : une ligne par rangée,
+ * chaque cellule avec sa position horizontale) ; un modèle servi par
  * Ollama relit le tableau, à température 0, et chaque valeur du fichier (parts
  * et effectifs) est comparée à sa lecture. Au moindre écart, le fichier est
  * déplacé dans raw/a_verifier/ avec la réponse du modèle, et n'est donc pas
@@ -18,9 +19,10 @@
  */
 
 import * as mupdf from "mupdf";
+import { enTexte, rangeesAuto } from "../lib/pdf.ts";
 import { RACINE, USER_AGENT } from "../lib/commun.ts";
 
-const MODELE = Deno.env.get("VOTOVISION_LLM") ?? "glm-5.3:cloud";
+export const MODELE = Deno.env.get("VOTOVISION_LLM") ?? "glm-5.3:cloud";
 const HOTE = Deno.env.get("OLLAMA_HOST") ?? "http://localhost:11434";
 const A_VERIFIER = new URL("raw/a_verifier/", RACINE);
 
@@ -31,28 +33,13 @@ Groupes : National (colonne Total/Canada), ATL, QC, ON, MBSK (Manitoba et Saskat
 
 type Groupes = Record<string, { n: number | null; parts: Record<string, number> }>;
 
-/** Texte d'une page : une ligne par rangée, cellules « texte@xNNN » de gauche à droite. */
-function textePage(page: mupdf.Page): string {
-  const st = JSON.parse(page.toStructuredText("preserve-whitespace").asJSON());
-  const rangees = new Map<number, { x: number; s: string }[]>();
-  for (const b of st.blocks) {
-    for (const l of b.lines ?? []) {
-      if (!l.text.trim()) continue;
-      const k = [...rangees.keys()].find((v) => Math.abs(v - l.bbox.y) <= 3) ?? l.bbox.y;
-      if (!rangees.has(k)) rangees.set(k, []);
-      rangees.get(k)!.push({ x: Math.round(l.bbox.x), s: l.text.trim() });
-    }
-  }
-  return [...rangees].sort((a, b) => a[0] - b[0]).map(([, r]) => r.sort((a, b) => a.x - b.x).map((c) => `${c.s}@x${c.x}`).join(" | ")).join("\n");
-}
-
 /** La page du tableau des décidés avec les colonnes régionales, ou null. */
 async function pageDuTableau(url: string): Promise<string | null> {
   const r = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!r.ok) return null;
   const doc = mupdf.Document.openDocument(new Uint8Array(await r.arrayBuffer()), "application/pdf");
   for (let p = 0; p < doc.countPages(); p++) {
-    const t = textePage(doc.loadPage(p));
+    const t = enTexte((await rangeesAuto(doc.loadPage(p))).rangees);
     // « decided » comme mot entier : « Undecided » marque le tableau de tous les répondants.
     if (/\bdecided\b/i.test(t) && /atlantic|atl/i.test(t) && /quebec|qc/i.test(t)) return t;
   }
@@ -60,7 +47,7 @@ async function pageDuTableau(url: string): Promise<string | null> {
 }
 
 /** Lecture du modèle, ou null s'il ne répond pas. Le JSON peut suivre un raisonnement. */
-async function relire(page: string): Promise<{ groupes: Groupes; brut: string } | null> {
+export async function relire(page: string): Promise<{ groupes: Groupes; brut: string } | null> {
   let j;
   try {
     const r = await fetch(`${HOTE}/api/chat`, {
@@ -80,7 +67,9 @@ if (import.meta.main) {
   for (const chemin of Deno.args) {
     const nom = chemin.split("/").at(-1)!;
     const f = JSON.parse(Deno.readTextFileSync(chemin));
-    const page = /\.pdf($|\?)/i.test(f.reference) ? await pageDuTableau(f.reference) : null;
+    let page: string | null = null;
+    try { page = /\.pdf($|\?)/i.test(f.reference) ? await pageDuTableau(f.reference) : null; }
+    catch (e) { console.log(`contre-vérification ${nom} : lecture impossible (${(e as Error).message.slice(0, 80)}), non contre-vérifié`); continue; }
     if (!page) { console.log(`contre-vérification ${nom} : page source introuvable, non contre-vérifié`); continue; }
     const lu = await relire(page);
     if (!lu) { console.log(`contre-vérification ${nom} : ${MODELE} sans réponse lisible, non contre-vérifié`); continue; }
