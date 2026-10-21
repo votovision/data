@@ -54,7 +54,15 @@ done
 
 # --- Données -----------------------------------------------------------------
 cd "$RACINE/data" || exit 1
-SORTIE=$( { deno task vigile; deno task liaison; deno task vigile; } 2>&1 | grep -v 'Download\|Initialize\|Task \|warning:\|format error' )
+filtre() { grep -v 'Download\|Initialize\|Task \|warning:\|format error'; }
+SORTIE=$( { deno task vigile; deno task liaison; } 2>&1 | filtre )
+# Ventilations lues automatiquement : relues par un LLM (vigile/contreverif.ts) ;
+# un écart les met de côté dans raw/a_verifier/ avant l'intégration.
+NOUVEAUX=$(git status --porcelain sources/rapports/ca | awk '$1=="??"{print $2}')
+if [ -n "$NOUVEAUX" ]; then SORTIE="$SORTIE
+$(deno task contreverif $NOUVEAUX 2>&1 | filtre)"; fi
+SORTIE="$SORTIE
+$(deno task vigile 2>&1 | filtre)"
 printf '%s\n' "$SORTIE" | sed 's/^/  /'
 AJOUTS=$(printf '%s\n' "$SORTIE" | grep -E '^\s+\+ ' | sed -E 's/^\s+\+ //' | sort -u)
 CHANGE=0
