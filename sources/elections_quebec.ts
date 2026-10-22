@@ -9,6 +9,13 @@
  * résultats sont définitifs (isResultatsFinaux) ; un flux incomplet est
  * refusé sauf --provisoire.
  *
+ * Dépouillements judiciaires (sources/elections_quebec_depouillements.json) :
+ * le flux n'est pas toujours mis à jour après un dépouillement judiciaire ;
+ * les votes publiés par Élections Québec à son issue remplacent ceux du flux.
+ * Chaque entrée donne, par candidat, [votes au recensement, votes au
+ * dépouillement] ; le flux doit porter l'un ou l'autre, sinon le script
+ * s'arrête.
+ *
  * Run: deno run --allow-read --allow-write --allow-net=donnees.electionsquebec.qc.ca sources/elections_quebec.ts --date AAAA-MM-JJ --carte AAAA [--provisoire]
  */
 
@@ -38,6 +45,19 @@ if (import.meta.main) {
       lignes.push({ juridiction: "qc-provincial", election: date, carte, circonscription: String(c.numeroCirconscription), nom: c.nomCirconscription,
         parti: PARTIS[sigle] ?? `AUTRES:${k.prenom} ${k.nom} ${sigle}`, votes: k.nbVoteTotal, provenance: PROVENANCE });
     }
+  }
+  const depouillements = JSON.parse(Deno.readTextFileSync(new URL("sources/elections_quebec_depouillements.json", RACINE)))
+    .filter((d: { election: string }) => d.election === date);
+  for (const d of depouillements as { circonscription: string; nom: string; date: string; votes: Record<string, [number, number]> }[]) {
+    const ici = lignes.filter((l) => l.circonscription === d.circonscription);
+    if (ici.length !== Object.keys(d.votes).length) throw new Error(`${d.nom} : ${ici.length} candidats dans le flux, ${Object.keys(d.votes).length} au dépouillement judiciaire`);
+    for (const l of ici) {
+      const v = d.votes[l.parti as string];
+      if (!v || !v.includes(l.votes as number)) throw new Error(`${d.nom} ${l.parti} : ${l.votes} dans le flux, ni recensement ni dépouillement (${v})`);
+      l.votes = v[1];
+      l.provenance = `Élections Québec, dépouillement judiciaire du ${d.date}`;
+    }
+    console.log(`${d.nom} : votes du dépouillement judiciaire du ${d.date}`);
   }
   const F = new URL("csv/resultats.csv", RACINE);
   const autres = lireCsv(F).filter((l) => !(l.juridiction === "qc-provincial" && l.election === date && l.carte === carte));

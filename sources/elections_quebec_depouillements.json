@@ -1,0 +1,18 @@
+[
+  {
+    "election": "2026-10-05",
+    "circonscription": "211",
+    "nom": "Vachon",
+    "date": "2026-10-21",
+    "reference": "https://www.lesaffaires.com/communique-de-presse/elections-provinciales-de-2026-resultat-du-depouillement-judiciaire-dans-la-circonscription-de-vachon/",
+    "note": "Communiqué d'Élections Québec (CNW, 21 octobre 2026) : dépouillement judiciaire de la Cour du Québec des 19, 20 et 21 octobre 2026 ; bulletins rejetés : 588 au recensement des votes, 730 au dépouillement judiciaire.",
+    "votes": {
+      "PQ": [10053, 10023],
+      "LIB": [10063, 10020],
+      "CAQ": [7614, 7607],
+      "PCQ": [4763, 4721],
+      "QS": [3807, 3800],
+      "AUTRES:Martine Lajoie CQ-EMO": [262, 260]
+    }
+  }
+]
