@@ -15,7 +15,9 @@
  *
  * Votes valides seulement. Partis : NDP, CON, GRN, BCU (BC Liberal Party,
  * devenu BC United en 2023), ONEBC, CENTRE (CentreBC), AUTRES. Les lignes
- * bc-provincial de csv/resultats.csv sont remplacées.
+ * bc-provincial de ces élections dans csv/resultats.csv sont remplacées ; celles
+ * des autres élections (résultats du soir de 2026, sources/elections_bc_soir.ts)
+ * sont gardées.
  *
  * Candidatures : csv/candidats_bc.csv, une ligne par candidature
  * (circonscription, nom « Prénom Nom », parti, votes valides, élu) pour les
@@ -53,7 +55,7 @@ const ELECTIONS = [
   { evenement: "2020 General Election", fichier: "results_va.csv", election: "2020-10-24", carte: "2015" },
   { evenement: "2024 Provincial General Election", fichier: "results_vp.csv", election: "2024-10-19", carte: "2023" },
 ];
-const PARTIS: Record<string, string> = {
+export const PARTIS: Record<string, string> = {
   "BC NDP": "NDP", "BC Liberal Party": "BCU", "BC United": "BCU", "BC Green Party": "GRN",
   "Conservative": "CON", "Conservative Party": "CON", OneBC: "ONEBC", CentreBC: "CENTRE",
 };
@@ -206,7 +208,8 @@ if (import.meta.main) {
   console.log(`${candidatures.length} candidatures (2017, 2020, 2024, 2026)`);
 
   const F = new URL("csv/resultats.csv", RACINE);
-  const reste = lireCsv(F).filter((l) => l.juridiction !== "bc-provincial");
+  const ecrites = new Set(ELECTIONS.map((e) => e.election));
+  const reste = lireCsv(F).filter((l) => l.juridiction !== "bc-provincial" || !ecrites.has(String(l.election)));
   const tout = [...reste, ...lignes].sort((a, b) => String(a.juridiction).localeCompare(String(b.juridiction)) || String(a.election).localeCompare(String(b.election))
     || String(a.carte).localeCompare(String(b.carte)) || String(a.circonscription).localeCompare(String(b.circonscription)) || String(a.parti).localeCompare(String(b.parti)));
   ecrireCsv(F, ["juridiction", "election", "carte", "circonscription", "nom", "parti", "votes", "provenance"], tout);
