@@ -2,7 +2,7 @@
  "wikipedia:fr:Liste de sondages sur les élections générales québécoises de 2018": "221699874",
  "wikipedia:fr:Liste de sondages sur les élections générales québécoises de 2022": "240246537",
  "wikipedia:fr:Liste de sondages sur les élections générales québécoises de 2026": "240311404",
- "wikipedia:en:Opinion polling for the 46th Canadian federal election": "1381771699",
+ "wikipedia:en:Opinion polling for the 46th Canadian federal election": "1382066086",
  "wikipedia:en:Opinion polling for the 2019 Canadian federal election": "1354398096",
  "wikipedia:en:Opinion polling for the 2021 Canadian federal election": "1330198687",
  "wikipedia:en:Opinion polling for the 2025 Canadian federal election": "1376040645",
@@ -25,7 +25,7 @@
  "rapport:qc/synopsis_2026-08-26_regional.json": "e88cd82c84c85923b15ab4d6d4c49d61551ac2ef",
  "wikipedia:en:2020 British Columbia general election": "1381559670",
  "wikipedia:en:2024 British Columbia general election": "1381856649",
- "wikipedia:en:2026 British Columbia general election": "1381876786",
+ "wikipedia:en:2026 British Columbia general election": "1382053650",
  "rapport:bc/604polling_2026-08-08_regional.json": "3ddb83a2175114024906deaf21e1cd8eba432b96",
  "rapport:bc/abacus_2025-10-15_regional.json": "f5a2a89ee063ee70840fb0125f849ed45c4e9414",
  "rapport:bc/angusreid_2020-10-19_regional.json": "1fe10dc83f4bce3d7565e0b3cfcd4de6543f46c6",
@@ -402,5 +402,6 @@
  "rapport:ca/researchco_2021-08-30_regional.json": "3a823ca857f030bb2235f070b29b3ee96bf322b5",
  "rapport:ca/researchco_2025-03-24_regional.json": "6d274df07c252795743a4234e9ab6d0fdf995dc7",
  "rapport:ca/researchco_2025-04-06_regional.json": "e57585ea1252884127928de98aa04eb0c50bc5de",
- "rapport:ca/liaison_2026-10-17_regional.json": "195d163e28f1894188d858d05c119c0d64d77858"
+ "rapport:ca/liaison_2026-10-17_regional.json": "195d163e28f1894188d858d05c119c0d64d77858",
+ "rapport:ca/liaison_2026-10-24_regional.json": "c39a50a7e92d829af62ffc9d9e3c0cd57575155a"
 }
