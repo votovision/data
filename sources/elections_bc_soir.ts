@@ -60,7 +60,7 @@ if (import.meta.main) {
     if (somme !== valides.get(nom)) throw new Error(`${nom} : ${somme} votes lus, ${valides.get(nom)} votes valides annoncés`);
   }
 
-  const provenance = `Elections BC, résultats préliminaires du soir (${heure}${urnes ? `, ${urnes} % des urnes` : ""})`;
+  const provenance = `Elections BC, résultats préliminaires (${heure}${urnes ? `, ${urnes} % des urnes` : ""})`;
   const nouvelles = [...votes].flatMap(([nom, v]) => [...v].map(([parti, n]) => ({
     juridiction: "bc-provincial", election: ELECTION, carte: CARTE, circonscription: codes.get(nom)!, nom, parti, votes: n, provenance,
   })));
