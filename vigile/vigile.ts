@@ -28,6 +28,7 @@ import {
 import { lirePageQc, PAGES_QC } from "../sources/wikipedia_qc.ts";
 import { lirePageFederale, PAGES_FEDERALES } from "../sources/wikipedia_federal.ts";
 import { lirePageBc, PAGES_BC } from "../sources/wikipedia_bc.ts";
+import { lirePageAb, PAGES_AB } from "../sources/wikipedia_ab.ts";
 
 const F_SONDAGES = new URL("csv/sondages.csv", RACINE), F_PARTS = new URL("csv/parts.csv", RACINE);
 const F_ETAT = new URL("etat/sources.json", RACINE);
@@ -199,6 +200,7 @@ if (import.meta.main) {
     new SourceWikipedia("Wikipédia (Québec)", "fr", PAGES_QC, lirePageQc),
     new SourceWikipedia("Wikipédia (fédéral)", "en", PAGES_FEDERALES, lirePageFederale),
     new SourceWikipedia("Wikipédia (Colombie-Britannique)", "en", PAGES_BC, lirePageBc),
+    new SourceWikipedia("Wikipédia (Alberta)", "en", PAGES_AB, lirePageAb),
     new SourceRapports(),
   ]).executer({ force: a.has("--force"), essai: a.has("--essai"), outrepasser: a.has("--outrepasser") });
 }
