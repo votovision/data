@@ -19,6 +19,11 @@
  * sont des sections d'établissement (hébergement, détention), non
  * territoriales.
  *
+ * En 2026, les en-têtes sont écrits en toutes lettres (« Section de vote »,
+ * « Électeurs inscrits », « Bulletins valides », « Bulletins rejetés ») et
+ * trois colonnes descriptives s'ajoutent (date, étendue, municipalités) ; les
+ * fichiers intègrent le dépouillement judiciaire de Vachon.
+ *
  * Les sigles des partis changent d'une élection à l'autre et se ressemblent
  * (P.C.Q./C.P.Q. : conservateurs en 2018, Parti culinaire en 2022) : la table
  * SIGLES est déclarée par élection et toute élection absente est refusée.
@@ -39,6 +44,7 @@ export const COLONNES = ["juridiction", "election", "carte", "circonscription", 
 const SIGLES: Record<string, Record<string, string>> = {
   "2018-10-01": { "P.Q.": "PQ", "P.L.Q./Q.L.P.": "LIB", "C.A.Q.-É.F.L.": "CAQ", "Q.S.": "QS", "P.C.Q./C.P.Q.": "PCQ" },
   "2022-10-03": { "P.Q.": "PQ", "P.L.Q./Q.L.P.": "LIB", "C.A.Q.-E.F.L.": "CAQ", "Q.S.": "QS", "P.C.Q-E.E.D.": "PCQ" },
+  "2026-10-05": { "PQ": "PQ", "PLQ/QLP": "LIB", "CAQ": "CAQ", "ÉCF-CAQ": "CAQ", "QS": "QS", "PCOQ": "PCQ" },
 };
 
 /** Première feuille d'un classeur Excel (quatre circonscriptions de 2018 ne sont fournies qu'ainsi), au format des CSV : champs séparés par « ; ». */
@@ -52,9 +58,15 @@ function texteXlsx(octets: Uint8Array): string {
 export function lireCirconscription(texte: string, election: string, carte: string, sigles: Record<string, string>, inconnus: Map<string, number>) {
   const lignes = texte.split(/\r?\n/).filter((l) => l.trim()).map((l) => l.split(";"));
   const entete = lignes[0];
-  const col = (nom: string) => { const i = entete.indexOf(nom); if (i < 0) throw new Error(`colonne ${nom} absente : ${entete.join(";")}`); return i; };
+  // Abréviations jusqu'en 2022, en toutes lettres en 2026.
+  const col = (...noms: string[]) => {
+    const i = entete.findIndex((h) => noms.includes(h.trim()));
+    if (i < 0) throw new Error(`colonne ${noms.join(" ou ")} absente : ${entete.join(";")}`);
+    return i;
+  };
   // Le code de circonscription est la première colonne ; son en-tête est « Code », sauf dans un fichier de 2022 (« S »).
-  const iCode = 0, iNom = col("Circonscription"), iRegr = col("Regroupement"), iSv = col("S.V."), iEi = col("É.I."), iBv = col("B.V."), iBr = col("B.R.");
+  const iCode = 0, iNom = col("Circonscription"), iRegr = col("Regroupement"), iSv = col("S.V.", "Section de vote"),
+    iEi = col("É.I.", "Électeurs inscrits"), iBv = col("B.V.", "Bulletins valides"), iBr = col("B.R.", "Bulletins rejetés");
   // Colonnes de candidatures : entre É.I. et B.V. ; le sigle est le dernier mot de l'en-tête.
   const candidats = entete.slice(iEi + 1, iBv).map((h, k) => {
     const sigle = h.trim().split(/\s+/).at(-1)!;
