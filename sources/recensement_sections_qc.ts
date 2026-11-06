@@ -18,8 +18,9 @@
  * 3. Par section : comptes interpolés (somme pondérée), et pour les valeurs
  *    non additives (revenu médian, fréquence du faible revenu, taille moyenne
  *    des ménages) moyenne pondérée par la population interpolée, sur les aires
- *    où la valeur est publiée. Écrit la table dans le dossier de données du
- *    billet (--sortie), sans aucune variable de vote.
+ *    où la valeur est publiée ; point représentatif de la section (x, y en
+ *    mètres, EPSG:3798), pour les analyses spatiales. Écrit la table dans le
+ *    dossier de données du billet (--sortie), sans aucune variable de vote.
  *
  * Run: deno run --allow-read --allow-write --allow-run=unzip --allow-ffi --allow-env --allow-sys --allow-net=extensions.duckdb.org \
  *        sources/recensement_sections_qc.ts --sortie <dossier>
@@ -128,7 +129,8 @@ if (import.meta.main) {
   const additives = COLONNES.filter((v) => !NON_ADDITIVES.has(v));
   const moyennes = [...NON_ADDITIVES].map((v) => `sum(w.w * adv.population * adv.${v}) FILTER (WHERE adv.${v} IS NOT NULL) / NULLIF(sum(w.w * adv.population) FILTER (WHERE adv.${v} IS NOT NULL), 0) ${v}`);
   const r = await c.runAndReadAll(`
-    SELECT s.cep, s.sv, el.nom, el.electeurs, count(DISTINCT w.dauid) n_aires,
+    SELECT s.cep, s.sv, el.nom, el.electeurs, round(ST_X(ST_PointOnSurface(any_value(s.geom)))) x, round(ST_Y(ST_PointOnSurface(any_value(s.geom)))) y,
+           count(DISTINCT w.dauid) n_aires,
            ${additives.map((v) => `sum(w.w * adv.${v}) ${v}`).join(", ")}, ${moyennes.join(", ")}
     FROM sec s LEFT JOIN el USING (cep, sv) LEFT JOIN poids w USING (cep, sv) LEFT JOIN adv USING (dauid)
     GROUP BY s.cep, s.sv, el.nom, el.electeurs ORDER BY s.cep, s.sv`);
