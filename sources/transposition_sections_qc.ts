@@ -17,7 +17,11 @@
  * entre les sections du groupe au prorata des électeurs ; les sections
  * regroupées au bureau du directeur du scrutin (BVDS) n'ont pas de votes par
  * section et restent sans résultat. Les sous-sections lettrées (4A, 4B)
- * partagent un polygone et sont sommées.
+ * partagent un polygone et sont sommées. La colonne stabilite (0 à 1) dit si
+ * la section de B correspond à une seule section de A (1 : découpage inchangé) ;
+ * la colonne bureau donne, pour l'élection B, la section du bureau où les votes
+ * de la section ont été dépouillés (elle-même, ou le bureau de regroupement) :
+ * les sections d'un même bureau portent des votes répartis, pas mesurés.
  *
  * Entrées : csv/resultats_sections_qc.csv (sources/elections_quebec_sections.ts)
  * et les polygones des sections d'Élections Québec
@@ -93,7 +97,7 @@ if (import.meta.main) {
       ), g AS (
         SELECT cep, grp, sum(electeurs) e, count(*) n, ${somme}, sum(valides) valides FROM l WHERE NOT bvds GROUP BY cep, grp
       )
-      SELECT l.cep, any_value(l.nom) nom, l.svn, sum(l.electeurs) electeurs,
+      SELECT l.cep, any_value(l.nom) nom, l.svn, any_value(l.grp) bureau, sum(l.electeurs) electeurs,
              ${PARTIS.map((p) => `sum(g.${p} * CASE WHEN g.e > 0 THEN l.electeurs / g.e ELSE 1.0 / g.n END) ${p}`).join(", ")},
              sum(g.valides * CASE WHEN g.e > 0 THEN l.electeurs / g.e ELSE 1.0 / g.n END) valides
       FROM l JOIN g USING (cep, grp) WHERE NOT l.bvds GROUP BY l.cep, l.svn`);
@@ -118,12 +122,21 @@ if (import.meta.main) {
     SELECT w.cep_b cep, w.sv_b svn, ${PARTIS.map((p) => `sum(w.w * va.${p}) ${p}`).join(", ")}, sum(w.w * va.valides) valides, sum(w.w * va.electeurs) electeurs
     FROM poids w JOIN va ON va.cep = w.cep_a AND va.svn = w.sv_a GROUP BY 1, 2`);
 
+  // Stabilité du découpage d'une section de B : plus grande valeur, parmi les sections de A qui la recoupent, du minimum entre
+  // la part de la section de A qui lui revient et la part de ses électeurs transposés qui en viennent (1 : même section).
+  await c.run(`CREATE TABLE stab AS
+    WITH k AS (SELECT w.cep_b, w.sv_b, w.w, w.w * COALESCE(va.electeurs, 0) e FROM poids w LEFT JOIN va ON va.cep = w.cep_a AND va.svn = w.sv_a),
+         t AS (SELECT cep_b, sv_b, sum(e) te FROM k GROUP BY 1, 2)
+    SELECT k.cep_b cep, k.sv_b svn, max(least(k.w, CASE WHEN t.te > 0 THEN k.e / t.te ELSE 0 END)) stabilite
+    FROM k JOIN t USING (cep_b, sv_b) GROUP BY 1, 2`);
+
   // Une ligne par section de B.
   const r = await c.runAndReadAll(`
-    SELECT sb.cep, sb.sv, vb.nom, vb.electeurs,
+    SELECT sb.cep, sb.sv, vb.nom, vb.electeurs, vb.bureau,
            ${PARTIS.map((p) => `vb.${p} b_${p}`).join(", ")}, vb.valides b_valides,
-           ${PARTIS.map((p) => `ta.${p} a_${p}`).join(", ")}, ta.valides a_valides, ta.electeurs a_electeurs
+           ${PARTIS.map((p) => `ta.${p} a_${p}`).join(", ")}, ta.valides a_valides, ta.electeurs a_electeurs, stab.stabilite
     FROM sb LEFT JOIN vb ON vb.cep = sb.cep AND vb.svn = sb.sv LEFT JOIN ta ON ta.cep = sb.cep AND ta.svn = sb.sv
+    LEFT JOIN stab ON stab.cep = sb.cep AND stab.svn = sb.sv
     ORDER BY sb.cep, sb.sv`);
   const num = (v: unknown) => v === null || v === undefined ? null : Number(v);
   const gagnant = (l: Record<string, unknown>, pre: string) => {
@@ -134,7 +147,7 @@ if (import.meta.main) {
     return { parti: v[0][1] >= (num(l[`${pre}AUTRES`]) ?? 0) ? v[0][0] : "AUTRES", marge: (v[0][1] - v[1][1]) / total };
   };
   const arrondi = (v: number | null, d = 1) => v === null ? "" : Number(v.toFixed(d));
-  const lignes = r.getRowObjects().map((l) => {
+  const lignes: Record<string, unknown>[] = r.getRowObjects().map((l) => {
     const gb = gagnant(l, "b_"), ga = gagnant(l, "a_");
     return {
       circonscription: num(l.cep), nom: l.nom ?? "", sv: num(l.sv), electeurs: num(l.electeurs) ?? "",
@@ -143,6 +156,7 @@ if (import.meta.main) {
       ...Object.fromEntries(PARTIS.map((p) => [`${de.slice(0, 4)}_${p}`, arrondi(num(l[`a_${p}`]))])),
       [`${de.slice(0, 4)}_valides`]: arrondi(num(l.a_valides)), [`${de.slice(0, 4)}_electeurs`]: arrondi(num(l.a_electeurs)),
       [`${de.slice(0, 4)}_gagnant`]: ga.parti, [`${de.slice(0, 4)}_marge`]: arrondi(ga.marge, 3),
+      stabilite: arrondi(num(l.stabilite), 3), bureau: num(l.bureau) ?? "",
     };
   });
   const sortie = new URL(`transposition_sections_${de}_sur_${vers}.csv`, RAW);

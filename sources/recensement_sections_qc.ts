@@ -37,11 +37,12 @@ const LIMITES = new URL("lda_000b21a_e.zip", RAW).pathname;
 export const VARIABLES: Record<number, string> = {
   1: "population", 7: "superficie_km2",
   9: "age_0_14", 14: "age_15_19", 15: "age_20_24", 16: "age_25_29", 17: "age_30_34", 18: "age_35_39", 19: "age_40_44",
-  20: "age_45_49", 21: "age_50_54", 22: "age_55_59", 23: "age_60_64", 25: "age_65_69", 26: "age_70_74", 27: "age_75_79", 29: "age_85_plus", 28: "age_80_84",
+  20: "age_45_49", 21: "age_50_54", 22: "age_55_59", 23: "age_60_64", 25: "age_65_69", 26: "age_70_74", 27: "age_75_79", 28: "age_80_84",
+  29: "age_85_plus", 30: "age_85_89", 31: "age_90_94", 32: "age_95_99", 33: "age_100_plus",
   41: "logements_total", 42: "maison_individuelle", 43: "maison_jumelee", 44: "maison_rangee", 45: "duplex", 46: "appartement_moins_5_etages",
   47: "appartement_5_etages_plus", 48: "autre_maison_attenante", 49: "logement_mobile",
   50: "menages_total", 51: "menages_1_personne", 52: "menages_2_personnes", 53: "menages_3_personnes", 54: "menages_4_personnes", 55: "menages_5_personnes_plus",
-  57: "taille_moyenne_menages",
+  56: "personnes_menages_prives", 57: "taille_moyenne_menages",
   244: "revenu_median_menages_apres_impot", 345: "faible_revenu_mfr_api_pct",
   393: "langue_maternelle_total", 396: "langue_maternelle_anglais", 397: "langue_maternelle_francais", 398: "langue_maternelle_non_officielle",
   1402: "autochtone_total", 1403: "autochtone",
@@ -50,8 +51,10 @@ export const VARIABLES: Record<number, string> = {
   1683: "minorites_visibles_total", 1684: "minorites_visibles",
   1949: "religion_total", 1956: "catholique", 1973: "aucune_religion",
   1983: "mobilite_5_ans_total", 1985: "demenage_5_ans",
-  2014: "scolarite_25_64_total", 2015: "scol_aucun", 2016: "scol_secondaire", 2019: "scol_metiers", 2022: "scol_college_cegep",
-  2023: "scol_universitaire_inferieur_bac", 2024: "scol_bac_plus",
+  // Plus haut diplôme des 25-64 ans : niveaux fins (2015, 2016, 2020 à 2023, 2025 à 2029) et regroupements (2019, 2024).
+  2014: "scolarite_25_64_total", 2015: "scol_aucun", 2016: "scol_secondaire", 2019: "scol_metiers", 2020: "scol_ecole_metiers", 2021: "scol_apprenti",
+  2022: "scol_college_cegep", 2023: "scol_universitaire_inferieur_baccalaureat", 2024: "scol_baccalaureat_ou_plus", 2025: "scol_baccalaureat",
+  2026: "scol_universitaire_superieur_baccalaureat", 2027: "scol_medecine", 2028: "scol_maitrise", 2029: "scol_doctorat",
   2223: "activite_total", 2224: "population_active", 2226: "chomeurs",
   2248: "professions_total", 2249: "prof_0_cadres_superieurs", 2250: "prof_1_affaires_finance_admin", 2251: "prof_2_sciences",
   2252: "prof_3_sante", 2253: "prof_4_enseignement_droit_social", 2254: "prof_5_arts_culture", 2255: "prof_6_vente_services",
@@ -70,7 +73,11 @@ const champs = (l: string): string[] => {
 
 async function airesDeDiffusion(): Promise<URL> {
   const sortie = new URL("ad_qc_2021.csv", RAW);
-  try { Deno.statSync(sortie); return sortie; } catch { /* à produire */ }
+  // Extraction déjà faite avec les mêmes colonnes : réutilisée.
+  try {
+    const entete = Deno.readTextFileSync(sortie).slice(0, 20000).split("\n")[0].split(",");
+    if (COLONNES.every((c) => entete.includes(c))) return sortie;
+  } catch { /* à produire */ }
   const p = new Deno.Command("unzip", { args: ["-p", PROFIL, "98-401-X2021006_Francais_CSV_data_Quebec.csv"], stdout: "piped" }).spawn();
   const lignes = p.stdout.pipeThrough(new TextDecoderStream("latin1"));
   const par = new Map<string, Record<string, unknown>>();
