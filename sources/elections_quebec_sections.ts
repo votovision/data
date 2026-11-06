@@ -41,7 +41,7 @@ const PARTIS = ["PQ", "LIB", "CAQ", "QS", "PCQ", "AUTRES"];
 export const COLONNES = ["juridiction", "election", "carte", "circonscription", "nom", "sv", "electeurs", ...PARTIS, "valides", "rejetes", "regroupement", "provenance"];
 
 /** Sigle (dernier mot de l'en-tête de colonne) -> parti codé, par élection. Les autres sigles vont dans AUTRES. */
-const SIGLES: Record<string, Record<string, string>> = {
+export const SIGLES: Record<string, Record<string, string>> = {
   "2018-10-01": { "P.Q.": "PQ", "P.L.Q./Q.L.P.": "LIB", "C.A.Q.-É.F.L.": "CAQ", "Q.S.": "QS", "P.C.Q./C.P.Q.": "PCQ" },
   "2022-10-03": { "P.Q.": "PQ", "P.L.Q./Q.L.P.": "LIB", "C.A.Q.-E.F.L.": "CAQ", "Q.S.": "QS", "P.C.Q-E.E.D.": "PCQ" },
   "2026-10-05": { "PQ": "PQ", "PLQ/QLP": "LIB", "CAQ": "CAQ", "ÉCF-CAQ": "CAQ", "QS": "QS", "PCOQ": "PCQ" },

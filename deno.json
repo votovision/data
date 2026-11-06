@@ -15,6 +15,7 @@
     "transposition-sections-qc": "deno run --allow-read --allow-write --allow-ffi --allow-env --allow-sys --allow-net=donnees.electionsquebec.qc.ca,extensions.duckdb.org sources/transposition_sections_qc.ts",
     "liaison": "deno run --allow-read --allow-write --allow-env --allow-net=press.liaisonstrategies.ca,storage.ghost.io sources/liaison_tableaux.ts",
     "resultats-bc-soir": "deno run --allow-read --allow-write --allow-net=results.elections.bc.ca sources/elections_bc_soir.ts",
-    "recensement-sections-qc": "deno run --allow-read --allow-write --allow-run=unzip --allow-ffi --allow-env --allow-sys --allow-net=extensions.duckdb.org sources/recensement_sections_qc.ts"
+    "advance-votes-qc": "deno run --allow-read --allow-write sources/quebec_advance_votes.ts",
+    "census-polling-divisions-qc": "deno run --allow-read --allow-write --allow-run=unzip --allow-ffi --allow-env --allow-sys --allow-net=extensions.duckdb.org sources/census_polling_divisions_qc.ts"
   }
 }

@@ -28,7 +28,8 @@
  * (sections_vote_<année>_shapefile.zip, EPSG:3798), téléchargés dans
  * raw/elections_quebec/. Sortie :
  * raw/elections_quebec/transposition_sections_<A>_sur_<B>.csv (non versionné ;
- * copié dans le dossier data/ du billet qui l'utilise).
+ * copié dans le dossier data/ du billet qui l'utilise) et les poids de A vers
+ * B, raw/elections_quebec/section_weights_<A>_to_<B>.csv.
  *
  * Run: deno task transposition-sections-qc --de 2018-10-01 --vers 2022-10-03
  */
@@ -118,6 +119,10 @@ if (import.meta.main) {
     ), s AS (SELECT cep_a, sv_a, sum(pe) spe, sum(aire) spa FROM p GROUP BY 1, 2)
     SELECT p.cep_a, p.sv_a, p.cep_b, p.sv_b, CASE WHEN s.spe > 0 THEN p.pe / s.spe ELSE p.aire / s.spa END w
     FROM p JOIN s USING (cep_a, sv_a)`);
+  // Poids de transposition, pour transposer d'autres comptes par section (vote par anticipation réparti).
+  const weights = new URL(`section_weights_${de}_to_${vers}.csv`, RAW);
+  await c.run(`COPY (SELECT cep_a from_riding, sv_a from_section, cep_b to_riding, sv_b to_section, round(w, 6) weight FROM poids WHERE w > 1e-6
+    ORDER BY 1, 2, 3, 4) TO '${weights.pathname}' (HEADER)`);
   await c.run(`CREATE TABLE ta AS
     SELECT w.cep_b cep, w.sv_b svn, ${PARTIS.map((p) => `sum(w.w * va.${p}) ${p}`).join(", ")}, sum(w.w * va.valides) valides, sum(w.w * va.electeurs) electeurs
     FROM poids w JOIN va ON va.cep = w.cep_a AND va.svn = w.sv_a GROUP BY 1, 2`);
