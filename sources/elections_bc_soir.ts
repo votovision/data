@@ -7,7 +7,8 @@
  * bc-provincial de cette élection dans csv/resultats.csv sont remplacées ;
  * la provenance donne l'heure de la page et la part des urnes dépouillées.
  *
- * Résultats préliminaires : les votes par la poste, par téléphone et des
+ * Une fois le décompte final terminé (« Final count is complete »), la
+ * provenance le dit. Avant, résultats préliminaires : les votes par la poste, par téléphone et des
  * électeurs absents ne sont comptés qu'au décompte final (6 novembre 2026).
  * La page HTML est copiée dans raw/elections_bc/.
  *
@@ -60,7 +61,8 @@ if (import.meta.main) {
     if (somme !== valides.get(nom)) throw new Error(`${nom} : ${somme} votes lus, ${valides.get(nom)} votes valides annoncés`);
   }
 
-  const provenance = `Elections BC, résultats préliminaires (${heure}${urnes ? `, ${urnes} % des urnes` : ""})`;
+  const final = /Final count is complete/i.test(html);
+  const provenance = final ? `Elections BC, décompte final (${heure})` : `Elections BC, résultats préliminaires (${heure}${urnes ? `, ${urnes} % des urnes` : ""})`;
   const nouvelles = [...votes].flatMap(([nom, v]) => [...v].map(([parti, n]) => ({
     juridiction: "bc-provincial", election: ELECTION, carte: CARTE, circonscription: codes.get(nom)!, nom, parti, votes: n, provenance,
   })));
