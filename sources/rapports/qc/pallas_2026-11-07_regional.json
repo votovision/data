@@ -1,0 +1,44 @@
+{
+  "juridiction": "qc-provincial",
+  "firme": "Pallas Data",
+  "date_debut": "",
+  "date_fin": "2026-11-07",
+  "document": "pallas_2026-11-07.pdf (Pallas Data / Qc125, terrain 7 novembre 2026, n = 1094, p. 12 — décidés et enclins)",
+  "reference": "https://qc125.com/proj/2026-11-07-pallas.pdf",
+  "note": "Rapport pour Qc125 (IVR). National laissé à Wikipédia comme d'habitude. Effectifs régionaux = fréquences non pondérées imprimées (incluent ~2% d'indécis, le PDF n'imprime pas de base décidée par région). Pourcentages décidés+enclins, p. 12 : MTL RMR PQ 30,3 / PLQ 31,5 / PCQ 15,0 / QS 15,0 / CAQ 4,3 / AUT 1,5 ; Qc RMR PQ 28,6 / PLQ 25,3 / PCQ 33,8 / QS 6,3 / CAQ 4,3 / AUT 0,0 ; Reste PQ 32,4 / PLQ 20,7 / PCQ 27,5 / QS 10,8 / CAQ 5,7 / AUT 2,2. Total national : PQ 30,7 / PLQ 27,5 / PCQ 20,8 / QS 12,8 / CAQ 4,7. Autres croisements disponibles dans le PDF (Île de Montréal, banlieue, FRANCO/NONFRANCO, âge, genre, satisfaction gouvernement, souveraineté) — ajouter au besoin.",
+  "groupes": {
+    "RMR-MTL": {
+      "n": 627,
+      "parts": {
+        "PQ": 30.3,
+        "LIB": 31.5,
+        "CAQ": 4.3,
+        "PCQ": 15.0,
+        "QS": 15.0,
+        "AUTRES": 1.5
+      }
+    },
+    "RMR-QC": {
+      "n": 147,
+      "parts": {
+        "PQ": 28.6,
+        "LIB": 25.3,
+        "CAQ": 4.3,
+        "PCQ": 33.8,
+        "QS": 6.3,
+        "AUTRES": 0.0
+      }
+    },
+    "RESTE-QC": {
+      "n": 320,
+      "parts": {
+        "PQ": 32.4,
+        "LIB": 20.7,
+        "CAQ": 5.7,
+        "PCQ": 27.5,
+        "QS": 10.8,
+        "AUTRES": 2.2
+      }
+    }
+  }
+}
