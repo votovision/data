@@ -1,0 +1,27 @@
+{
+  "juridiction": "qc-provincial",
+  "firme": "Léger",
+  "date_debut": "2026-11-13",
+  "date_fin": "2026-11-16",
+  "document": "2026-11-15-leger.pdf (Léger/Le Journal/TVA, « Sondage politique au Québec », 16 novembre 2026, terrain 13 au 16 novembre 2026, n = 1 013, p. 7 — électeurs décidés)",
+  "reference": "",
+  "note": "Sondage en ligne (panel LEO), n = 1 013 (907 décidés). National décidés, p. 6-7 : PQ 33 / PLQ 31 / PCQ 18 / QS 11 / CAQ 6 / autres 2. Ventilation régionale sur la base des décidés, p. 7 : RMR de Montréal 367, RMR de Québec 280, reste du Québec 260 (effectifs non pondérés imprimés). Si Wikipédia publie le sondage, sa ligne National prime (dédup : wikipedia gagne pour National). Autres croisements dans le PDF (sexe, âge, FRANCO/NONFRANCO, satisfaction du gouvernement, personnalités).",
+  "groupes": {
+    "National": {
+      "n": 1013,
+      "parts": { "PQ": 33, "LIB": 31, "PCQ": 18, "QS": 11, "CAQ": 6, "AUTRES": 2 }
+    },
+    "RMR-MTL": {
+      "n": 367,
+      "parts": { "PQ": 26, "LIB": 40, "PCQ": 11, "QS": 15, "CAQ": 6, "AUTRES": 2 }
+    },
+    "RMR-QC": {
+      "n": 280,
+      "parts": { "PQ": 27, "LIB": 26, "PCQ": 29, "QS": 11, "CAQ": 4, "AUTRES": 3 }
+    },
+    "RESTE-QC": {
+      "n": 260,
+      "parts": { "PQ": 42, "LIB": 20, "PCQ": 25, "QS": 6, "CAQ": 6, "AUTRES": 1 }
+    }
+  }
+}
