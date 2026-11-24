@@ -212,6 +212,14 @@ export class VigileSondages {
     for (const s of sondages) { const k = cle(s); if (!natures.has(k)) natures.set(k, new Set()); natures.get(k)!.add(nature(s)); }
     const parGroupe = new Map<string, Sondage[]>();
     for (const s of sondages) parGroupe.set(cle(s), [...(parGroupe.get(cle(s)) ?? []), s]);
+    // Quand le rapport lu dans le PDF l'emporte pour le national, il reprend le début de terrain de Wikipédia.
+    for (const lot of parGroupe.values()) {
+      if (lot.length < 2 || lot[0].region !== "National") continue;
+      const lu = lot.find((x) => nature(x) === "rapport");
+      if (!lu || !estPdf(lu.provenance)) continue;
+      const debut = lot.map((x) => x.date_debut).find((d) => d);
+      if (debut) for (const x of lot) if (!x.date_debut) x.date_debut = debut;
+    }
     sondages = sondages.filter((s) => natures.get(cle(s))!.size === 1 || nature(s) === prefere(s, parGroupe.get(cle(s))!));
     const idsGardes = new Set(sondages.map((s) => s.id));
     const vuPart = new Set<string>();
