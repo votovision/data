@@ -34,6 +34,8 @@ const F_SONDAGES = new URL("csv/sondages.csv", RACINE), F_PARTS = new URL("csv/p
 const F_ETAT = new URL("etat/sources.json", RACINE);
 const RAPPORTS = new URL("sources/rapports/", RACINE);
 const MAX_RETRAITS = 5, SOMME: [number, number] = [85, 110];
+/** Écart maximal toléré (points) entre la ligne Wikipédia et la transcription du rapport pour un même sondage. */
+const ECART_MAX = 2;
 
 export interface Options { force: boolean; essai: boolean; outrepasser: boolean }
 interface Lot { unite: string; provenance: string; etat: string; sondages: Sondage[]; parts: Part[] }
@@ -124,6 +126,7 @@ export class VigileSondages {
     let sondages = lireCsv(F_SONDAGES) as unknown as Sondage[];
     let parts = lireCsv(F_PARTS) as unknown as Part[];
     let total = 0;
+    const bloquees: string[] = [];
     for (const source of this.sources) {
       const changes = await source.changements(etat, o.force);
       if (!changes.length) { console.log(`  ${source.nom} : rien de nouveau`); continue; }
@@ -139,6 +142,7 @@ export class VigileSondages {
         for (const s of ajouts) { const x = sommes.get(s.id) ?? 0; if (x < SOMME[0] || x > SOMME[1]) violations.push(`${s.firme} ${s.date_fin} ${s.region} : somme ${x.toFixed(1)}`); }
         if (violations.length && !o.outrepasser) {
           console.log(`  ${unite} : garde-fous, unité non intégrée (--outrepasser après inspection)`);
+          bloquees.push(unite);
           for (const v of violations.slice(0, 10)) console.log(`    ! ${v}`);
           continue;
         }
@@ -157,6 +161,24 @@ export class VigileSondages {
         etat[unite] = lot.etat;
       }
     }
+    // Un même sondage lu dans deux sources (Wikipédia, rapport du sondeur) :
+    // écart de plus de ECART_MAX points sur un parti signalé. Ne couvre que les
+    // unités lues pendant cette vigile ; `--force --essai` compare tout.
+    const parId = new Map<string, Map<string, number>>();
+    for (const p of parts) { if (!parId.has(p.id)) parId.set(p.id, new Map()); parId.get(p.id)!.set(p.parti, Number(p.pct)); }
+    const parCle = new Map<string, Sondage[]>();
+    for (const s of sondages) { const k = `${s.juridiction}|${s.region}|${s.firme}|${s.date_fin}`; parCle.set(k, [...(parCle.get(k) ?? []), s]); }
+    let ecarts = 0;
+    for (const [k, lot] of parCle) {
+      const w = lot.find((s) => s.provenance.startsWith("wikipedia")), r = lot.find((s) => !s.provenance.startsWith("wikipedia"));
+      if (!w || !r) continue;
+      const a = parId.get(w.id), b = parId.get(r.id);
+      if (!a || !b) continue;
+      const diff = [...b].filter(([parti, x]) => a.has(parti) && Math.abs(a.get(parti)! - x) > ECART_MAX)
+        .map(([parti, x]) => `${parti} ${a.get(parti)} (Wikipédia) / ${x} (rapport)`);
+      if (diff.length) { if (!ecarts) console.log(`  Écarts entre Wikipédia et le rapport du sondeur (plus de ${ECART_MAX} points) :`); ecarts++; console.log(`    ~ ${k.replaceAll("|", " ")} : ${diff.join(", ")}`); }
+    }
+    if (bloquees.length) console.log(`  !! ${bloquees.length} unité(s) bloquée(s) par les garde-fous : ${bloquees.join(" ; ")}`);
     if (o.essai) { console.log("  --essai : rien n'a été écrit"); return total; }
     // Doublons ENTRE sources de nature différente (Wikipédia, rapport) pour un
     // même sondage (juridiction, groupe, firme, date) : une seule nature est
