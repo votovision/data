@@ -158,10 +158,14 @@ async function main() {
     const candidats = sondages.filter((s) => s.juridiction === jur && s.region === "National" && s.firme === "Léger" && s.date_fin >= (tout ? "2026-01-01" : limite) &&
       /^https?:\/\/.*\.pdf/i.test(s.reference));
     console.log(`${jur} : ${candidats.length} sondage(s) de Léger avec un PDF`);
+    // Une même référence citée par plusieurs sondages (rapport qui reprend la série) ne dit pas lequel elle documente.
+    const nRef = new Map<string, number>();
+    for (const s of candidats) { const k = s.reference.split("?")[0]; nRef.set(k, (nRef.get(k) ?? 0) + 1); }
     for (const s of candidats) {
       const deja = existants.find((e) => jours(e.json.date_fin, s.date_fin) <= TOLERANCE_JOURS);
       if (deja && !tout) continue;
       const nom = `${s.date_fin} ${jur}`;
+      if (nRef.get(s.reference.split("?")[0])! > 1) { console.log(`  ! ${nom} : référence citée par plusieurs sondages, laissé à la transcription manuelle`); continue; }
       let pdf: Uint8Array;
       try {
         const r = await fetch(s.reference, { headers: { "User-Agent": AGENT } });
