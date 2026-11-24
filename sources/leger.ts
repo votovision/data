@@ -46,7 +46,7 @@ const CONFIGS: Record<string, Config> = {
   },
   "bc-provincial": {
     dossier: "bc",
-    regions: [[/^Metro Van$/, "METRO-VANCOUVER"], [/^Van Island$/, "VANCOUVER-ISLAND"], [/^Rest of BC$/, "INTERIOR-NORTH"]],
+    regions: [[/^Metro( Van)?$/, "METRO-VANCOUVER"], [/^(Van )?Isl(e|and)$/, "VANCOUVER-ISLAND"], [/^Rest of( BC)?$/, "INTERIOR-NORTH"]],
     partis: [[/^Conservative/i, "CON"], [/New Democratic|NDP/i, "NDP"], [/Green/i, "GRN"], [/OneBC/i, "ONEBC"], [/CentreBC/i, "CENTRE"],
       [/BC United/i, "BCU"], [/another party|other/i, "AUTRES"]],
     colonneNationale: 0,
@@ -95,6 +95,19 @@ function lire(pdf: Uint8Array, cfg: Config): Lecture | string {
     const cs = cellules(doc.loadPage(i));
     const titre = [...cs].sort((a, b) => a.y - b.y)[0]?.s ?? "";
     const rows = rangees(cs);
+    // Un libellé de parti sur deux lignes (« Conservative Party / of BC ») sépare le nom de ses valeurs : les valeurs de la
+    // rangée voisine, sans libellé de parti, sont rattachées à ce nom.
+    const nombreValeurs = (r: Cellule[]) => r.filter((c) => valeur(c.s) !== null).length;
+    const estParti = (r: Cellule[]) => cfg.partis.some(([re]) => re.test(r[0]?.s ?? ""));
+    for (let j = 0; j < rows.length; j++) {
+      if (!estParti(rows[j]) || nombreValeurs(rows[j]) >= 3) continue;
+      for (const k of [j + 1, j - 1]) {
+        if (rows[k] && !estParti(rows[k]) && nombreValeurs(rows[k]) >= 3 && Math.abs(rows[k][0].y - rows[j][0].y) <= 14) {
+          rows[j] = [...rows[j], ...rows[k].filter((c) => valeur(c.s) !== null || /^-$/.test(c.s))].sort((a, b) => a.x - b.x);
+          break;
+        }
+      }
+    }
     // Colonnes des régions : cellules d'en-tête au texte exact.
     const colonnes: [string, number][] = [];
     for (const [re, code] of cfg.regions) {
@@ -113,7 +126,7 @@ function lire(pdf: Uint8Array, cfg: Config): Lecture | string {
       const premier = r[0]?.s ?? "";
       const partis = cfg.partis.find(([re]) => re.test(premier));
       if (!partis) continue;
-      const nums = r.filter((c) => c.x > 240 && (valeur(c.s) !== null || /^-$/.test(c.s)));
+      const nums = r.filter((c) => valeur(c.s) !== null || /^-$/.test(c.s));
       const national = nums[cfg.colonneNationale];
       if (!national) continue;
       xNational ??= national.x;
