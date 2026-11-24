@@ -1,0 +1,55 @@
+{
+  "juridiction": "bc-provincial",
+  "firme": "Léger",
+  "date_debut": "",
+  "date_fin": "2026-10-22",
+  "document": "Media Release - BC Election Polling October 22, 2026 - SHORT.pdf (Léger, p. 6, « Detailed Results »)",
+  "reference": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/10.%20October%202026/Media%20Release%20-%20BC%20Election%20Polling%20October%2022%2c%202026%20-%20SHORT.pdf",
+  "note": "Lu automatiquement par sources/leger.ts. Base : électeurs décidés. n = effectifs non pondérés lorsque le tableau les donne. « <1 % » saisi à 0,5.",
+  "groupes": {
+    "National": {
+      "n": 937,
+      "parts": {
+        "AUTRES": 1,
+        "CON": 44,
+        "NDP": 39,
+        "GRN": 13,
+        "ONEBC": 2,
+        "CENTRE": 1
+      }
+    },
+    "METRO-VANCOUVER": {
+      "n": null,
+      "parts": {
+        "CON": 44,
+        "NDP": 40,
+        "GRN": 12,
+        "ONEBC": 1,
+        "CENTRE": 1,
+        "AUTRES": 1
+      }
+    },
+    "VANCOUVER-ISLAND": {
+      "n": null,
+      "parts": {
+        "CON": 39,
+        "NDP": 40,
+        "GRN": 17,
+        "ONEBC": 2,
+        "CENTRE": 1,
+        "AUTRES": 1
+      }
+    },
+    "INTERIOR-NORTH": {
+      "n": null,
+      "parts": {
+        "CON": 46,
+        "NDP": 36,
+        "GRN": 13,
+        "ONEBC": 3,
+        "CENTRE": 1,
+        "AUTRES": 1
+      }
+    }
+  }
+}

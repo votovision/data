@@ -407,5 +407,7 @@
  "rapport:qc/leger_2026-11-16.json": "0e352f3db04b498b8f8b7eb9a4d5d4715154c10d",
  "wikipedia:en:Opinion polling for the 2019 Canadian federal election": "1354398096",
  "wikipedia:en:Opinion polling for the 2021 Canadian federal election": "1330198687",
- "wikipedia:en:Opinion polling for the 2025 Canadian federal election": "1387170547"
+ "wikipedia:en:Opinion polling for the 2025 Canadian federal election": "1387170547",
+ "rapport:bc/leger_2026-10-22_regional.json": "c764a0e9bb75b7e173c04099c948edbb9aaaf873",
+ "rapport:ca/leger_2026-11-16_regional.json": "6f7c098efac75a9dd440acce4c20e58f37bd8158"
 }

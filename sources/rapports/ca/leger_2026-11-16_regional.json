@@ -1,0 +1,83 @@
+{
+  "juridiction": "ca-federal",
+  "firme": "Léger",
+  "date_debut": "",
+  "date_fin": "2026-11-16",
+  "document": "Leger_Fed_Pol_November_2026_EN_VF.pdf (Léger, p. 7, « Voting Intentions - Federal Election (2/2) »)",
+  "reference": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/11.%20November/Leger_Fed_Pol_November_2026_EN_VF.pdf",
+  "note": "Lu automatiquement par sources/leger.ts. Base : électeurs décidés. n = effectifs non pondérés lorsque le tableau les donne. « <1 % » saisi à 0,5.",
+  "groupes": {
+    "National": {
+      "n": 1328,
+      "parts": {
+        "LPC": 47,
+        "CPC": 36,
+        "BQ": 7,
+        "NDP": 6,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ATL": {
+      "n": 80,
+      "parts": {
+        "LPC": 51,
+        "CPC": 41,
+        "NDP": 2,
+        "GPC": 3,
+        "AUTRES": 3
+      }
+    },
+    "QC": {
+      "n": 360,
+      "parts": {
+        "LPC": 46,
+        "CPC": 19,
+        "BQ": 28,
+        "NDP": 4,
+        "GPC": 3,
+        "AUTRES": 1
+      }
+    },
+    "ON": {
+      "n": 531,
+      "parts": {
+        "LPC": 49,
+        "CPC": 39,
+        "NDP": 7,
+        "GPC": 4,
+        "AUTRES": 1
+      }
+    },
+    "MBSK": {
+      "n": 106,
+      "parts": {
+        "LPC": 27,
+        "CPC": 59,
+        "NDP": 10,
+        "GPC": 1,
+        "AUTRES": 3
+      }
+    },
+    "AB": {
+      "n": 116,
+      "parts": {
+        "LPC": 44,
+        "CPC": 49,
+        "NDP": 5,
+        "GPC": 3,
+        "AUTRES": 0
+      }
+    },
+    "BC": {
+      "n": 135,
+      "parts": {
+        "LPC": 54,
+        "CPC": 34,
+        "NDP": 6,
+        "GPC": 5,
+        "AUTRES": 0
+      }
+    }
+  }
+}
