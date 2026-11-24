@@ -7,5 +7,6 @@
   { "firme": "Synopsis Recherche", "date_fin": "2026-09-27", "n_decides": 861, "date_debut": "2026-09-24", "document": "Rapport Synopsis Recherche, terrain 24-27 septembre 2026" },
   { "firme": "Pallas Data", "date_fin": "2026-09-12", "n_decides": 1055, "date_debut": "", "document": "PallasData-Quebec-ElectionSemaine3-13septembre2026.pdf" },
   { "firme": "Pallas Data", "date_fin": "2026-10-03", "n_decides": 1114, "date_debut": "", "document": "Rapport Pallas Data, terrain 3 octobre 2026" },
-  { "firme": "Segma Recherche", "date_fin": "2026-09-17", "n_decides": 4594, "date_debut": "2026-09-08", "document": "segma_rapport_2026-09-17.pdf" }
+  { "firme": "Segma Recherche", "date_fin": "2026-09-17", "n_decides": 4594, "date_debut": "2026-09-08", "document": "segma_rapport_2026-09-17.pdf" },
+  { "firme": "Léger", "date_fin": "2026-03-22", "n": 1003, "n_decides": 791, "date_debut": "2026-03-20", "document": "Leger_PolitiqueQC_IntentionsVoteQC_30mars2026.pdf (p. 2 et 5 : terrain du 20 au 22 mars 2026, n = 1 003, décidés 791)" }
 ]
