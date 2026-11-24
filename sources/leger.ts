@@ -198,6 +198,7 @@ async function main() {
         juridiction: jur, firme: "Léger", date_debut: "", date_fin: s.date_fin,
         document: `${decodeURIComponent(s.reference.split("/").pop() ?? "")} (Léger, p. ${lecture.page}, « ${lecture.titre} »)`,
         reference: s.reference,
+        lecture: "pdf",
         note: "Lu automatiquement par sources/leger.ts. Base : électeurs décidés. n = effectifs non pondérés lorsque le tableau les donne. « <1 % » saisi à 0,5.",
         groupes: Object.fromEntries(Object.entries(lecture.groupes).filter(([, v]) => Object.keys(v.parts).length)),
       };

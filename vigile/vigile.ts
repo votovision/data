@@ -192,10 +192,27 @@ export class VigileSondages {
     // gardée. Deux sondages d'une même source le même jour restent distincts.
     const cle = (s: Sondage) => `${s.juridiction}|${s.region}|${s.firme}|${s.date_fin}`;
     const nature = (s: Sondage) => (s.provenance.startsWith("wikipedia") ? "wikipedia" : "rapport");
-    const prefere = (s: Sondage) => (s.region === "National" ? "wikipedia" : "rapport");
+    // Le document du sondeur prime : toujours pour les sous-groupes ; pour le national, quand le rapport a été lu
+    // dans le PDF par une source automatique ("lecture": "pdf") et a passé ses contrôles (voir sources/leger.ts).
+    const lecturePdf = new Map<string, boolean>();
+    const estPdf = (provenance: string): boolean => {
+      if (!lecturePdf.has(provenance)) {
+        let v = false;
+        try { v = JSON.parse(Deno.readTextFileSync(new URL(provenance.slice("rapport:".length), RAPPORTS))).lecture === "pdf"; } catch { /* fichier absent */ }
+        lecturePdf.set(provenance, v);
+      }
+      return lecturePdf.get(provenance)!;
+    };
+    const prefere = (s: Sondage, lot: Sondage[]) => {
+      if (s.region !== "National") return "rapport";
+      const r = lot.find((x) => nature(x) === "rapport");
+      return r && estPdf(r.provenance) ? "rapport" : "wikipedia";
+    };
     const natures = new Map<string, Set<string>>();
     for (const s of sondages) { const k = cle(s); if (!natures.has(k)) natures.set(k, new Set()); natures.get(k)!.add(nature(s)); }
-    sondages = sondages.filter((s) => natures.get(cle(s))!.size === 1 || nature(s) === prefere(s));
+    const parGroupe = new Map<string, Sondage[]>();
+    for (const s of sondages) parGroupe.set(cle(s), [...(parGroupe.get(cle(s)) ?? []), s]);
+    sondages = sondages.filter((s) => natures.get(cle(s))!.size === 1 || nature(s) === prefere(s, parGroupe.get(cle(s))!));
     const idsGardes = new Set(sondages.map((s) => s.id));
     const vuPart = new Set<string>();
     parts = parts.filter((p) => idsGardes.has(p.id) && !vuPart.has(p.id + "|" + p.parti) && vuPart.add(p.id + "|" + p.parti));

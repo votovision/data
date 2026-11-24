@@ -5,6 +5,7 @@
   "date_fin": "2026-11-16",
   "document": "Leger_Fed_Pol_November_2026_EN_VF.pdf (Léger, p. 7, « Voting Intentions - Federal Election (2/2) »)",
   "reference": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/11.%20November/Leger_Fed_Pol_November_2026_EN_VF.pdf",
+  "lecture": "pdf",
   "note": "Lu automatiquement par sources/leger.ts. Base : électeurs décidés. n = effectifs non pondérés lorsque le tableau les donne. « <1 % » saisi à 0,5.",
   "groupes": {
     "National": {
