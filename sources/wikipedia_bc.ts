@@ -9,6 +9,7 @@
  */
 
 import { parseHTML } from "linkedom";
+import { effectif } from "../lib/effectif.ts";
 import { grille, idSondage, texte, type PageWiki, type Part, type Sondage } from "../lib/commun.ts";
 
 export const PAGES_BC: Record<string, string> = {
@@ -76,7 +77,7 @@ export function lirePageBc(p: PageWiki): { sondages: Sondage[]; parts: Part[] } 
       const v = partis.map(([c, j]) => [c, texte(l[j]).replace(/[^\d.]/g, "")] as const).filter(([, x]) => x !== "").map(([c, x]) => [c, Number(x)] as const);
       const total = v.reduce((s, [, x]) => s + x, 0);
       if (v.length < 3 || total < 80 || total > 110) continue;
-      const n = iN >= 0 ? Number(texte(l[iN]).replace(/[^\d]/g, "")) || null : null;
+      const n = iN >= 0 ? effectif(texte(l[iN])) : null;
       const id = idSondage(JURIDICTION, "National", firme, d[1], n !== null ? String(n) : "null");
       if (vus.has(id)) continue;
       vus.add(id);

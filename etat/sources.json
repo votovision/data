@@ -2,10 +2,7 @@
  "wikipedia:fr:Liste de sondages sur les élections générales québécoises de 2018": "221699874",
  "wikipedia:fr:Liste de sondages sur les élections générales québécoises de 2022": "240246537",
  "wikipedia:fr:Liste de sondages sur les élections générales québécoises de 2026": "240311404",
- "wikipedia:en:Opinion polling for the 46th Canadian federal election": "1385858160",
- "wikipedia:en:Opinion polling for the 2019 Canadian federal election": "1354398096",
- "wikipedia:en:Opinion polling for the 2021 Canadian federal election": "1330198687",
- "wikipedia:en:Opinion polling for the 2025 Canadian federal election": "1387170547",
+ "wikipedia:en:Opinion polling for the 46th Canadian federal election": "1387573095",
  "rapport:qc/leger_2026-09-07.json": "fa54c5d3be2dd5b65199dc4ad0abf192134afc23",
  "rapport:qc/leger_2026-09-14.json": "938642474accd4512783e855d64ac3aa6697850b",
  "rapport:qc/leger_2026-09-21.json": "26cf3e3f5410ee2e8763575b3361c927cfd312f3",
@@ -407,5 +404,8 @@
  "wikipedia:en:2023 Alberta general election": "1386952353",
  "wikipedia:en:32nd Alberta general election": "1387080146",
  "rapport:qc/pallas_2026-11-07_regional.json": "ec641cfa3dc51b83bb5f64122f2a39869e3f7d38",
- "rapport:qc/leger_2026-11-16.json": "0e352f3db04b498b8f8b7eb9a4d5d4715154c10d"
+ "rapport:qc/leger_2026-11-16.json": "0e352f3db04b498b8f8b7eb9a4d5d4715154c10d",
+ "wikipedia:en:Opinion polling for the 2019 Canadian federal election": "1354398096",
+ "wikipedia:en:Opinion polling for the 2021 Canadian federal election": "1330198687",
+ "wikipedia:en:Opinion polling for the 2025 Canadian federal election": "1387170547"
 }
