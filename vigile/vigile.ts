@@ -172,10 +172,17 @@ export class VigileSondages {
     for (const [k, lot] of parCle) {
       const w = lot.find((s) => s.provenance.startsWith("wikipedia")), r = lot.find((s) => !s.provenance.startsWith("wikipedia"));
       if (!w || !r) continue;
-      const a = parId.get(w.id), b = parId.get(r.id);
-      if (!a || !b) continue;
-      const diff = [...b].filter(([parti, x]) => a.has(parti) && Math.abs(a.get(parti)! - x) > ECART_MAX)
-        .map(([parti, x]) => `${parti} ${a.get(parti)} (Wikipédia) / ${x} (rapport)`);
+      const a = parId.get(w.id), rb = parId.get(r.id);
+      if (!a || !rb) continue;
+      // Mêmes bases : un rapport qui garde les indécis est ramené aux décidés ; les partis que l'un des deux
+      // ne détaille pas (autres, OneBC, PPC...) sont comparés ensemble.
+      const ind = rb.get("UNDECIDED") ?? 0, echelle = ind ? 100 / (100 - ind) : 1;
+      const b = new Map([...rb].filter(([p]) => p !== "UNDECIDED").map(([p, x]) => [p, x * echelle] as [string, number]));
+      const communs = [...b.keys()].filter((p) => p !== "AUTRES" && a.has(p));
+      const reste = (m: Map<string, number>) => [...m].filter(([p]) => !communs.includes(p)).reduce((t, [, x]) => t + x, 0);
+      const diff = communs.filter((p) => Math.abs(a.get(p)! - b.get(p)!) > ECART_MAX).map((p) => `${p} ${a.get(p)} (Wikipédia) / ${b.get(p)!.toFixed(1)} (rapport)`);
+      // Un rapport qui ne détaille pas les autres partis (transcription partielle) n'a pas de reste à comparer.
+      if (reste(b) > 0 && Math.abs(reste(a) - reste(b)) > ECART_MAX) diff.push(`autres ${reste(a).toFixed(1)} (Wikipédia) / ${reste(b).toFixed(1)} (rapport)`);
       if (diff.length) { if (!ecarts) console.log(`  Écarts entre Wikipédia et le rapport du sondeur (plus de ${ECART_MAX} points) :`); ecarts++; console.log(`    ~ ${k.replaceAll("|", " ")} : ${diff.join(", ")}`); }
     }
     if (bloquees.length) console.log(`  !! ${bloquees.length} unité(s) bloquée(s) par les garde-fous : ${bloquees.join(" ; ")}`);
